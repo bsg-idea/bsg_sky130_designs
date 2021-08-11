@@ -1,4 +1,12 @@
 
+Once openlane is setup, just place 'bsg_manycore_tile_compute_mesh_real' folder into the 'designs' folder in OpenLane.
+
+Then for example, if using docker,
+
+> make mount
+> ./flow.tcl -design bsg_manycore_tile_compute_mesh_real
+
+
 directory structure:
 ├── bsg_manycore
 │   ├── config.tcl
