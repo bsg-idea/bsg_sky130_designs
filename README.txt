@@ -1,5 +1,13 @@
 
 
+To setup OpenLane:
+> git clone https://github.com/efabless/OpenLane
+> make openlane
+> export PDK_ROOT=<any location for installing the skywater PDK>
+> make pdk
+> make test                   
+'make test' is just to test the setup using a basic design. PDK installation is a one time process and can take time.
+
 Once you have OpenLane ready, all that is needed is to place the 'fakeram_512x64_test' and 'realram_8x1024' folders in the 'designs' folder in OpenLane.
 
 Then for example, if using docker,
