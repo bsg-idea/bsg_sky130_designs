@@ -1,4 +1,13 @@
 
+
+To setup OpenLane:
+> git clone https://github.com/efabless/OpenLane
+> make openlane
+> export PDK_ROOT=<any location for installing the skywater PDK>
+> make pdk
+> make test                   
+'make test' is just to test the setup using a basic design. PDK installation is a one time process and can take time.
+
 Once openlane is setup, just place 'bsg_manycore_tile_compute_mesh_real' folder into the 'designs' folder in OpenLane.
 
 Then for example, if using docker,
