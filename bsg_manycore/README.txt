@@ -1,4 +1,5 @@
 
+Once openlane is installed and setup, just place
 
 
 directory structure:
