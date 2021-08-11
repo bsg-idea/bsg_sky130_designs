@@ -8,12 +8,12 @@ To setup OpenLane:
 > make test                   
 'make test' is just to test the setup using a basic design. PDK installation is a one time process and can take time.
 
-Once openlane is setup, just place 'bsg_manycore_tile_compute_mesh_real' folder into the 'designs' folder in OpenLane.
+Once openlane is setup, just place 'bsg_manycore_tile_compute_mesh' folder into the 'designs' folder in OpenLane.
 
 Then for example, if using docker,
 
 > make mount
-> ./flow.tcl -design bsg_manycore_tile_compute_mesh_real
+> ./flow.tcl -design bsg_manycore_tile_compute_mesh
 
 
 directory structure:
