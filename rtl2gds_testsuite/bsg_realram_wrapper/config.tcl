@@ -1,12 +1,12 @@
 # Design
-set ::env(DESIGN_NAME) "realram_8x1024"
+set ::env(DESIGN_NAME) "bsg_realram_wrapper"
 
 #set ::env(FP_PDN_VOFFSET) 0
 #set ::env(FP_PDN_VPITCH) 30
 
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/*.bb.v]
-set ::env(SDC_FILE) "./designs/realram_8x1024/src/realram_8x1024.sdc"
+set ::env(SDC_FILE) "./designs/bsg_realram_wrapper/src/bsg_realram_wrapper.sdc"
 set ::env(DESIGN_IS_CORE) 1
 set ::env(FP_PDN_CORE_RING) 1
 set ::env(VDD_NETS) [list {vccd1}]

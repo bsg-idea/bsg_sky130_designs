@@ -14,7 +14,7 @@ else ifeq ($(GIT_CLONE_STYLE),https)
 endif
 
 bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/bsg_fakeram_wrapper
-bsg_realram_wrapper_dir    :=$(THIS_DIR)/realram_8x1024
+bsg_realram_wrapper_dir    :=$(THIS_DIR)/bsg_realram_wrapper
 bsg_manycore_tile_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh
 bsg_mancore_tile_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh_real
 black_parrot_fe_dir        :=$(THIS_DIR)/black_parrot_fe
@@ -78,7 +78,7 @@ latest.run:
 
 clean_designs:
 	@if [ -d "$(openlane_dir)/designs/bsg_fakeram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_fakeram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_fakeram_wrapper"; fi
-	@if [ -d "$(openlane_dir)/designs/realram_8x1024" ] && [ -e "$(openlane_dir)/designs/realram_8x1024" ]; then rm -rf "$(openlane_dir)/designs/realram_8x1024"; fi
+	@if [ -d "$(openlane_dir)/designs/bsg_realram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_realram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_realram_wrapper"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real"; fi
 	@if [ -d "$(openlane_dir)/designs/bp_fe_top" ] && [ -e "$(openlane_dir)/designs/bp_fe_top" ]; then rm -rf "$(openlane_dir)/designs/bp_fe_top"; fi

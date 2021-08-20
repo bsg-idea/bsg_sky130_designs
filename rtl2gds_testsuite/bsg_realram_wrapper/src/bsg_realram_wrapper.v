@@ -1,4 +1,4 @@
-module realram_8x1024(
+module bsg_realram_wrapper(
    rd_out,
    addri,
    wei,
