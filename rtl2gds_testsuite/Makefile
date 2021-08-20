@@ -15,8 +15,8 @@ endif
 
 bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/bsg_fakeram_wrapper
 bsg_realram_wrapper_dir    :=$(THIS_DIR)/bsg_realram_wrapper
-bsg_manycore_tile_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh
-bsg_mancore_tile_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh_real
+bsg_manycore_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_withfakeram
+bsg_mancore_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_withrealsram
 black_parrot_fe_dir        :=$(THIS_DIR)/black_parrot_fe
 black_parrot_dir           :=$(THIS_DIR)/black_parrot
 
@@ -79,8 +79,8 @@ latest.run:
 clean_designs:
 	@if [ -d "$(openlane_dir)/designs/bsg_fakeram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_fakeram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_fakeram_wrapper"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_realram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_realram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_realram_wrapper"; fi
-	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh"; fi
-	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real"; fi
+	@if [ -d "$(openlane_dir)/designs/bsg_manycore_withfakeram" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_withfakeram" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_withfakeram"; fi
+	@if [ -d "$(openlane_dir)/designs/bsg_manycore_withrealsram" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_withrealsram" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_withrealsram"; fi
 	@if [ -d "$(openlane_dir)/designs/bp_fe_top" ] && [ -e "$(openlane_dir)/designs/bp_fe_top" ]; then rm -rf "$(openlane_dir)/designs/bp_fe_top"; fi
 	@if [ -d "$(openlane_dir)/designs/black_parrot" ] && [ -e "$(openlane_dir)/designs/black_parrot" ]; then rm -rf "$(openlane_dir)/designs/black_parrot"; fi
 	@echo "Designs and Configs Removed from OpenLane"
