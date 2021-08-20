@@ -1,12 +1,12 @@
 # Design
-set ::env(DESIGN_NAME) "fakeram_512x64"
+set ::env(DESIGN_NAME) "bsg_fakeram_wrapper"
 
 #set ::env(FP_PDN_VOFFSET) 0
 #set ::env(FP_PDN_VPITCH) 30
 
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/*.bb.v]
-set ::env(SDC_FILE) "./designs/fakeram_512x64/src/fakeram_512x64.sdc"
+set ::env(SDC_FILE) "./designs/bsg_fakeram_wrapper/src/bsg_fakeram_wrapper.sdc"
 set ::env(DESIGN_IS_CORE) 1
 
 #set ::env(LIB_SYNTH_COMPLETE) [glob $::env(DESIGN_DIR)/src/*.lib]

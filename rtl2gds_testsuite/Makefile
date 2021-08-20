@@ -13,7 +13,7 @@ else ifeq ($(GIT_CLONE_STYLE),https)
 
 endif
 
-bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/fakeram_512x64
+bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/bsg_fakeram_wrapper
 bsg_realram_wrapper_dir    :=$(THIS_DIR)/realram_8x1024
 bsg_manycore_tile_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh
 bsg_mancore_tile_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh_real
@@ -27,6 +27,8 @@ bsg_fakeram_commit   :=master
 openlane_dir         :=$(THIS_DIR)/openlane
 openlane_url         :=$(GITHUB)/efabless/OpenLane.git
 openlane_commit      :=v0.21
+
+current_design       :=bsg_fakeram_wrapper
 
 all_repos = $(subst _url,.repo,$(filter %_url,$(.VARIABLES)))
 
@@ -46,9 +48,12 @@ bsg_fakeram:
 	@cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
 	@$(MAKE) -C $(bsg_fakeram_dir) tools
 
-%.design:
-	cp -R $($*_dir) openlane/designs/. ; 
-	cd $(openlane_dir); $(MAKE) mount;
+%.design: 
+	@echo "$(subst .design,,$(MAKECMDGOALS))">.current_design;
+	@cp -R $($*_dir) openlane/designs/. ; 
+
+config.view:
+	@current_design=`cat .current_design`; vi $(openlane_dir)/designs/$$current_design/config.tcl
 
 openlane:
 	@git clone $(openlane_url) $(openlane_dir)
@@ -59,7 +64,7 @@ pdk:
 	@cd $(openlane_dir);$(MAKE) pdk;
 
 clean_designs:
-	@if [ -d "$(openlane_dir)/designs/fakeram_512x64" ] && [ -e "$(openlane_dir)/designs/fakeram_512x64" ]; then rm -rf "$(openlane_dir)/designs/fakeram_512x64"; fi
+	@if [ -d "$(openlane_dir)/designs/bsg_fakeram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_fakeram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_fakeram_wrapper"; fi
 	@if [ -d "$(openlane_dir)/designs/realram_8x1024" ] && [ -e "$(openlane_dir)/designs/realram_8x1024" ]; then rm -rf "$(openlane_dir)/designs/realram_8x1024"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real"; fi

@@ -1,4 +1,4 @@
-module fakeram_512x64
+module bsg_fakeram_wrapper
 (
    rd_out,
    addri,
