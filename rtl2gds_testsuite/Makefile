@@ -26,37 +26,37 @@ bsg_fakeram_commit   :=master
 
 openlane_dir         :=$(THIS_DIR)/openlane
 openlane_url         :=$(GITHUB)/efabless/OpenLane.git
-openlane_commit      :=master
+openlane_commit      :=v0.21
 
 all_repos = $(subst _url,.repo,$(filter %_url,$(.VARIABLES)))
 
 tools: $(all_repos)
-	echo "$(all_repos)"
-	cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
-	cd $(openlane_dir); git checkout $(openlane_commit)
-	$(MAKE) -C $(bsg_fakeram_dir) tools
-	$(MAKE) -C $(openlane_dir) openlane
+	@echo "$(all_repos)"
+	@cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
+	@cd $(openlane_dir); git checkout $(openlane_commit)
+	@$(MAKE) -C $(bsg_fakeram_dir) tools
+	@$(MAKE) -C $(openlane_dir) openlane
 
 %.repo:
 	-git clone $($*_url) $($*_dir)
 	-cd $($*_dir) ; git checkout $($*_commit)
 
 bsg_fakeram:
-	git clone $(bsg_fakeram_url) $(bsg_fakeram_dir)
-	cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
-	$(MAKE) -C $(bsg_fakeram_dir) tools
+	@git clone $(bsg_fakeram_url) $(bsg_fakeram_dir)
+	@cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
+	@$(MAKE) -C $(bsg_fakeram_dir) tools
 
 %.design:
 	cp -R $($*_dir) openlane/designs/. ; 
 	cd $(openlane_dir); $(MAKE) mount;
 
 openlane:
-	git clone $(openlane_url) $(openlane_dir)
-	cd $(openlane_dir); git checkout $(openlane_commit)
-	$(MAKE) -C $(openlane_dir) openlane
+	@git clone $(openlane_url) $(openlane_dir)
+	@cd $(openlane_dir); git checkout $(openlane_commit)
+	@$(MAKE) -C $(openlane_dir) openlane
 	
 pdk:
-	cd $(openlane_dir);$(MAKE) pdk;
+	@cd $(openlane_dir);$(MAKE) pdk;
 
 clean_designs:
 	@if [ -d "$(openlane_dir)/designs/fakeram_512x64" ] && [ -e "$(openlane_dir)/designs/fakeram_512x64" ]; then rm -rf "$(openlane_dir)/designs/fakeram_512x64"; fi
