@@ -73,6 +73,8 @@ config.edit:
 %_config.edit:
 	@current_design=`cat .current_design`; vi $(openlane_dir)/designs/$$current_design/sky130A_sky130_fd_$(subst .edit,.tcl,$(MAKECMDGOALS))
 
+latest.run:
+	@current_design=`cat .current_design`; if [ -d $(openlane_dir)/designs/$$current_design/runs ]; then cd $(openlane_dir)/designs/$$current_design/runs;ls;latest=`ls -td -- */ | head -n 1`; echo latest:$(openlane_dir)/designs/$$current_design/runs/$$latest ; else echo "No runs yet."; fi
 
 clean_designs:
 	@if [ -d "$(openlane_dir)/designs/bsg_fakeram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_fakeram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_fakeram_wrapper"; fi
