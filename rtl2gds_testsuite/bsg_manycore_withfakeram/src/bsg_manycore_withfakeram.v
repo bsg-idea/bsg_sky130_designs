@@ -43240,7 +43240,7 @@ endmodule
 
 
 
-module bsg_manycore_tile_compute_mesh
+module bsg_manycore_withfakeram
 (
   clk_i,
   reset_i,

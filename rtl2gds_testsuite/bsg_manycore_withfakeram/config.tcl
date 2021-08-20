@@ -1,5 +1,5 @@
 # Design
-set ::env(DESIGN_NAME) "bsg_manycore_tile_compute_mesh"
+set ::env(DESIGN_NAME) "bsg_manycore_withfakeram"
 
 #set ::env(FP_PDN_VOFFSET) 0
 #set ::env(FP_PDN_VPITCH) 30
@@ -13,7 +13,7 @@ set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/*.v"
 #set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/bsg_noc_links.v"
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/*.bb.v]
-set ::env(SDC_FILE) "$::env(DESIGN_DIR)/src/bsg_manycore_tile_compute_mesh.sdc"
+set ::env(SDC_FILE) "$::env(DESIGN_DIR)/src/bsg_manycore_withfakeram.sdc"
 set ::env(DESIGN_IS_CORE) 1
 
 #set ::env(LIB_SYNTH_COMPLETE) [glob $::env(DESIGN_DIR)/src/*.lib]
