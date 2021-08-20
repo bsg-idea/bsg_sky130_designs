@@ -17,7 +17,7 @@ bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/fakeram_512x64
 bsg_realram_wrapper_dir    :=$(THIS_DIR)/realram_8x1024
 bsg_manycore_tile_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh
 bsg_mancore_tile_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh_real
-black_parrot_fe_dir        :=$(THIS_DIR)/bp_fe_top
+black_parrot_fe_dir        :=$(THIS_DIR)/black_parrot_fe
 black_parrot_dir           :=$(THIS_DIR)/black_parrot
 
 bsg_fakeram_dir      :=$(THIS_DIR)/bsg_fakeram
@@ -30,14 +30,21 @@ openlane_commit      :=master
 
 all_repos = $(subst _url,.repo,$(filter %_url,$(.VARIABLES)))
 
-all: $(all_repos)
+tools: $(all_repos)
 	echo "$(all_repos)"
+	cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
+	cd $(openlane_dir); git checkout $(openlane_commit)
 	$(MAKE) -C $(bsg_fakeram_dir) tools
 	$(MAKE) -C $(openlane_dir) openlane
 
 %.repo:
 	-git clone $($*_url) $($*_dir)
 	-cd $($*_dir) ; git checkout $($*_commit)
+
+bsg_fakeram:
+	git clone $(bsg_fakeram_url) $(bsg_fakeram_dir)
+	cd $(bsg_fakeram_dir); git checkout $(bsg_fakeram_commit)
+	$(MAKE) -C $(bsg_fakeram_dir) tools
 
 %.design:
 	cp -R $($*_dir) openlane/designs/. ; 
@@ -46,8 +53,7 @@ all: $(all_repos)
 openlane:
 	git clone $(openlane_url) $(openlane_dir)
 	cd $(openlane_dir); git checkout $(openlane_commit)
-	$(MAKE) openlane
-	cd $(openlane_dir); $(MAKE) openlane;
+	$(MAKE) -C $(openlane_dir) openlane
 	
 pdk:
 	cd $(openlane_dir);$(MAKE) pdk;
@@ -61,9 +67,10 @@ clean_designs:
 	@if [ -d "$(openlane_dir)/designs/black_parrot" ] && [ -e "$(openlane_dir)/designs/black_parrot" ]; then rm -rf "$(openlane_dir)/designs/black_parrot"; fi
 	@echo "Designs and Configs Removed from OpenLane"
 
-clean: are_you_sure
+clean: 	safety_prompt
 	rm -rf $(subst .repo,,$(all_repos))
 
-DISABLE_SAFETY_PROMPT ?= true
-are_you_sure:
-	@$(DISABLE_SAFETY_PROMPT) || (echo -n "Are you sure [Y/n]? " && read ans && ( ["$$ans" == "Y"]  || [ "$$ans" == "y" ]))
+
+safety_prompt:
+	@echo -n "Configs and Design will be lost. Are you sure? [y/N] " && read ans && [ $${ans:-N} = y ]
+
