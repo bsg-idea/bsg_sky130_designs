@@ -63,6 +63,17 @@ openlane:
 pdk:
 	@cd $(openlane_dir);$(MAKE) pdk;
 
+%.design: 
+	@echo "$(subst .design,,$(MAKECMDGOALS))">.current_design;
+	@cp -R $($*_dir) openlane/designs/. ; 
+
+config.edit:
+	@current_design=`cat .current_design`; vi $(openlane_dir)/designs/$$current_design/config.tcl
+
+%_config.edit:
+	@current_design=`cat .current_design`; vi $(openlane_dir)/designs/$$current_design/sky130A_sky130_fd_$(subst .edit,.tcl,$(MAKECMDGOALS))
+
+
 clean_designs:
 	@if [ -d "$(openlane_dir)/designs/bsg_fakeram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_fakeram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_fakeram_wrapper"; fi
 	@if [ -d "$(openlane_dir)/designs/realram_8x1024" ] && [ -e "$(openlane_dir)/designs/realram_8x1024" ]; then rm -rf "$(openlane_dir)/designs/realram_8x1024"; fi
