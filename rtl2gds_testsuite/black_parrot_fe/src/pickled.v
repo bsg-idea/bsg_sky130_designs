@@ -2,7 +2,7 @@
 //
 // Description: Front-end of a 64-bit RISC-V Core with Cache Coherence Directory.
 //
-// Top Module: bp_fe_top
+// Top Module: black_parrot_fe
 //
 // GitHub: https://github.com/black-parrot/pre-alpha-release
 //    commit: ceb22c57f269726a5fd99b722521cf7df9d3907c
@@ -13661,7 +13661,7 @@ endmodule
 
 
 
-module bp_fe_top
+module black_parrot_fe
 (
   clk_i,
   reset_i,

@@ -1,5 +1,5 @@
 
-set ::env(DESIGN_NAME) "bp_fe_top"
+set ::env(DESIGN_NAME) "black_parrot_fe"
 
 # Change if needed
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]

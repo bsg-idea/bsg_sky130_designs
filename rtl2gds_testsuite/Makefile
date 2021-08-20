@@ -16,7 +16,7 @@ endif
 bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/bsg_fakeram_wrapper
 bsg_realram_wrapper_dir    :=$(THIS_DIR)/bsg_realram_wrapper
 bsg_manycore_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_withfakeram
-bsg_mancore_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_withrealsram
+bsg_manycore_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_withrealsram
 black_parrot_fe_dir        :=$(THIS_DIR)/black_parrot_fe
 black_parrot_dir           :=$(THIS_DIR)/black_parrot
 
@@ -81,7 +81,7 @@ clean_designs:
 	@if [ -d "$(openlane_dir)/designs/bsg_realram_wrapper" ] && [ -e "$(openlane_dir)/designs/bsg_realram_wrapper" ]; then rm -rf "$(openlane_dir)/designs/bsg_realram_wrapper"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_manycore_withfakeram" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_withfakeram" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_withfakeram"; fi
 	@if [ -d "$(openlane_dir)/designs/bsg_manycore_withrealsram" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_withrealsram" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_withrealsram"; fi
-	@if [ -d "$(openlane_dir)/designs/bp_fe_top" ] && [ -e "$(openlane_dir)/designs/bp_fe_top" ]; then rm -rf "$(openlane_dir)/designs/bp_fe_top"; fi
+	@if [ -d "$(openlane_dir)/designs/black_parrot_fe" ] && [ -e "$(openlane_dir)/designs/black_parrot_fe" ]; then rm -rf "$(openlane_dir)/designs/black_parrot_fe"; fi
 	@if [ -d "$(openlane_dir)/designs/black_parrot" ] && [ -e "$(openlane_dir)/designs/black_parrot" ]; then rm -rf "$(openlane_dir)/designs/black_parrot"; fi
 	@echo "Designs and Configs Removed from OpenLane"
 
