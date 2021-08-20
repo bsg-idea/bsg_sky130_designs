@@ -1,19 +1,19 @@
 # Design
-set ::env(DESIGN_NAME) "bsg_manycore_tile_compute_mesh"
+set ::env(DESIGN_NAME) "bsg_manycore_withrealsram"
 
 #set ::env(FP_PDN_VOFFSET) 0
 #set ::env(FP_PDN_VPITCH) 30
 
 set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/*.v"
 #puts $::env(VERILOG_FILES)
-#set ::env(VERILOG_FILES) $::env(DESIGN_DIR)/src/bsg_manycore_tile_compute_mesh.v"
+#set ::env(VERILOG_FILES) $::env(DESIGN_DIR)/src/bsg_manycore_withrealsram.v"
 #set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/bsg_manycore_pkg.v"
 #set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/bsg_defines.v"
 #set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/bsg_noc_pkg.v"
 #set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/bsg_noc_links.v"
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/*.bb.v]
-set ::env(SDC_FILE) "$::env(DESIGN_DIR)/src/bsg_manycore_tile_compute_mesh.sdc"
+set ::env(SDC_FILE) "$::env(DESIGN_DIR)/src/bsg_manycore_withrealsram.sdc"
 set ::env(DESIGN_IS_CORE) 1
 set ::env(FP_PDN_CORE_RING) 1
 set ::env(VDD_NETS) [list {vccd1}]
