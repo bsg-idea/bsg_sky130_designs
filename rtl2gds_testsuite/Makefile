@@ -1,0 +1,69 @@
+THIS_DIR :=$(realpath $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST)))))
+
+#GIT_CLONE_STYLE :=ssh
+GIT_CLONE_STYLE :=https
+
+ifeq ($(GIT_CLONE_STYLE),ssh)
+  GITHUB    :=git@github.com:
+  BITBUCKET :=git@bitbucket.com:
+
+else ifeq ($(GIT_CLONE_STYLE),https)
+  GITHUB    :=https://github.com/
+  BITBUCKET :=https://bitbucket.com/
+
+endif
+
+bsg_fakeram_wrapper_dir    :=$(THIS_DIR)/fakeram_512x64
+bsg_realram_wrapper_dir    :=$(THIS_DIR)/realram_8x1024
+bsg_manycore_tile_withfakeram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh
+bsg_mancore_tile_withrealsram_dir      :=$(THIS_DIR)/bsg_manycore_tile_compute_mesh_real
+black_parrot_fe_dir        :=$(THIS_DIR)/bp_fe_top
+black_parrot_dir           :=$(THIS_DIR)/black_parrot
+
+bsg_fakeram_dir      :=$(THIS_DIR)/bsg_fakeram
+bsg_fakeram_url      :=$(GITHUB)bespoke-silicon-group/bsg_fakeram
+bsg_fakeram_commit   :=master
+
+openlane_dir         :=$(THIS_DIR)/openlane
+openlane_url         :=$(GITHUB)/efabless/OpenLane.git
+openlane_commit      :=master
+
+all_repos = $(subst _url,.repo,$(filter %_url,$(.VARIABLES)))
+
+all: $(all_repos)
+	echo "$(all_repos)"
+	$(MAKE) -C $(bsg_fakeram_dir) tools
+	$(MAKE) -C $(openlane_dir) openlane
+
+%.repo:
+	-git clone $($*_url) $($*_dir)
+	-cd $($*_dir) ; git checkout $($*_commit)
+
+%.design:
+	cp -R $($*_dir) openlane/designs/. ; 
+	cd $(openlane_dir); $(MAKE) mount;
+
+openlane:
+	git clone $(openlane_url) $(openlane_dir)
+	cd $(openlane_dir); git checkout $(openlane_commit)
+	$(MAKE) openlane
+	cd $(openlane_dir); $(MAKE) openlane;
+	
+pdk:
+	cd $(openlane_dir);$(MAKE) pdk;
+
+clean_designs:
+	@if [ -d "$(openlane_dir)/designs/fakeram_512x64" ] && [ -e "$(openlane_dir)/designs/fakeram_512x64" ]; then rm -rf "$(openlane_dir)/designs/fakeram_512x64"; fi
+	@if [ -d "$(openlane_dir)/designs/realram_8x1024" ] && [ -e "$(openlane_dir)/designs/realram_8x1024" ]; then rm -rf "$(openlane_dir)/designs/realram_8x1024"; fi
+	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh"; fi
+	@if [ -d "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ] && [ -e "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real" ]; then rm -rf "$(openlane_dir)/designs/bsg_manycore_tile_compute_mesh_real"; fi
+	@if [ -d "$(openlane_dir)/designs/bp_fe_top" ] && [ -e "$(openlane_dir)/designs/bp_fe_top" ]; then rm -rf "$(openlane_dir)/designs/bp_fe_top"; fi
+	@if [ -d "$(openlane_dir)/designs/black_parrot" ] && [ -e "$(openlane_dir)/designs/black_parrot" ]; then rm -rf "$(openlane_dir)/designs/black_parrot"; fi
+	@echo "Designs and Configs Removed from OpenLane"
+
+clean: are_you_sure
+	rm -rf $(subst .repo,,$(all_repos))
+
+DISABLE_SAFETY_PROMPT ?= true
+are_you_sure:
+	@$(DISABLE_SAFETY_PROMPT) || (echo -n "Are you sure [Y/n]? " && read ans && ( ["$$ans" == "Y"]  || [ "$$ans" == "y" ]))
