@@ -14,9 +14,9 @@ A brief on setting up the stable version of OpenLane frozen by efabless for the 
 ```
 'make test' is just to test the setup using a basic design. PDK installation is a one time process and can take time.
 
-Once you have OpenLane ready, all that is needed is to place the 'bp_fe_top' folder in the 'designs' folder in OpenLane.
+Once you have OpenLane ready, all that is needed is to place the design (any of the folders here) in the 'designs' folder in OpenLane.
 
-Then for example, if using docker,
+Then for example, if using docker, from the root of the OpenLane directory structure,
 ```
  make mount
  ./flow.tcl -design <design_folder_name>
