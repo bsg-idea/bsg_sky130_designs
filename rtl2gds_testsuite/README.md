@@ -23,11 +23,18 @@ To setup and run designs through the flow:
 >make tools
 2) Install the Skywater 130 PDK (may take some time):
 >make pdk
-3) Setup any preferred design (loads docker image):
+3) Setup any preferred design:
 >make <design_name>.design
 4) Run the flow
+>make mount
 >./flow.tcl -design <design_name>
 
+Makefile options:
+* make config.edit - open the config file corresponding to current design in VI editor
+* make sc_hd_conig.edit - open the sky130A_sky130_fd_sc_hd_config.tcl config file corresponding to current design in VI editor (similarly sc_hdll, sc_hs and other configs can be opened)
+* make latest.run - prints the location to the results of the latest run
+* make clean_designs - remove the designs and their configs from OpenLane
+* make clean - remove all designs configs and openlane and the pdk
 
 More on the tools:
 [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) is the open-source RTL to GDS flow that wraps together a number of open-source tools across the different stages of the flow to make open-source RTL to GDS possible.
@@ -37,15 +44,15 @@ More on the tools:
 If you just want to setup openLane or the bsgfakeram generator individually, then you can do so using 'make openlane' and 'make bsg_fakeram' respectively.
 
 More on the designs:
-[bsg_fakeram_wrapper](fakeram_512x64) is a simple wrapper around a fakeram generated using the BSG fakeram generator. The only logic it contains is an inverter logic at the fakeram output. This design is able to complete the flow DRC and LVS clean.
+[bsg_fakeram_wrapper](bsg_fakeram_wrapper) is a simple wrapper around a fakeram generated using the BSG fakeram generator. The only logic it contains is an inverter logic at the fakeram output. This design is able to complete the flow DRC and LVS clean.
 
-[bsg_realram_wrapper](realram_8x1024) is a simple wrapper around a Sky130 SRAM (obtained from [here](https://github.com/efabless/sky130_sram_macros)). The only logic it contains is an inverter logic at the SRAM output. This design is able to complete the flow DRC and LVS clean.
+[bsg_realram_wrapper](bsg_realram_wrapper) is a simple wrapper around a Sky130 SRAM (obtained from [here](https://github.com/efabless/sky130_sram_macros)). The only logic it contains is an inverter logic at the SRAM output. This design is able to complete the flow DRC and LVS clean.
 
 The above two designs take very little time to go through the flow and can be good for trouble shooting initial blockages with getting a design through the flow.
 
-[bsg_manycore_withfakeram](bsg_manycore_tile_compute_mesh) is a manycore tile compute mesh design [from BSG](https://github.com/bespoke-silicon-group/bsg_manycore). Here fakerams generated using BSG fakeram generator is used as placeholders for the SRAMs that this design needs. This design is able to reach till the detailed routing step where it fails with around 500-1000 routing violations.
+[bsg_manycore_withfakeram](bsg_manycore_withfakeram) is a manycore tile compute mesh design [from BSG](https://github.com/bespoke-silicon-group/bsg_manycore). Here fakerams generated using BSG fakeram generator is used as placeholders for the SRAMs that this design needs. This design is able to reach till the detailed routing step where it fails with around 500-1000 routing violations.
 
-[bsg_manycore_withsram](bsg_manycore_tile_compute_mesh_real) is the same manycore tile design stitched together with an existing SRAM from [here](https://github.com/efabless/sky130_sram_macros)(a configuration different from what it actually needs) to meet it's memory requirements. This design is able to reach till the detailed routing step where it fails with around 500-1000 routing violations.
+[bsg_manycore_withsram](bsg_manycore_withrealsram) is the same manycore tile design stitched together with an existing SRAM from [here](https://github.com/efabless/sky130_sram_macros)(a configuration different from what it actually needs) to meet it's memory requirements. This design is able to reach till the detailed routing step where it fails with around 500-1000 routing violations.
 
 These two are larger designs and though the initial steps dont take a huge amount of time, the routing step takes some time. They are good for trouble shooting issues of having a good amount of logic along with SRAM macros and at the same time not have to wait too long to iterate for troubleshooting.
 
