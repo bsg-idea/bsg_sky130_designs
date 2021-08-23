@@ -34,9 +34,17 @@ To setup and run designs through the flow:
 
 If you just want to setup openLane or the bsgfakeram generator individually, then you can do so using 'make openlane' and 'make bsg_fakeram' respectively.
 
-[bsg_fakeram_wrapper](fakeram_512x64) 
+[bsg_fakeram_wrapper](fakeram_512x64) is a simple wrapper around a fakeram generated using the BSG fakeram generator. The only logic it contains is an inverter logic at the fakeram output. This design is able to complete the flow DRC and LVS clean.
 
-[bsg_realram_wrapper](realram_8x1024)
+[bsg_realram_wrapper](realram_8x1024) is a simple wrapper around a Sky130 SRAM (obtained from [here](https://github.com/efabless/sky130_sram_macros)). The only logic it contains is an inverter logic at the SRAM output. This design is able to complete the flow DRC and LVS clean.
+
+[bsg_manycore_withfakeram](bsg_manycore_tile_compute_mesh) is a manycore tile compute mesh design [from BSG](https://github.com/bespoke-silicon-group/bsg_manycore). Here fakerams generated using BSG fakeram generator is used as placeholders for the SRAMs that this design needs.
+
+[bsg_manycore_withsram](bsg_manycore_tile_compute_mesh_real) is the same manycore tile design stitched together with an existing SRAM from [here](https://github.com/efabless/sky130_sram_macros)(a configuration different from what it actually needs) to meet it's memory requirements.
+
+[black_parrot_fe](black_parrot_fe)
+
+[black_parrot](black_parrot)
 
 
 
