@@ -2,9 +2,21 @@ This test suite is tailored for OpenLane flow for the Skywater 130nm technology 
 
 <h2> *This work was part of Google Summer of Code 2021* </h2>
 
-Each folder is a design that can be put through the openlane flow just by placing it in the 'designs' folder in the OpenLane directory structure. This process is automated with a 'Makefile' so that you dont have to bother about the specifics.
+Each folder is a design that can be put through the openlane flow just by placing it in the 'designs' folder in the OpenLane directory structure. All of that is automated with a 'Makefile' so that you dont have to bother about the specifics.
 
 The stable version of OpenLane frozen by efabless for the 2021 MPW-TWO tapeout shuttle is used throughout.
+
+Tools:
+* OpenLane
+* BSG fakeram generator
+
+Designs:
+* bsg_fakeram_wrapper
+* bsg_realram_wrapper
+* bsg_manycore_withfakeram
+* bsg_manycore_withrealsram
+* black_parrot_fe
+* black_parrot
 
 To setup and run designs through OpenLane:
 1) Clone and install OpenLane and bsg fakeram generator:
