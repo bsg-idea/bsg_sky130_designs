@@ -9,9 +9,12 @@ The stable version of OpenLane frozen by efabless for the 2021 MPW-TWO tapeout s
 To setup and run designs through OpenLane:
 1) Clone and install OpenLane and bsg fakeram generator:
 >make tools
-2) Install the Skywater 130 PDK:
+2) Install the Skywater 130 PDK (may take some time):
 >make pdk
-3) Setup any preferred design:
+3) Setup any preferred design (loads docker image):
 >make <design_name>.design
-4) ./flow.tcl -design <design_name>
+4) Run the flow
+>./flow.tcl -design <design_name>
+
+If you just want to setup openLane or the bsgfakeram generator individually then you can do so using 'make openlane' and 'make bsg_fakeram' respectively.
 
