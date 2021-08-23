@@ -49,9 +49,9 @@ The above two designs take very little time to go through the flow and can be go
 
 These two are larger designs and though the initial steps dont take a huge amount of time, the routing step takes some time. They are good for trouble shooting issues of having a good amount of logic along with SRAM macros and at the same time not have to wait too long to iterate for troubleshooting.
 
-[black_parrot_fe](black_parrot_fe) This is the front end of a Black Parrot design. It goes through the flow much faster compared to the whole Black Parrot.
+[black_parrot_fe](black_parrot_fe) This is the front end of a Black Parrot design. It needs 3 SRAMs instead of which 3 macros fakerams are used. It goes through the flow much faster compared to the whole Black Parrot. It also faces the same issue faced by the full Black Parrot design - fails at Detailed Placement without much hints as to what is wrong. The issue has been traced down to the 'check_placement' command but the issue remains to be figured out.
 
-[black_parrot](black_parrot) Takes a long time to go through the flow.
+[black_parrot](black_parrot) This is a full Black Parrot design which needs 5 SRAMs. Takes a long time to go through the flow and fails at the same place the front end design fails at - detailed placement issue at the 'check_placement' command.
 
 
 
