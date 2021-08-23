@@ -30,7 +30,9 @@ To setup and run designs through the flow:
 >make mount
 >./flow.tcl -design <design_name>
 
+
 Makefile options:
+* make <design_name>.design - sets the current design (copies it into openlane and also sets the current design as <design_name>, the following options depend on this option)
 * make config.edit - open the config file corresponding to current design in VI editor
 * make sc_hd_conig.edit - open the sky130A_sky130_fd_sc_hd_config.tcl config file corresponding to current design in VI editor (similarly sc_hdll, sc_hs and other configs can be opened)
 * make latest.run - prints the location to the results of the latest run
