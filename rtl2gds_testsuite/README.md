@@ -29,6 +29,7 @@ To setup and run designs through the flow:
 >./flow.tcl -design <design_name>
 
 [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) is the open-source RTL to GDS flow that wraps together a number of open-source tools across the different stages of the flow to make open-source RTL to GDS possible.
+
 [BSG fakeram generator](https://github.com/bespoke-silicon-group/bsg_fakeram) is the tool used to generate fake placeholders for SRAMs so that designs can be put through the flow even when the SRAM configurations required by them are not yet available.
 
 If you just want to setup openLane or the bsgfakeram generator individually, then you can do so using 'make openlane' and 'make bsg_fakeram' respectively.
