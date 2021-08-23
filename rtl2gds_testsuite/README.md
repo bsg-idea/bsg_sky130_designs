@@ -19,7 +19,7 @@ Designs:
 * black_parrot
 
 To setup and run designs through the flow:
-1) Clone and install OpenLane and bsg fakeram generator:
+1) Clone and install OpenLane and BSG fakeram generator:
 >make tools
 2) Install the Skywater 130 PDK (may take some time):
 >make pdk
@@ -33,4 +33,10 @@ To setup and run designs through the flow:
 [BSG fakeram generator](https://github.com/bespoke-silicon-group/bsg_fakeram) is the tool used to generate fake placeholders for SRAMs so that designs can be put through the flow even when the SRAM configurations required by them are not yet available.
 
 If you just want to setup openLane or the bsgfakeram generator individually, then you can do so using 'make openlane' and 'make bsg_fakeram' respectively.
+
+[bsg_fakeram_wrapper](fakeram_512x64) 
+
+[bsg_realram_wrapper](realram_8x1024)
+
+
 
