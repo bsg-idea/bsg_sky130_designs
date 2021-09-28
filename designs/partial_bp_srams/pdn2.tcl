@@ -1,11 +1,11 @@
 # Power nets
 
 if { ! [info exists ::env(VDD_NET)] } {
-	set ::env(VDD_NET) $::env(VDD_PIN)
+    set ::env(VDD_NET) $::env(VDD_PIN)
 }
 
 if { ! [info exists ::env(GND_NET)] } {
-	set ::env(GND_NET) $::env(GND_PIN)
+    set ::env(GND_NET) $::env(GND_PIN)
 }
 
 set ::power_nets $::env(VDD_NET)
@@ -27,12 +27,14 @@ if { [info exists ::env(FP_PDN_ENABLE_GLOBAL_CONNECTIONS)] } {
     }
 }
 
+set pdngen::voltage_domains { CORE { primary_power vccd1 primary_ground vssd1 } } 
+
 # Used if the design is the core of the chip
 set stdcell_core {
     name grid
     straps {
-	    $::env(FP_PDN_LOWER_LAYER) {width $::env(FP_PDN_VWIDTH) pitch $::env(FP_PDN_VPITCH) offset $::env(FP_PDN_VOFFSET)}
-	    $::env(FP_PDN_UPPER_LAYER) {width $::env(FP_PDN_HWIDTH) pitch $::env(FP_PDN_HPITCH) offset $::env(FP_PDN_HOFFSET)}
+        $::env(FP_PDN_LOWER_LAYER) {width $::env(FP_PDN_VWIDTH) pitch $::env(FP_PDN_VPITCH) offset $::env(FP_PDN_VOFFSET)}
+        $::env(FP_PDN_UPPER_LAYER) {width $::env(FP_PDN_HWIDTH) pitch $::env(FP_PDN_HPITCH) offset $::env(FP_PDN_HOFFSET)}
     }
     connect {{$::env(FP_PDN_LOWER_LAYER) $::env(FP_PDN_UPPER_LAYER)}}
     pins { $::env(FP_PDN_UPPER_LAYER) }
@@ -42,9 +44,10 @@ set stdcell_core {
 set stdcell_macro {
     name grid
     straps {
-	    $::env(FP_PDN_LOWER_LAYER) {width $::env(FP_PDN_VWIDTH) pitch $::env(FP_PDN_VPITCH) offset $::env(FP_PDN_VOFFSET)}
+        $::env(FP_PDN_LOWER_LAYER) {width $::env(FP_PDN_VWIDTH) pitch $::env(FP_PDN_VPITCH) offset $::env(FP_PDN_VOFFSET)}
     }
     connect {}
+    pins { $::env(FP_PDN_LOWER_LAYER) }
 }
 
 # Assesses whether the deisgn is the core of the chip or not based on the value of $::env(DESIGN_IS_CORE) and uses the appropriate stdcell section
@@ -71,15 +74,15 @@ if { [info exists ::env(FP_PDN_CORE_RING)] } {
 # Adds the core ring if enabled.
 if { [info exists ::env(FP_PDN_ENABLE_RAILS)] } {
     if { $::env(FP_PDN_ENABLE_RAILS) == 1 } {
-		dict append stdcell rails {
-			$::env(FP_PDN_RAILS_LAYER) {width $::env(FP_PDN_RAIL_WIDTH) pitch $::env(PLACE_SITE_HEIGHT) offset $::env(FP_PDN_RAIL_OFFSET)}
-		}
-		dict update stdcell connect current_connect {
-			append current_connect { {$::env(FP_PDN_RAILS_LAYER) $::env(FP_PDN_LOWER_LAYER)}}
-		}
+        dict append stdcell rails {
+            $::env(FP_PDN_RAILS_LAYER) {width $::env(FP_PDN_RAIL_WIDTH) pitch $::env(PLACE_SITE_HEIGHT) offset $::env(FP_PDN_RAIL_OFFSET)}
+        }
+        dict update stdcell connect current_connect {
+            append current_connect { {$::env(FP_PDN_RAILS_LAYER) $::env(FP_PDN_LOWER_LAYER)}}
+        }
     } else {
-		dict append stdcell rails {}
-	}
+        dict append stdcell rails {}
+    }
 }
 
 pdngen::specify_grid stdcell [subst $stdcell]
@@ -92,25 +95,11 @@ set macro {
     ground_pins $::env(GND_NET)
     blockages "li1 met1 met2 met3 met4"
     straps {
-
     }
     connect {{$::env(FP_PDN_LOWER_LAYER)_PIN_ver $::env(FP_PDN_UPPER_LAYER)}}
 }
 
 pdngen::specify_grid macro [subst $macro]
-
-pdngen::specify_grid macro {
-    macro "sky130_sram_1kbyte_1rw1r_8x1024_8"
-    orient {R0 R180 MX MY R90 R270 MXR90 MYR90}
-    power_pins "vccd1"
-    ground_pins "vssd1"
-    blockages "li1 met1 met2 met3 met4"
-    straps {
-
-    }
-    connect {{$::env(FP_PDN_LOWER_LAYER)_PIN_ver $::env(FP_PDN_UPPER_LAYER)}}
-}
-
 
 set ::halo [expr min($::env(FP_HORIZONTAL_HALO), $::env(FP_VERTICAL_HALO))]
 

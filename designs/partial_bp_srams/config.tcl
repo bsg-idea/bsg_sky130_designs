@@ -8,14 +8,32 @@ set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
 set ::env(SDC_FILE)  [glob $::env(DESIGN_DIR)/src/*.sdc]
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sram/*.bb.v]
-set ::env(DESIGN_IS_CORE) 1
-set ::env(FP_PDN_CORE_RING) 1
-#set ::env(GLB_RT_MAXLAYER) 5
+set ::env(DESIGN_IS_CORE) 0
+set ::env(FP_PDN_CORE_RING) 0
+set ::env(GLB_RT_MAXLAYER) 5
+
+#set ::env(PL_RANDOM_GLB_PLACEMENT) 1
 
 set ::env(VDD_NETS) [list {vccd1}]
 set ::env(GND_NETS) [list {vssd1}]
 set ::env(SYNTH_USE_PG_PINS_DEFINES) "USE_POWER_PINS"
 
+
+set ::env(CELL_PAD) 100
+set ::env(PL_DIAMOND_SEARCH_HEIGHT) 600
+
+set ::env(FP_SIZING) absolute
+set ::env(DIE_AREA) "0.0 0.0 5200.0 5000.0"
+#set ::env(FP_CORE_UTIL) 30
+#set ::env(PL_TARGET_DENSITY) [ expr ($::env(FP_CORE_UTIL)+5) / 100.0 ]
+
+set ::env(FP_IO_MODE) 0
+
+set ::env(MACRO_PLACEMENT_CFG) [glob $::env(DESIGN_DIR)/macro.cfg]
+
+set ::env(FP_PDN_ENABLE_GLOBAL_CONNECTIONS) 1
+
+set ::env(FP_PDN_IRDROP) 0
 
 # Fill this
 set ::env(CLOCK_PERIOD) "100.000"
@@ -39,7 +57,7 @@ set ::env(EXTRA_GDS_FILES) [glob $::env(DESIGN_DIR)/src/sram/*.gds]
 ## FLOORPLAN
 
 ## PLACEMENT
-set ::env(PDN_CFG) [glob $::env(DESIGN_DIR)/pdn.tcl]
+#set ::env(PDN_CFG) [glob $::env(DESIGN_DIR)/pdn2.tcl]
 
 
 
