@@ -1,0 +1,612 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/serv_fr/base/4_cts.def
+[INFO ODB-0128] Design: serv_rf_top
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0094] 		Created 900000 Insts
+[INFO ODB-0094] 		Created 1000000 Insts
+[INFO ODB-0094] 		Created 1100000 Insts
+[INFO ODB-0094] 		Created 1200000 Insts
+[INFO ODB-0094] 		Created 1300000 Insts
+[INFO ODB-0094] 		Created 1400000 Insts
+[INFO ODB-0094] 		Created 1500000 Insts
+[INFO ODB-0094] 		Created 1600000 Insts
+[INFO ODB-0094] 		Created 1700000 Insts
+[INFO ODB-0094] 		Created 1800000 Insts
+[INFO ODB-0094] 		Created 1900000 Insts
+[INFO ODB-0094] 		Created 2000000 Insts
+[INFO ODB-0094] 		Created 2100000 Insts
+[INFO ODB-0094] 		Created 2200000 Insts
+[INFO ODB-0094] 		Created 2300000 Insts
+[INFO ODB-0094] 		Created 2400000 Insts
+[INFO ODB-0094] 		Created 2500000 Insts
+[INFO ODB-0094] 		Created 2600000 Insts
+[INFO ODB-0094] 		Created 2700000 Insts
+[INFO ODB-0094] 		Created 2800000 Insts
+[INFO ODB-0094] 		Created 2900000 Insts
+[INFO ODB-0094] 		Created 3000000 Insts
+[INFO ODB-0094] 		Created 3100000 Insts
+[INFO ODB-0094] 		Created 3200000 Insts
+[INFO ODB-0094] 		Created 3300000 Insts
+[INFO ODB-0094] 		Created 3400000 Insts
+[INFO ODB-0094] 		Created 3500000 Insts
+[INFO ODB-0094] 		Created 3600000 Insts
+[INFO ODB-0094] 		Created 3700000 Insts
+[INFO ODB-0094] 		Created 3800000 Insts
+[INFO ODB-0094] 		Created 3900000 Insts
+[INFO ODB-0094] 		Created 4000000 Insts
+[INFO ODB-0094] 		Created 4100000 Insts
+[INFO ODB-0094] 		Created 4200000 Insts
+[INFO ODB-0094] 		Created 4300000 Insts
+[INFO ODB-0094] 		Created 4400000 Insts
+[INFO ODB-0094] 		Created 4500000 Insts
+[INFO ODB-0094] 		Created 4600000 Insts
+[INFO ODB-0094] 		Created 4700000 Insts
+[INFO ODB-0094] 		Created 4800000 Insts
+[INFO ODB-0094] 		Created 4900000 Insts
+[INFO ODB-0094] 		Created 5000000 Insts
+[INFO ODB-0094] 		Created 5100000 Insts
+[INFO ODB-0094] 		Created 5200000 Insts
+[INFO ODB-0094] 		Created 5300000 Insts
+[INFO ODB-0094] 		Created 5400000 Insts
+[INFO ODB-0094] 		Created 5500000 Insts
+[INFO ODB-0094] 		Created 5600000 Insts
+[INFO ODB-0094] 		Created 5700000 Insts
+[INFO ODB-0094] 		Created 5800000 Insts
+[INFO ODB-0094] 		Created 5900000 Insts
+[INFO ODB-0094] 		Created 6000000 Insts
+[INFO ODB-0094] 		Created 6100000 Insts
+[INFO ODB-0094] 		Created 6200000 Insts
+[INFO ODB-0094] 		Created 6300000 Insts
+[INFO ODB-0094] 		Created 6400000 Insts
+[INFO ODB-0094] 		Created 6500000 Insts
+[INFO ODB-0094] 		Created 6600000 Insts
+[INFO ODB-0094] 		Created 6700000 Insts
+[INFO ODB-0094] 		Created 6800000 Insts
+[INFO ODB-0094] 		Created 6900000 Insts
+[INFO ODB-0094] 		Created 7000000 Insts
+[INFO ODB-0094] 		Created 7100000 Insts
+[INFO ODB-0094] 		Created 7200000 Insts
+[INFO ODB-0094] 		Created 7300000 Insts
+[INFO ODB-0094] 		Created 7400000 Insts
+[INFO ODB-0094] 		Created 7500000 Insts
+[INFO ODB-0094] 		Created 7600000 Insts
+[INFO ODB-0094] 		Created 7700000 Insts
+[INFO ODB-0094] 		Created 7800000 Insts
+[INFO ODB-0094] 		Created 7900000 Insts
+[INFO ODB-0094] 		Created 8000000 Insts
+[INFO ODB-0094] 		Created 8100000 Insts
+[INFO ODB-0094] 		Created 8200000 Insts
+[INFO ODB-0094] 		Created 8300000 Insts
+[INFO ODB-0094] 		Created 8400000 Insts
+[INFO ODB-0094] 		Created 8500000 Insts
+[INFO ODB-0094] 		Created 8600000 Insts
+[INFO ODB-0094] 		Created 8700000 Insts
+[INFO ODB-0094] 		Created 8800000 Insts
+[INFO ODB-0094] 		Created 8900000 Insts
+[INFO ODB-0094] 		Created 9000000 Insts
+[INFO ODB-0094] 		Created 9100000 Insts
+[INFO ODB-0094] 		Created 9200000 Insts
+[INFO ODB-0094] 		Created 9300000 Insts
+[INFO ODB-0094] 		Created 9400000 Insts
+[INFO ODB-0094] 		Created 9500000 Insts
+[INFO ODB-0094] 		Created 9600000 Insts
+[INFO ODB-0094] 		Created 9700000 Insts
+[INFO ODB-0094] 		Created 9800000 Insts
+[INFO ODB-0094] 		Created 9900000 Insts
+[INFO ODB-0094] 		Created 10000000 Insts
+[INFO ODB-0094] 		Created 10100000 Insts
+[INFO ODB-0094] 		Created 10200000 Insts
+[INFO ODB-0094] 		Created 10300000 Insts
+[INFO ODB-0094] 		Created 10400000 Insts
+[INFO ODB-0094] 		Created 10500000 Insts
+[INFO ODB-0094] 		Created 10600000 Insts
+[INFO ODB-0094] 		Created 10700000 Insts
+[INFO ODB-0094] 		Created 10800000 Insts
+[INFO ODB-0094] 		Created 10900000 Insts
+[INFO ODB-0094] 		Created 11000000 Insts
+[INFO ODB-0094] 		Created 11100000 Insts
+[INFO ODB-0094] 		Created 11200000 Insts
+[INFO ODB-0094] 		Created 11300000 Insts
+[INFO ODB-0094] 		Created 11400000 Insts
+[INFO ODB-0094] 		Created 11500000 Insts
+[INFO ODB-0094] 		Created 11600000 Insts
+[INFO ODB-0094] 		Created 11700000 Insts
+[INFO ODB-0094] 		Created 11800000 Insts
+[INFO ODB-0094] 		Created 11900000 Insts
+[INFO ODB-0094] 		Created 12000000 Insts
+[INFO ODB-0094] 		Created 12100000 Insts
+[INFO ODB-0094] 		Created 12200000 Insts
+[INFO ODB-0094] 		Created 12300000 Insts
+[INFO ODB-0094] 		Created 12400000 Insts
+[INFO ODB-0094] 		Created 12500000 Insts
+[INFO ODB-0094] 		Created 12600000 Insts
+[INFO ODB-0094] 		Created 12700000 Insts
+[INFO ODB-0094] 		Created 12800000 Insts
+[INFO ODB-0094] 		Created 12900000 Insts
+[INFO ODB-0094] 		Created 13000000 Insts
+[INFO ODB-0094] 		Created 13100000 Insts
+[INFO ODB-0094] 		Created 13200000 Insts
+[INFO ODB-0094] 		Created 13300000 Insts
+[INFO ODB-0094] 		Created 13400000 Insts
+[INFO ODB-0094] 		Created 13500000 Insts
+[INFO ODB-0094] 		Created 13600000 Insts
+[INFO ODB-0094] 		Created 13700000 Insts
+[INFO ODB-0130]     Created 273 pins.
+[INFO ODB-0131]     Created 13763380 components and 27530833 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 27526758 connections.
+[INFO ODB-0133]     Created 1547 nets and 4067 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/4_cts.def
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[WARNING GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0224] Chose via L1M1_PR as default.
+[INFO GRT-0224] Chose via M1M2_PR as default.
+[INFO GRT-0224] Chose via M2M3_PR as default.
+[INFO GRT-0224] Chose via M3M4_PR as default.
+[INFO GRT-0224] Chose via M4M5_PR as default.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0003] Macros: 1
+[INFO GRT-0004] Blockages: 2795
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 59
+[INFO GRT-0017] Processing 27533331 blockages on layer met1.
+[INFO GRT-0017] Processing 1 blockages on layer met2.
+[INFO GRT-0017] Processing 40 blockages on layer met3.
+[INFO GRT-0017] Processing 872 blockages on layer met4.
+[INFO GRT-0017] Processing 729 blockages on layer met5.
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal   45026400      16277613          63.85%
+met2       Vertical     33769800      20233350          40.08%
+met3       Horizontal   22513200      13502187          40.03%
+met4       Vertical     13507920       6748306          50.04%
+met5       Horizontal    4502640       2251401          50.00%
+---------------------------------------------------------------
+
+[INFO GRT-0191] Wirelength: 163212, Wirelength1: 0
+[INFO GRT-0192] Number of segments: 2707
+[INFO GRT-0193] Number of shifts: 0
+[INFO GRT-0097] First L Route.
+[INFO GRT-0191] Wirelength: 163212, Wirelength1: 163212
+[INFO GRT-0192] Number of segments: 2707
+[INFO GRT-0193] Number of shifts: 0
+[INFO GRT-0135] Overflow report.
+[INFO GRT-0136] Total hCap               : 32031201
+[INFO GRT-0137] Total vCap               : 26981656
+[INFO GRT-0138] Total usage              : 163212
+[INFO GRT-0139] Max H overflow           : 0
+[INFO GRT-0140] Max V overflow           : 0
+[INFO GRT-0141] Max overflow             : 0
+[INFO GRT-0142] Number of overflow edges : 0
+[INFO GRT-0143] H   overflow             : 0
+[INFO GRT-0144] V   overflow             : 0
+[INFO GRT-0145] Final overflow           : 0
+
+[INFO GRT-0098] Second L Route.
+[INFO GRT-0135] Overflow report.
+[INFO GRT-0136] Total hCap               : 32031201
+[INFO GRT-0137] Total vCap               : 26981656
+[INFO GRT-0138] Total usage              : 163212
+[INFO GRT-0139] Max H overflow           : 0
+[INFO GRT-0140] Max V overflow           : 0
+[INFO GRT-0141] Max overflow             : 0
+[INFO GRT-0142] Number of overflow edges : 0
+[INFO GRT-0143] H   overflow             : 0
+[INFO GRT-0144] V   overflow             : 0
+[INFO GRT-0145] Final overflow           : 0
+
+[INFO GRT-0099] First Z Route.
+[INFO GRT-0135] Overflow report.
+[INFO GRT-0136] Total hCap               : 32031201
+[INFO GRT-0137] Total vCap               : 26981656
+[INFO GRT-0138] Total usage              : 163212
+[INFO GRT-0139] Max H overflow           : 0
+[INFO GRT-0140] Max V overflow           : 0
+[INFO GRT-0141] Max overflow             : 0
+[INFO GRT-0142] Number of overflow edges : 0
+[INFO GRT-0143] H   overflow             : 0
+[INFO GRT-0144] V   overflow             : 0
+[INFO GRT-0145] Final overflow           : 0
+
+[INFO GRT-0100] LV routing round 0, enlarge 10.
+[INFO GRT-0182] 10 threshold, 10 expand.
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163212
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 2
+[INFO GRT-0130] Max overflow         : 2
+[INFO GRT-0131] Number overflow edges: 8
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 9
+[INFO GRT-0134] Final overflow       : 9
+
+[INFO GRT-0100] LV routing round 1, enlarge 15.
+[INFO GRT-0182] 5 threshold, 15 expand.
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163212
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 3
+[INFO GRT-0130] Max overflow         : 3
+[INFO GRT-0131] Number overflow edges: 20
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 32
+[INFO GRT-0134] Final overflow       : 32
+
+[INFO GRT-0100] LV routing round 2, enlarge 20.
+[INFO GRT-0182] 1 threshold, 20 expand.
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163212
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 4
+[INFO GRT-0130] Max overflow         : 4
+[INFO GRT-0131] Number overflow edges: 19
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 31
+[INFO GRT-0134] Final overflow       : 31
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0102] Iteration 1
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163220
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 4
+[INFO GRT-0130] Max overflow         : 4
+[INFO GRT-0131] Number overflow edges: 8
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 17
+[INFO GRT-0134] Final overflow       : 17
+
+[INFO GRT-0102] Iteration 2
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163263
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 1
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 1
+
+[INFO GRT-0102] Iteration 3
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163265
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 0
+[INFO GRT-0130] Max overflow         : 0
+[INFO GRT-0131] Number overflow edges: 0
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 0
+[INFO GRT-0134] Final overflow       : 0
+
+Usage checked
+[INFO GRT-0105] Maze routing finished.
+Final 2D results:
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 163265
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 0
+[INFO GRT-0130] Max overflow         : 0
+[INFO GRT-0131] Number overflow edges: 0
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 0
+[INFO GRT-0134] Final overflow       : 0
+
+[INFO GRT-0106] Layer assignment begins.
+[INFO GRT-0107] Layer assignment finished.
+[INFO GRT-0108] Post-processing begins.
+[INFO GRT-0109] Post-processing finished.
+ Starting via filling.
+[INFO GRT-0197] Via related to pin nodes: 6749
+[INFO GRT-0198] Via related Steiner nodes: 200
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 8699
+[INFO GRT-0112] Final usage 3D: 189142
+[WARNING GRT-0211] dbGcellGrid already exists in db. Clearing existing dbGCellGrid.
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1          16277613         72187            0.44%             0 /  0 /  0
+met2          20233350         87458            0.43%             0 /  0 /  0
+met3          13502187          1099            0.01%             0 /  0 /  0
+met4           6748306          2258            0.03%             0 /  0 /  0
+met5           2251401            43            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total         59012857        163045            0.28%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 1166921 um
+[INFO GRT-0014] Routed nets: 1510
+[WARNING STA-0357] virtual clock CLK can not be propagated.
+
+==========================================================================
+global route report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+global route report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+global route report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: i_dbus_ack (input port)
+Endpoint: _1371_ (rising edge-triggered flip-flop)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00 v input external delay
+                  0.00    0.00    0.00 v i_dbus_ack (in)
+     1    0.01                           i_dbus_ack (net)
+                  0.00    0.00    0.00 v input2/A (sky130_fd_sc_hd__buf_12)
+                  0.09    0.13    0.14 v input2/X (sky130_fd_sc_hd__buf_12)
+     4    0.22                           net2 (net)
+                  0.14    0.04    0.18 v repeater569/A (sky130_fd_sc_hd__buf_16)
+                  0.08    0.20    0.38 v repeater569/X (sky130_fd_sc_hd__buf_16)
+     3    0.30                           net569 (net)
+                  0.56    0.28    0.66 v repeater567/A (sky130_fd_sc_hd__buf_16)
+                  0.09    0.37    1.03 v repeater567/X (sky130_fd_sc_hd__buf_16)
+     4    0.38                           net567 (net)
+                  0.67    0.33    1.35 v repeater566/A (sky130_fd_sc_hd__buf_16)
+                  0.08    0.40    1.75 v repeater566/X (sky130_fd_sc_hd__buf_16)
+     1    0.31                           net566 (net)
+                  0.73    0.36    2.11 v repeater565/A (sky130_fd_sc_hd__buf_16)
+                  0.08    0.40    2.52 v repeater565/X (sky130_fd_sc_hd__buf_16)
+     3    0.34                           net565 (net)
+                  0.78    0.39    2.90 v repeater561/A (sky130_fd_sc_hd__buf_16)
+                  0.09    0.43    3.33 v repeater561/X (sky130_fd_sc_hd__buf_16)
+     2    0.34                           net561 (net)
+                  0.73    0.36    3.69 v repeater560/A (sky130_fd_sc_hd__buf_16)
+                  0.09    0.42    4.10 v repeater560/X (sky130_fd_sc_hd__buf_16)
+     2    0.34                           net560 (net)
+                  0.68    0.34    4.44 v repeater559/A (sky130_fd_sc_hd__buf_16)
+                  0.08    0.39    4.83 v repeater559/X (sky130_fd_sc_hd__buf_16)
+     3    0.36                           net559 (net)
+                  0.71    0.35    5.18 v repeater554/A (sky130_fd_sc_hd__buf_16)
+                  0.09    0.41    5.59 v repeater554/X (sky130_fd_sc_hd__buf_16)
+    14    0.40                           net554 (net)
+                  0.67    0.33    5.92 v _0930_/C1 (sky130_fd_sc_hd__a211oi_4)
+                  1.25    1.18    7.10 ^ _0930_/Y (sky130_fd_sc_hd__a211oi_4)
+    10    0.12                           _0446_ (net)
+                  1.26    0.04    7.14 ^ repeater311/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.23    7.37 ^ repeater311/X (sky130_fd_sc_hd__buf_16)
+     3    0.14                           net311 (net)
+                  0.27    0.11    7.48 ^ repeater310/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.18    7.66 ^ repeater310/X (sky130_fd_sc_hd__buf_16)
+     4    0.15                           net310 (net)
+                  0.27    0.11    7.77 ^ repeater309/A (sky130_fd_sc_hd__buf_8)
+                  0.18    0.21    7.98 ^ repeater309/X (sky130_fd_sc_hd__buf_8)
+     1    0.11                           net309 (net)
+                  0.24    0.08    8.06 ^ repeater308/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.18    8.24 ^ repeater308/X (sky130_fd_sc_hd__buf_16)
+     3    0.14                           net308 (net)
+                  0.24    0.10    8.34 ^ repeater307/A (sky130_fd_sc_hd__buf_16)
+                  0.13    0.17    8.51 ^ repeater307/X (sky130_fd_sc_hd__buf_16)
+     3    0.14                           net307 (net)
+                  0.29    0.13    8.64 ^ repeater306/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.20    8.84 ^ repeater306/X (sky130_fd_sc_hd__buf_16)
+     3    0.14                           net306 (net)
+                  0.21    0.07    8.91 ^ repeater305/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.19    9.10 ^ repeater305/X (sky130_fd_sc_hd__buf_16)
+     2    0.13                           net305 (net)
+                  0.20    0.07    9.16 ^ repeater303/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.18    9.34 ^ repeater303/X (sky130_fd_sc_hd__buf_16)
+     1    0.14                           net303 (net)
+                  0.24    0.10    9.44 ^ repeater302/A (sky130_fd_sc_hd__buf_16)
+                  0.20    0.22    9.66 ^ repeater302/X (sky130_fd_sc_hd__buf_16)
+     4    0.35                           net302 (net)
+                  0.82    0.39   10.05 ^ repeater301/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.23   10.28 ^ repeater301/X (sky130_fd_sc_hd__buf_16)
+     1    0.14                           net301 (net)
+                  0.23    0.09   10.37 ^ repeater300/A (sky130_fd_sc_hd__buf_16)
+                  0.20    0.23   10.59 ^ repeater300/X (sky130_fd_sc_hd__buf_16)
+     3    0.33                           net300 (net)
+                  0.77    0.37   10.96 ^ repeater299/A (sky130_fd_sc_hd__buf_16)
+                  0.16    0.24   11.20 ^ repeater299/X (sky130_fd_sc_hd__buf_16)
+     3    0.15                           net299 (net)
+                  0.23    0.08   11.28 ^ repeater298/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.17   11.46 ^ repeater298/X (sky130_fd_sc_hd__buf_16)
+     3    0.15                           net298 (net)
+                  0.30    0.13   11.59 ^ repeater297/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.20   11.79 ^ repeater297/X (sky130_fd_sc_hd__buf_16)
+     1    0.15                           net297 (net)
+                  0.25    0.10   11.89 ^ repeater296/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.20   12.09 ^ repeater296/X (sky130_fd_sc_hd__buf_16)
+     7    0.14                           net296 (net)
+                  0.21    0.07   12.16 ^ repeater295/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.19   12.35 ^ repeater295/X (sky130_fd_sc_hd__buf_16)
+     2    0.14                           net295 (net)
+                  0.21    0.08   12.43 ^ _1002_/B (sky130_fd_sc_hd__nand2_1)
+                  0.19    0.13   12.56 v _1002_/Y (sky130_fd_sc_hd__nand2_1)
+     1    0.01                           _0501_ (net)
+                  0.19    0.00   12.56 v _1003_/B1 (sky130_fd_sc_hd__o21ai_1)
+                  0.22    0.20   12.76 ^ _1003_/Y (sky130_fd_sc_hd__o21ai_1)
+     1    0.01                           _0070_ (net)
+                  0.22    0.00   12.77 ^ _1371_/D (sky130_fd_sc_hd__dfxtp_4)
+                                 12.77   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+==========================================================================
+global route report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+_0780_/A                                1.50    2.13   -0.63 (VIOLATED)
+_0912_/S                                1.50    2.09   -0.59 (VIOLATED)
+_0913_/A                                1.50    2.07   -0.57 (VIOLATED)
+_0885_/A_N                              1.50    2.06   -0.56 (VIOLATED)
+_0868_/S                                1.50    2.05   -0.55 (VIOLATED)
+_1056_/A                                1.50    2.05   -0.55 (VIOLATED)
+_0862_/S                                1.50    2.04   -0.54 (VIOLATED)
+_0874_/S                                1.50    2.04   -0.54 (VIOLATED)
+_0865_/S                                1.50    2.04   -0.54 (VIOLATED)
+_0926_/S                                1.50    2.04   -0.54 (VIOLATED)
+_0871_/S                                1.50    2.03   -0.53 (VIOLATED)
+_0883_/A1                               1.50    2.03   -0.53 (VIOLATED)
+_0852_/A                                1.50    2.02   -0.52 (VIOLATED)
+_0816_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0821_/B1                               1.50    2.02   -0.52 (VIOLATED)
+_0856_/A1                               1.50    2.02   -0.52 (VIOLATED)
+_0853_/A1                               1.50    2.02   -0.52 (VIOLATED)
+_0886_/B2                               1.50    2.02   -0.52 (VIOLATED)
+_0860_/A1                               1.50    2.02   -0.52 (VIOLATED)
+_0786_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0857_/A_N                              1.50    2.02   -0.52 (VIOLATED)
+_0789_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0783_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0907_/A                                1.50    2.02   -0.52 (VIOLATED)
+_0882_/C1                               1.50    2.02   -0.52 (VIOLATED)
+_0823_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0838_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0841_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0835_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0776_/A                                1.50    2.02   -0.52 (VIOLATED)
+_0826_/S                                1.50    2.02   -0.52 (VIOLATED)
+_0899_/A1                               1.50    2.02   -0.52 (VIOLATED)
+_0779_/A_N                              1.50    2.02   -0.52 (VIOLATED)
+_0794_/A1                               1.50    2.01   -0.51 (VIOLATED)
+_0845_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0922_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0919_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0829_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0793_/A                                1.50    2.01   -0.51 (VIOLATED)
+_0896_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0832_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0893_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0890_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0917_/A                                1.50    2.01   -0.51 (VIOLATED)
+_0920_/A                                1.50    2.01   -0.51 (VIOLATED)
+_0850_/A1                               1.50    2.01   -0.51 (VIOLATED)
+_0887_/S                                1.50    2.01   -0.51 (VIOLATED)
+_0849_/A                                1.50    2.01   -0.51 (VIOLATED)
+_0911_/A1                               1.50    2.01   -0.51 (VIOLATED)
+_0916_/A1                               1.50    2.01   -0.51 (VIOLATED)
+_0924_/A1                               1.50    2.01   -0.51 (VIOLATED)
+_0923_/A                                1.50    2.01   -0.51 (VIOLATED)
+_1189_/B1                               1.50    2.01   -0.51 (VIOLATED)
+_0918_/A1                               1.50    2.01   -0.51 (VIOLATED)
+_0925_/S                                1.50    1.98   -0.48 (VIOLATED)
+_0921_/A1                               1.50    1.98   -0.48 (VIOLATED)
+_0910_/A                                1.50    1.85   -0.35 (VIOLATED)
+output125/A                             1.50    1.59   -0.09 (VIOLATED)
+_0954_/A                                1.50    1.58   -0.08 (VIOLATED)
+_0958_/A                                1.50    1.57   -0.07 (VIOLATED)
+_1360_/Q                                1.51    1.53   -0.02 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+_1360_/Q                                0.55    0.55   -0.01 (VIOLATED)
+
+
+==========================================================================
+global route max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 61
+
+==========================================================================
+global route max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+global route max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 1
+
+==========================================================================
+global route report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global route report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global route report_worst_slack
+--------------------------------------------------------------------------
+worst slack INF
+
+==========================================================================
+global route report_clock_skew
+--------------------------------------------------------------------------
+Clock CLK
+No launch/capture paths found.
+
+
+==========================================================================
+global route report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power
+----------------------------------------------------------------
+Sequential             1.30e-12   6.55e-12   1.57e-09   1.57e-09   0.0%
+Combinational          1.12e-11   3.87e-11   2.44e-04   2.44e-04 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.25e-11   4.53e-11   2.44e-04   2.44e-04 100.0%
+                           0.0%       0.0%     100.0%
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 1844543 u^2 2% utilization.
+
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[INFO ANT-0001] Found 0 pin violations.
+[INFO ANT-0002] Found 0 net violations in 1547 nets.
+[INFO FLW-0007] clock CLK period 300.000000
+[INFO FLW-0008] Clock CLK period -950000041162928859976620080891667939328.000
+[INFO FLW-0009] Clock CLK slack 1000000043329398871556523614962693701632.000
+[ERROR STA-0414] period '-9.500000411629289e+38' is not a positive float.
+Error: write_ref_sdc.tcl, 31 STA-0414
+Command exited with non-zero status 1
+Elapsed time: 2:04.57[h:]min:sec. Average CPU: 99%. Peak memory: 11637748KB.

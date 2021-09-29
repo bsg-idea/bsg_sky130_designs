@@ -1,0 +1,27 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2065): Either PATH, RECT or POLYGON statement is a required in MACRO/PIN/PORT. See file ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef at line 957.
+
+[WARNING ODB-0220] WARNING (LEFPARS-2076): Either PATH, RECT or POLYGON statement is a required in MACRO/OBS. See file ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef at line 960.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/bsg_cache_dma_mem/base/4_1_cts.def
+[INFO ODB-0128] Design: bsg_cache_dma
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0130]     Created 734 pins.
+[INFO ODB-0131]     Created 130594 components and 266470 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 261186 connections.
+[INFO ODB-0133]     Created 2427 nets and 5243 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/bsg_cache_dma_mem/base/4_1_cts.def
+[INFO DPL-0001] Placed 1159623 filler instances.
+Elapsed time: 0:36.95[h:]min:sec. Average CPU: 64%. Peak memory: 1171596KB.

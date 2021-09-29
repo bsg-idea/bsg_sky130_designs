@@ -1,0 +1,89 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/serv_fr/base/2_5_floorplan_tapcell.def
+[INFO ODB-0128] Design: serv_rf_top
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0094] 		Created 900000 Insts
+[INFO ODB-0094] 		Created 1000000 Insts
+[INFO ODB-0094] 		Created 1100000 Insts
+[INFO ODB-0094] 		Created 1200000 Insts
+[INFO ODB-0094] 		Created 1300000 Insts
+[INFO ODB-0130]     Created 273 pins.
+[INFO ODB-0131]     Created 1377272 components and 2757409 component-terminals.
+[INFO ODB-0133]     Created 943 nets and 2863 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/2_5_floorplan_tapcell.def
+[INFO PDN-0016] Power Delivery Network Generator: Generating PDN
+  config: ./platforms/sky130hd/pdn.cfg
+[INFO PDN-0008] Design name is serv_rf_top.
+[INFO PDN-0009] Reading technology data.
+[INFO PDN-0011] ****** INFO ******
+Type: stdcell, grid
+    Stdcell Rails
+      Layer: met1  -  width: 0.480  pitch: 5.440  offset: 0.000 
+    Straps
+      Layer: met4  -  width: 1.600  pitch: 27.140  offset: 13.570 
+      Layer: met5  -  width: 1.600  pitch: 27.200  offset: 13.600 
+    Connect: {met1 met4} {met4 met5}
+Type: macro, CORE_macro_grid_1
+    Macro orientation: R0 R180 MX MY
+    Connect: {met4_PIN_ver met5}
+Type: macro, CORE_macro_grid_2
+    Macro orientation: R90 R270 MXR90 MYR90
+    Connect: {met4_PIN_hor met5}
+[INFO PDN-0012] **** END INFO ****
+[INFO PDN-0013] Inserting stdcell grid - grid.
+[WARNING PDN-0043] No via added at (9816.98 9731.92 9818.24 9732.4) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9737.36 9818.24 9737.84) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9742.8 9818.24 9743.28) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9748.24 9818.24 9748.72) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9753.68 9818.24 9754.16) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9759.12 9818.24 9759.6) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9764.56 9818.24 9765.04) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9770.0 9818.24 9770.48) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9775.44 9818.24 9775.92) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9780.88 9818.24 9781.36) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9786.32 9818.24 9786.8) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9791.76 9818.24 9792.24) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9797.2 9818.24 9797.68) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9802.64 9818.24 9803.12) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9808.08 9818.24 9808.56) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9813.52 9818.24 9814.0) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9818.96 9818.24 9819.44) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9824.4 9818.24 9824.88) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9829.84 9818.24 9830.32) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9835.28 9818.24 9835.76) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9840.72 9818.24 9841.2) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9846.16 9818.24 9846.64) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9851.6 9818.24 9852.08) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9857.04 9818.24 9857.52) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9862.48 9818.24 9862.96) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9867.92 9818.24 9868.4) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9873.36 9818.24 9873.84) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9878.8 9818.24 9879.28) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9884.24 9818.24 9884.72) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9889.68 9818.24 9890.16) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9895.12 9818.24 9895.6) because the full width of met4 (1.6) is not covered by the overlap.
+[WARNING PDN-0043] No via added at (9816.98 9900.56 9818.24 9901.04) because the full width of met4 (1.6) is not covered by the overlap.
+[INFO PDN-0010] Inserting macro grid for 1 macros.
+[INFO PDN-0034]   - grid CORE_macro_grid_1 for instance rf_ram.mem
+[INFO PDN-0015] Writing to database.
+Elapsed time: 3:01.96[h:]min:sec. Average CPU: 99%. Peak memory: 16985084KB.

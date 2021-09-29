@@ -1,0 +1,684 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/tinyRocket/sram_1024x32.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/tinyRocket/sram_1024x32.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/tinyRocket/sram_64x32.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/tinyRocket/sram_64x32.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/tinyRocket/base/4_cts.def
+[INFO ODB-0128] Design: RocketTile
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0094] 		Created 900000 Insts
+[INFO ODB-0094] 		Created 1000000 Insts
+[INFO ODB-0094] 		Created 1100000 Insts
+[INFO ODB-0094] 		Created 1200000 Insts
+[INFO ODB-0094] 		Created 1300000 Insts
+[INFO ODB-0094] 		Created 1400000 Insts
+[INFO ODB-0094] 		Created 1500000 Insts
+[INFO ODB-0094] 		Created 1600000 Insts
+[INFO ODB-0094] 		Created 1700000 Insts
+[INFO ODB-0094] 		Created 1800000 Insts
+[INFO ODB-0094] 		Created 1900000 Insts
+[INFO ODB-0094] 		Created 2000000 Insts
+[INFO ODB-0094] 		Created 2100000 Insts
+[INFO ODB-0094] 		Created 2200000 Insts
+[INFO ODB-0094] 		Created 2300000 Insts
+[INFO ODB-0094] 		Created 2400000 Insts
+[INFO ODB-0094] 		Created 2500000 Insts
+[INFO ODB-0094] 		Created 2600000 Insts
+[INFO ODB-0094] 		Created 2700000 Insts
+[INFO ODB-0094] 		Created 2800000 Insts
+[INFO ODB-0094] 		Created 2900000 Insts
+[INFO ODB-0094] 		Created 3000000 Insts
+[INFO ODB-0094] 		Created 3100000 Insts
+[INFO ODB-0094] 		Created 3200000 Insts
+[INFO ODB-0094] 		Created 3300000 Insts
+[INFO ODB-0094] 		Created 3400000 Insts
+[INFO ODB-0094] 		Created 3500000 Insts
+[INFO ODB-0094] 		Created 3600000 Insts
+[INFO ODB-0094] 		Created 3700000 Insts
+[INFO ODB-0094] 		Created 3800000 Insts
+[INFO ODB-0094] 		Created 3900000 Insts
+[INFO ODB-0094] 		Created 4000000 Insts
+[INFO ODB-0094] 		Created 4100000 Insts
+[INFO ODB-0094] 		Created 4200000 Insts
+[INFO ODB-0094] 		Created 4300000 Insts
+[INFO ODB-0094] 		Created 4400000 Insts
+[INFO ODB-0094] 		Created 4500000 Insts
+[INFO ODB-0094] 		Created 4600000 Insts
+[INFO ODB-0094] 		Created 4700000 Insts
+[INFO ODB-0094] 		Created 4800000 Insts
+[INFO ODB-0094] 		Created 4900000 Insts
+[INFO ODB-0094] 		Created 5000000 Insts
+[INFO ODB-0094] 		Created 5100000 Insts
+[INFO ODB-0094] 		Created 5200000 Insts
+[INFO ODB-0094] 		Created 5300000 Insts
+[INFO ODB-0094] 		Created 5400000 Insts
+[INFO ODB-0094] 		Created 5500000 Insts
+[INFO ODB-0094] 		Created 5600000 Insts
+[INFO ODB-0094] 		Created 5700000 Insts
+[INFO ODB-0094] 		Created 5800000 Insts
+[INFO ODB-0094] 		Created 5900000 Insts
+[INFO ODB-0094] 		Created 6000000 Insts
+[INFO ODB-0094] 		Created 6100000 Insts
+[INFO ODB-0094] 		Created 6200000 Insts
+[INFO ODB-0094] 		Created 6300000 Insts
+[INFO ODB-0094] 		Created 6400000 Insts
+[INFO ODB-0094] 		Created 6500000 Insts
+[INFO ODB-0094] 		Created 6600000 Insts
+[INFO ODB-0094] 		Created 6700000 Insts
+[INFO ODB-0094] 		Created 6800000 Insts
+[INFO ODB-0094] 		Created 6900000 Insts
+[INFO ODB-0094] 		Created 7000000 Insts
+[INFO ODB-0094] 		Created 7100000 Insts
+[INFO ODB-0094] 		Created 7200000 Insts
+[INFO ODB-0094] 		Created 7300000 Insts
+[INFO ODB-0094] 		Created 7400000 Insts
+[INFO ODB-0094] 		Created 7500000 Insts
+[INFO ODB-0094] 		Created 7600000 Insts
+[INFO ODB-0094] 		Created 7700000 Insts
+[INFO ODB-0094] 		Created 7800000 Insts
+[INFO ODB-0094] 		Created 7900000 Insts
+[INFO ODB-0094] 		Created 8000000 Insts
+[INFO ODB-0094] 		Created 8100000 Insts
+[INFO ODB-0094] 		Created 8200000 Insts
+[INFO ODB-0094] 		Created 8300000 Insts
+[INFO ODB-0094] 		Created 8400000 Insts
+[INFO ODB-0094] 		Created 8500000 Insts
+[INFO ODB-0094] 		Created 8600000 Insts
+[INFO ODB-0094] 		Created 8700000 Insts
+[INFO ODB-0094] 		Created 8800000 Insts
+[INFO ODB-0094] 		Created 8900000 Insts
+[INFO ODB-0094] 		Created 9000000 Insts
+[INFO ODB-0094] 		Created 9100000 Insts
+[INFO ODB-0094] 		Created 9200000 Insts
+[INFO ODB-0094] 		Created 9300000 Insts
+[INFO ODB-0094] 		Created 9400000 Insts
+[INFO ODB-0094] 		Created 9500000 Insts
+[INFO ODB-0094] 		Created 9600000 Insts
+[INFO ODB-0094] 		Created 9700000 Insts
+[INFO ODB-0094] 		Created 9800000 Insts
+[INFO ODB-0094] 		Created 9900000 Insts
+[INFO ODB-0094] 		Created 10000000 Insts
+[INFO ODB-0094] 		Created 10100000 Insts
+[INFO ODB-0094] 		Created 10200000 Insts
+[INFO ODB-0094] 		Created 10300000 Insts
+[INFO ODB-0094] 		Created 10400000 Insts
+[INFO ODB-0094] 		Created 10500000 Insts
+[INFO ODB-0094] 		Created 10600000 Insts
+[INFO ODB-0094] 		Created 10700000 Insts
+[INFO ODB-0094] 		Created 10800000 Insts
+[INFO ODB-0094] 		Created 10900000 Insts
+[INFO ODB-0094] 		Created 11000000 Insts
+[INFO ODB-0094] 		Created 11100000 Insts
+[INFO ODB-0094] 		Created 11200000 Insts
+[INFO ODB-0094] 		Created 11300000 Insts
+[INFO ODB-0094] 		Created 11400000 Insts
+[INFO ODB-0094] 		Created 11500000 Insts
+[INFO ODB-0094] 		Created 11600000 Insts
+[INFO ODB-0094] 		Created 11700000 Insts
+[INFO ODB-0094] 		Created 11800000 Insts
+[INFO ODB-0094] 		Created 11900000 Insts
+[INFO ODB-0094] 		Created 12000000 Insts
+[INFO ODB-0094] 		Created 12100000 Insts
+[INFO ODB-0094] 		Created 12200000 Insts
+[INFO ODB-0094] 		Created 12300000 Insts
+[INFO ODB-0094] 		Created 12400000 Insts
+[INFO ODB-0094] 		Created 12500000 Insts
+[INFO ODB-0094] 		Created 12600000 Insts
+[INFO ODB-0094] 		Created 12700000 Insts
+[INFO ODB-0094] 		Created 12800000 Insts
+[INFO ODB-0094] 		Created 12900000 Insts
+[INFO ODB-0094] 		Created 13000000 Insts
+[INFO ODB-0094] 		Created 13100000 Insts
+[INFO ODB-0094] 		Created 13200000 Insts
+[INFO ODB-0094] 		Created 13300000 Insts
+[INFO ODB-0094] 		Created 13400000 Insts
+[INFO ODB-0094] 		Created 13500000 Insts
+[INFO ODB-0094] 		Created 13600000 Insts
+[INFO ODB-0094] 		Created 13700000 Insts
+[INFO ODB-0094] 		Created 13800000 Insts
+[INFO ODB-0094] 		Created 13900000 Insts
+[INFO ODB-0094] 		Created 14000000 Insts
+[INFO ODB-0094] 		Created 14100000 Insts
+[INFO ODB-0094] 		Created 14200000 Insts
+[INFO ODB-0094] 		Created 14300000 Insts
+[INFO ODB-0094] 		Created 14400000 Insts
+[INFO ODB-0094] 		Created 14500000 Insts
+[INFO ODB-0094] 		Created 14600000 Insts
+[INFO ODB-0094] 		Created 14700000 Insts
+[INFO ODB-0094] 		Created 14800000 Insts
+[INFO ODB-0094] 		Created 14900000 Insts
+[INFO ODB-0094] 		Created 15000000 Insts
+[INFO ODB-0094] 		Created 15100000 Insts
+[INFO ODB-0094] 		Created 15200000 Insts
+[INFO ODB-0094] 		Created 15300000 Insts
+[INFO ODB-0094] 		Created 15400000 Insts
+[INFO ODB-0094] 		Created 15500000 Insts
+[INFO ODB-0094] 		Created 15600000 Insts
+[INFO ODB-0094] 		Created 15700000 Insts
+[INFO ODB-0094] 		Created 15800000 Insts
+[INFO ODB-0094] 		Created 15900000 Insts
+[INFO ODB-0094] 		Created 16000000 Insts
+[INFO ODB-0094] 		Created 16100000 Insts
+[INFO ODB-0094] 		Created 16200000 Insts
+[INFO ODB-0094] 		Created 16300000 Insts
+[INFO ODB-0094] 		Created 16400000 Insts
+[INFO ODB-0094] 		Created 16500000 Insts
+[INFO ODB-0094] 		Created 16600000 Insts
+[INFO ODB-0094] 		Created 16700000 Insts
+[INFO ODB-0094] 		Created 16800000 Insts
+[INFO ODB-0094] 		Created 16900000 Insts
+[INFO ODB-0094] 		Created 17000000 Insts
+[INFO ODB-0094] 		Created 17100000 Insts
+[INFO ODB-0094] 		Created 17200000 Insts
+[INFO ODB-0094] 		Created 17300000 Insts
+[INFO ODB-0094] 		Created 17400000 Insts
+[INFO ODB-0094] 		Created 17500000 Insts
+[INFO ODB-0094] 		Created 17600000 Insts
+[INFO ODB-0094] 		Created 17700000 Insts
+[INFO ODB-0094] 		Created 17800000 Insts
+[INFO ODB-0094] 		Created 17900000 Insts
+[INFO ODB-0094] 		Created 18000000 Insts
+[INFO ODB-0094] 		Created 18100000 Insts
+[INFO ODB-0094] 		Created 18200000 Insts
+[INFO ODB-0094] 		Created 18300000 Insts
+[INFO ODB-0094] 		Created 18400000 Insts
+[INFO ODB-0094] 		Created 18500000 Insts
+[INFO ODB-0094] 		Created 18600000 Insts
+[INFO ODB-0094] 		Created 18700000 Insts
+[INFO ODB-0094] 		Created 18800000 Insts
+[INFO ODB-0094] 		Created 18900000 Insts
+[INFO ODB-0094] 		Created 19000000 Insts
+[INFO ODB-0094] 		Created 19100000 Insts
+[INFO ODB-0094] 		Created 19200000 Insts
+[INFO ODB-0094] 		Created 19300000 Insts
+[INFO ODB-0094] 		Created 19400000 Insts
+[INFO ODB-0094] 		Created 19500000 Insts
+[INFO ODB-0094] 		Created 19600000 Insts
+[INFO ODB-0094] 		Created 19700000 Insts
+[INFO ODB-0094] 		Created 19800000 Insts
+[INFO ODB-0130]     Created 269 pins.
+[INFO ODB-0131]     Created 19898985 components and 39894849 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 39797966 connections.
+[INFO ODB-0133]     Created 30049 nets and 96838 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/tinyRocket/base/4_cts.def
+[INFO ORD-0030] Using 16 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                1000
+Number of layers:     13
+Number of macros:     439
+Number of vias:       25
+Number of viarulegen: 25
+
+[INFO DRT-0150] Reading design.
+
+Design:                   RocketTile
+Die area:                 ( 0 0 ) ( 13110000 12600000 )
+Number of track patterns: 12
+Number of DEF vias:       5
+Number of components:     19898985
+Number of terminals:      269
+Number of snets:          2
+Number of nets:           30049
+
+[INFO DRT-0151] Reading guide.
+[INFO DRT-0156] guideIn read 100000 guides.
+[INFO DRT-0156] guideIn read 200000 guides.
+
+Number of guides:     249981
+
+[INFO DRT-0167] List of default vias:
+  Layer mcon
+    default via: L1M1_PR_MR
+  Layer via
+    default via: M1M2_PR
+  Layer via2
+    default via: M2M3_PR_M
+  Layer via3
+    default via: M3M4_PR
+  Layer via4
+    default via: M4M5_PR
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+  Complete 10000 instances.
+  Complete 20000 instances.
+  Complete 30000 instances.
+  Complete 40000 instances.
+  Complete 50000 instances.
+  Complete 60000 instances.
+  Complete 70000 instances.
+  Complete 80000 instances.
+  Complete 90000 instances.
+  Complete 100000 instances.
+  Complete 200000 instances.
+  Complete 300000 instances.
+  Complete 400000 instances.
+  Complete 500000 instances.
+  Complete 600000 instances.
+  Complete 700000 instances.
+  Complete 800000 instances.
+  Complete 900000 instances.
+  Complete 1000000 instances.
+  Complete 1100000 instances.
+  Complete 1200000 instances.
+  Complete 1300000 instances.
+  Complete 1400000 instances.
+  Complete 1500000 instances.
+  Complete 1600000 instances.
+  Complete 1700000 instances.
+  Complete 1800000 instances.
+  Complete 1900000 instances.
+  Complete 2000000 instances.
+  Complete 2100000 instances.
+  Complete 2200000 instances.
+  Complete 2300000 instances.
+  Complete 2400000 instances.
+  Complete 2500000 instances.
+  Complete 2600000 instances.
+  Complete 2700000 instances.
+  Complete 2800000 instances.
+  Complete 2900000 instances.
+  Complete 3000000 instances.
+  Complete 3100000 instances.
+  Complete 3200000 instances.
+  Complete 3300000 instances.
+  Complete 3400000 instances.
+  Complete 3500000 instances.
+  Complete 3600000 instances.
+  Complete 3700000 instances.
+  Complete 3800000 instances.
+  Complete 3900000 instances.
+  Complete 4000000 instances.
+  Complete 4100000 instances.
+  Complete 4200000 instances.
+  Complete 4300000 instances.
+  Complete 4400000 instances.
+  Complete 4500000 instances.
+  Complete 4600000 instances.
+  Complete 4700000 instances.
+  Complete 4800000 instances.
+  Complete 4900000 instances.
+  Complete 5000000 instances.
+  Complete 5100000 instances.
+  Complete 5200000 instances.
+  Complete 5300000 instances.
+  Complete 5400000 instances.
+  Complete 5500000 instances.
+  Complete 5600000 instances.
+  Complete 5700000 instances.
+  Complete 5800000 instances.
+  Complete 5900000 instances.
+  Complete 6000000 instances.
+  Complete 6100000 instances.
+  Complete 6200000 instances.
+  Complete 6300000 instances.
+  Complete 6400000 instances.
+  Complete 6500000 instances.
+  Complete 6600000 instances.
+  Complete 6700000 instances.
+  Complete 6800000 instances.
+  Complete 6900000 instances.
+  Complete 7000000 instances.
+  Complete 7100000 instances.
+  Complete 7200000 instances.
+  Complete 7300000 instances.
+  Complete 7400000 instances.
+  Complete 7500000 instances.
+  Complete 7600000 instances.
+  Complete 7700000 instances.
+  Complete 7800000 instances.
+  Complete 7900000 instances.
+  Complete 8000000 instances.
+  Complete 8100000 instances.
+  Complete 8200000 instances.
+  Complete 8300000 instances.
+  Complete 8400000 instances.
+  Complete 8500000 instances.
+  Complete 8600000 instances.
+  Complete 8700000 instances.
+  Complete 8800000 instances.
+  Complete 8900000 instances.
+  Complete 9000000 instances.
+  Complete 9100000 instances.
+  Complete 9200000 instances.
+  Complete 9300000 instances.
+  Complete 9400000 instances.
+  Complete 9500000 instances.
+  Complete 9600000 instances.
+  Complete 9700000 instances.
+  Complete 9800000 instances.
+  Complete 9900000 instances.
+  Complete 10000000 instances.
+  Complete 10100000 instances.
+  Complete 10200000 instances.
+  Complete 10300000 instances.
+  Complete 10400000 instances.
+  Complete 10500000 instances.
+  Complete 10600000 instances.
+  Complete 10700000 instances.
+  Complete 10800000 instances.
+  Complete 10900000 instances.
+  Complete 11000000 instances.
+  Complete 11100000 instances.
+  Complete 11200000 instances.
+  Complete 11300000 instances.
+  Complete 11400000 instances.
+  Complete 11500000 instances.
+  Complete 11600000 instances.
+  Complete 11700000 instances.
+  Complete 11800000 instances.
+  Complete 11900000 instances.
+  Complete 12000000 instances.
+  Complete 12100000 instances.
+  Complete 12200000 instances.
+  Complete 12300000 instances.
+  Complete 12400000 instances.
+  Complete 12500000 instances.
+  Complete 12600000 instances.
+  Complete 12700000 instances.
+  Complete 12800000 instances.
+  Complete 12900000 instances.
+  Complete 13000000 instances.
+  Complete 13100000 instances.
+  Complete 13200000 instances.
+  Complete 13300000 instances.
+  Complete 13400000 instances.
+  Complete 13500000 instances.
+  Complete 13600000 instances.
+  Complete 13700000 instances.
+  Complete 13800000 instances.
+  Complete 13900000 instances.
+  Complete 14000000 instances.
+  Complete 14100000 instances.
+  Complete 14200000 instances.
+  Complete 14300000 instances.
+  Complete 14400000 instances.
+  Complete 14500000 instances.
+  Complete 14600000 instances.
+  Complete 14700000 instances.
+  Complete 14800000 instances.
+  Complete 14900000 instances.
+  Complete 15000000 instances.
+  Complete 15100000 instances.
+  Complete 15200000 instances.
+  Complete 15300000 instances.
+  Complete 15400000 instances.
+  Complete 15500000 instances.
+  Complete 15600000 instances.
+  Complete 15700000 instances.
+  Complete 15800000 instances.
+  Complete 15900000 instances.
+  Complete 16000000 instances.
+  Complete 16100000 instances.
+  Complete 16200000 instances.
+  Complete 16300000 instances.
+  Complete 16400000 instances.
+  Complete 16500000 instances.
+  Complete 16600000 instances.
+  Complete 16700000 instances.
+  Complete 16800000 instances.
+  Complete 16900000 instances.
+  Complete 17000000 instances.
+  Complete 17100000 instances.
+  Complete 17200000 instances.
+  Complete 17300000 instances.
+  Complete 17400000 instances.
+  Complete 17500000 instances.
+  Complete 17600000 instances.
+  Complete 17700000 instances.
+  Complete 17800000 instances.
+  Complete 17900000 instances.
+  Complete 18000000 instances.
+  Complete 18100000 instances.
+  Complete 18200000 instances.
+  Complete 18300000 instances.
+  Complete 18400000 instances.
+  Complete 18500000 instances.
+  Complete 18600000 instances.
+  Complete 18700000 instances.
+  Complete 18800000 instances.
+  Complete 18900000 instances.
+  Complete 19000000 instances.
+  Complete 19100000 instances.
+  Complete 19200000 instances.
+  Complete 19300000 instances.
+  Complete 19400000 instances.
+  Complete 19500000 instances.
+  Complete 19600000 instances.
+  Complete 19700000 instances.
+  Complete 19800000 instances.
+[INFO DRT-0164] Number of unique instances = 411.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0018]   Complete 10000 insts.
+[INFO DRT-0018]   Complete 20000 insts.
+[INFO DRT-0018]   Complete 30000 insts.
+[INFO DRT-0018]   Complete 40000 insts.
+[INFO DRT-0018]   Complete 50000 insts.
+[INFO DRT-0018]   Complete 60000 insts.
+[INFO DRT-0018]   Complete 70000 insts.
+[INFO DRT-0018]   Complete 80000 insts.
+[INFO DRT-0018]   Complete 90000 insts.
+[INFO DRT-0019]   Complete 100000 insts.
+[INFO DRT-0019]   Complete 200000 insts.
+[INFO DRT-0019]   Complete 300000 insts.
+[INFO DRT-0019]   Complete 400000 insts.
+[INFO DRT-0019]   Complete 500000 insts.
+[INFO DRT-0019]   Complete 600000 insts.
+[INFO DRT-0019]   Complete 700000 insts.
+[INFO DRT-0019]   Complete 800000 insts.
+[INFO DRT-0019]   Complete 900000 insts.
+[INFO DRT-0019]   Complete 1000000 insts.
+[INFO DRT-0019]   Complete 1100000 insts.
+[INFO DRT-0019]   Complete 1200000 insts.
+[INFO DRT-0019]   Complete 1300000 insts.
+[INFO DRT-0019]   Complete 1400000 insts.
+[INFO DRT-0019]   Complete 1500000 insts.
+[INFO DRT-0019]   Complete 1600000 insts.
+[INFO DRT-0019]   Complete 1700000 insts.
+[INFO DRT-0019]   Complete 1800000 insts.
+[INFO DRT-0019]   Complete 1900000 insts.
+[INFO DRT-0019]   Complete 2000000 insts.
+[INFO DRT-0019]   Complete 2100000 insts.
+[INFO DRT-0019]   Complete 2200000 insts.
+[INFO DRT-0019]   Complete 2300000 insts.
+[INFO DRT-0019]   Complete 2400000 insts.
+[INFO DRT-0019]   Complete 2500000 insts.
+[INFO DRT-0019]   Complete 2600000 insts.
+[INFO DRT-0019]   Complete 2700000 insts.
+[INFO DRT-0019]   Complete 2800000 insts.
+[INFO DRT-0019]   Complete 2900000 insts.
+[INFO DRT-0019]   Complete 3000000 insts.
+[INFO DRT-0019]   Complete 3100000 insts.
+[INFO DRT-0019]   Complete 3200000 insts.
+[INFO DRT-0019]   Complete 3300000 insts.
+[INFO DRT-0019]   Complete 3400000 insts.
+[INFO DRT-0019]   Complete 3500000 insts.
+[INFO DRT-0019]   Complete 3600000 insts.
+[INFO DRT-0019]   Complete 3700000 insts.
+[INFO DRT-0019]   Complete 3800000 insts.
+[INFO DRT-0019]   Complete 3900000 insts.
+[INFO DRT-0019]   Complete 4000000 insts.
+[INFO DRT-0019]   Complete 4100000 insts.
+[INFO DRT-0019]   Complete 4200000 insts.
+[INFO DRT-0019]   Complete 4300000 insts.
+[INFO DRT-0019]   Complete 4400000 insts.
+[INFO DRT-0019]   Complete 4500000 insts.
+[INFO DRT-0019]   Complete 4600000 insts.
+[INFO DRT-0019]   Complete 4700000 insts.
+[INFO DRT-0019]   Complete 4800000 insts.
+[INFO DRT-0019]   Complete 4900000 insts.
+[INFO DRT-0019]   Complete 5000000 insts.
+[INFO DRT-0019]   Complete 5100000 insts.
+[INFO DRT-0019]   Complete 5200000 insts.
+[INFO DRT-0019]   Complete 5300000 insts.
+[INFO DRT-0019]   Complete 5400000 insts.
+[INFO DRT-0019]   Complete 5500000 insts.
+[INFO DRT-0019]   Complete 5600000 insts.
+[INFO DRT-0019]   Complete 5700000 insts.
+[INFO DRT-0019]   Complete 5800000 insts.
+[INFO DRT-0019]   Complete 5900000 insts.
+[INFO DRT-0019]   Complete 6000000 insts.
+[INFO DRT-0019]   Complete 6100000 insts.
+[INFO DRT-0019]   Complete 6200000 insts.
+[INFO DRT-0019]   Complete 6300000 insts.
+[INFO DRT-0019]   Complete 6400000 insts.
+[INFO DRT-0019]   Complete 6500000 insts.
+[INFO DRT-0019]   Complete 6600000 insts.
+[INFO DRT-0019]   Complete 6700000 insts.
+[INFO DRT-0019]   Complete 6800000 insts.
+[INFO DRT-0019]   Complete 6900000 insts.
+[INFO DRT-0019]   Complete 7000000 insts.
+[INFO DRT-0019]   Complete 7100000 insts.
+[INFO DRT-0019]   Complete 7200000 insts.
+[INFO DRT-0019]   Complete 7300000 insts.
+[INFO DRT-0019]   Complete 7400000 insts.
+[INFO DRT-0019]   Complete 7500000 insts.
+[INFO DRT-0019]   Complete 7600000 insts.
+[INFO DRT-0019]   Complete 7700000 insts.
+[INFO DRT-0019]   Complete 7800000 insts.
+[INFO DRT-0019]   Complete 7900000 insts.
+[INFO DRT-0019]   Complete 8000000 insts.
+[INFO DRT-0019]   Complete 8100000 insts.
+[INFO DRT-0019]   Complete 8200000 insts.
+[INFO DRT-0019]   Complete 8300000 insts.
+[INFO DRT-0019]   Complete 8400000 insts.
+[INFO DRT-0019]   Complete 8500000 insts.
+[INFO DRT-0019]   Complete 8600000 insts.
+[INFO DRT-0019]   Complete 8700000 insts.
+[INFO DRT-0019]   Complete 8800000 insts.
+[INFO DRT-0019]   Complete 8900000 insts.
+[INFO DRT-0019]   Complete 9000000 insts.
+[INFO DRT-0019]   Complete 9100000 insts.
+[INFO DRT-0019]   Complete 9200000 insts.
+[INFO DRT-0019]   Complete 9300000 insts.
+[INFO DRT-0019]   Complete 9400000 insts.
+[INFO DRT-0019]   Complete 9500000 insts.
+[INFO DRT-0019]   Complete 9600000 insts.
+[INFO DRT-0019]   Complete 9700000 insts.
+[INFO DRT-0019]   Complete 9800000 insts.
+[INFO DRT-0019]   Complete 9900000 insts.
+[INFO DRT-0019]   Complete 10000000 insts.
+[INFO DRT-0019]   Complete 10100000 insts.
+[INFO DRT-0019]   Complete 10200000 insts.
+[INFO DRT-0019]   Complete 10300000 insts.
+[INFO DRT-0019]   Complete 10400000 insts.
+[INFO DRT-0019]   Complete 10500000 insts.
+[INFO DRT-0019]   Complete 10600000 insts.
+[INFO DRT-0019]   Complete 10700000 insts.
+[INFO DRT-0019]   Complete 10800000 insts.
+[INFO DRT-0019]   Complete 10900000 insts.
+[INFO DRT-0019]   Complete 11000000 insts.
+[INFO DRT-0019]   Complete 11100000 insts.
+[INFO DRT-0019]   Complete 11200000 insts.
+[INFO DRT-0019]   Complete 11300000 insts.
+[INFO DRT-0019]   Complete 11400000 insts.
+[INFO DRT-0019]   Complete 11500000 insts.
+[INFO DRT-0019]   Complete 11600000 insts.
+[INFO DRT-0019]   Complete 11700000 insts.
+[INFO DRT-0019]   Complete 11800000 insts.
+[INFO DRT-0019]   Complete 11900000 insts.
+[INFO DRT-0019]   Complete 12000000 insts.
+[INFO DRT-0019]   Complete 12100000 insts.
+[INFO DRT-0019]   Complete 12200000 insts.
+[INFO DRT-0019]   Complete 12300000 insts.
+[INFO DRT-0019]   Complete 12400000 insts.
+[INFO DRT-0019]   Complete 12500000 insts.
+[INFO DRT-0019]   Complete 12600000 insts.
+[INFO DRT-0019]   Complete 12700000 insts.
+[INFO DRT-0019]   Complete 12800000 insts.
+[INFO DRT-0019]   Complete 12900000 insts.
+[INFO DRT-0019]   Complete 13000000 insts.
+[INFO DRT-0019]   Complete 13100000 insts.
+[INFO DRT-0019]   Complete 13200000 insts.
+[INFO DRT-0019]   Complete 13300000 insts.
+[INFO DRT-0019]   Complete 13400000 insts.
+[INFO DRT-0019]   Complete 13500000 insts.
+[INFO DRT-0019]   Complete 13600000 insts.
+[INFO DRT-0019]   Complete 13700000 insts.
+[INFO DRT-0019]   Complete 13800000 insts.
+[INFO DRT-0019]   Complete 13900000 insts.
+[INFO DRT-0019]   Complete 14000000 insts.
+[INFO DRT-0019]   Complete 14100000 insts.
+[INFO DRT-0019]   Complete 14200000 insts.
+[INFO DRT-0019]   Complete 14300000 insts.
+[INFO DRT-0019]   Complete 14400000 insts.
+[INFO DRT-0019]   Complete 14500000 insts.
+[INFO DRT-0019]   Complete 14600000 insts.
+[INFO DRT-0019]   Complete 14700000 insts.
+[INFO DRT-0019]   Complete 14800000 insts.
+[INFO DRT-0019]   Complete 14900000 insts.
+[INFO DRT-0019]   Complete 15000000 insts.
+[INFO DRT-0019]   Complete 15100000 insts.
+[INFO DRT-0019]   Complete 15200000 insts.
+[INFO DRT-0019]   Complete 15300000 insts.
+[INFO DRT-0019]   Complete 15400000 insts.
+[INFO DRT-0019]   Complete 15500000 insts.
+[INFO DRT-0019]   Complete 15600000 insts.
+[INFO DRT-0019]   Complete 15700000 insts.
+[INFO DRT-0019]   Complete 15800000 insts.
+[INFO DRT-0019]   Complete 15900000 insts.
+[INFO DRT-0019]   Complete 16000000 insts.
+[INFO DRT-0019]   Complete 16100000 insts.
+[INFO DRT-0019]   Complete 16200000 insts.
+[INFO DRT-0019]   Complete 16300000 insts.
+[INFO DRT-0019]   Complete 16400000 insts.
+[INFO DRT-0019]   Complete 16500000 insts.
+[INFO DRT-0019]   Complete 16600000 insts.
+[INFO DRT-0019]   Complete 16700000 insts.
+[INFO DRT-0019]   Complete 16800000 insts.
+[INFO DRT-0019]   Complete 16900000 insts.
+[INFO DRT-0019]   Complete 17000000 insts.
+[INFO DRT-0019]   Complete 17100000 insts.
+[INFO DRT-0019]   Complete 17200000 insts.
+[INFO DRT-0019]   Complete 17300000 insts.
+[INFO DRT-0019]   Complete 17400000 insts.
+[INFO DRT-0019]   Complete 17500000 insts.
+[INFO DRT-0019]   Complete 17600000 insts.
+[INFO DRT-0019]   Complete 17700000 insts.
+[INFO DRT-0019]   Complete 17800000 insts.
+[INFO DRT-0019]   Complete 17900000 insts.
+[INFO DRT-0019]   Complete 18000000 insts.
+[INFO DRT-0019]   Complete 18100000 insts.
+[INFO DRT-0019]   Complete 18200000 insts.
+[INFO DRT-0019]   Complete 18300000 insts.
+[INFO DRT-0019]   Complete 18400000 insts.
+[INFO DRT-0019]   Complete 18500000 insts.
+[INFO DRT-0019]   Complete 18600000 insts.
+[INFO DRT-0019]   Complete 18700000 insts.
+[INFO DRT-0019]   Complete 18800000 insts.
+[INFO DRT-0019]   Complete 18900000 insts.
+[INFO DRT-0019]   Complete 19000000 insts.
+[INFO DRT-0019]   Complete 19100000 insts.
+[INFO DRT-0019]   Complete 19200000 insts.
+[INFO DRT-0019]   Complete 19300000 insts.
+[INFO DRT-0019]   Complete 19400000 insts.
+[INFO DRT-0019]   Complete 19500000 insts.
+[INFO DRT-0019]   Complete 19600000 insts.
+[INFO DRT-0019]   Complete 19700000 insts.
+[INFO DRT-0019]   Complete 19800000 insts.
+[INFO DRT-0024]   Complete FR_MASTERSLICE.
+[INFO DRT-0024]   Complete FR_VIA.
+[INFO DRT-0024]   Complete li1.
+[INFO DRT-0024]   Complete mcon.
+Command terminated by signal 9
+Elapsed time: 3:37.38[h:]min:sec. Average CPU: 62%. Peak memory: 26831196KB.

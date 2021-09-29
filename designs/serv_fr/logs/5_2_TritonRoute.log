@@ -1,0 +1,309 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/serv_fr/base/4_cts.def
+[INFO ODB-0128] Design: serv_rf_top
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0094] 		Created 900000 Insts
+[INFO ODB-0094] 		Created 1000000 Insts
+[INFO ODB-0094] 		Created 1100000 Insts
+[INFO ODB-0094] 		Created 1200000 Insts
+[INFO ODB-0094] 		Created 1300000 Insts
+[INFO ODB-0094] 		Created 1400000 Insts
+[INFO ODB-0094] 		Created 1500000 Insts
+[INFO ODB-0094] 		Created 1600000 Insts
+[INFO ODB-0094] 		Created 1700000 Insts
+[INFO ODB-0094] 		Created 1800000 Insts
+[INFO ODB-0094] 		Created 1900000 Insts
+[INFO ODB-0094] 		Created 2000000 Insts
+[INFO ODB-0094] 		Created 2100000 Insts
+[INFO ODB-0094] 		Created 2200000 Insts
+[INFO ODB-0094] 		Created 2300000 Insts
+[INFO ODB-0094] 		Created 2400000 Insts
+[INFO ODB-0094] 		Created 2500000 Insts
+[INFO ODB-0094] 		Created 2600000 Insts
+[INFO ODB-0094] 		Created 2700000 Insts
+[INFO ODB-0094] 		Created 2800000 Insts
+[INFO ODB-0094] 		Created 2900000 Insts
+[INFO ODB-0094] 		Created 3000000 Insts
+[INFO ODB-0094] 		Created 3100000 Insts
+[INFO ODB-0094] 		Created 3200000 Insts
+[INFO ODB-0094] 		Created 3300000 Insts
+[INFO ODB-0094] 		Created 3400000 Insts
+[INFO ODB-0094] 		Created 3500000 Insts
+[INFO ODB-0094] 		Created 3600000 Insts
+[INFO ODB-0094] 		Created 3700000 Insts
+[INFO ODB-0094] 		Created 3800000 Insts
+[INFO ODB-0094] 		Created 3900000 Insts
+[INFO ODB-0094] 		Created 4000000 Insts
+[INFO ODB-0094] 		Created 4100000 Insts
+[INFO ODB-0094] 		Created 4200000 Insts
+[INFO ODB-0094] 		Created 4300000 Insts
+[INFO ODB-0094] 		Created 4400000 Insts
+[INFO ODB-0094] 		Created 4500000 Insts
+[INFO ODB-0094] 		Created 4600000 Insts
+[INFO ODB-0094] 		Created 4700000 Insts
+[INFO ODB-0094] 		Created 4800000 Insts
+[INFO ODB-0094] 		Created 4900000 Insts
+[INFO ODB-0094] 		Created 5000000 Insts
+[INFO ODB-0094] 		Created 5100000 Insts
+[INFO ODB-0094] 		Created 5200000 Insts
+[INFO ODB-0094] 		Created 5300000 Insts
+[INFO ODB-0094] 		Created 5400000 Insts
+[INFO ODB-0094] 		Created 5500000 Insts
+[INFO ODB-0094] 		Created 5600000 Insts
+[INFO ODB-0094] 		Created 5700000 Insts
+[INFO ODB-0094] 		Created 5800000 Insts
+[INFO ODB-0094] 		Created 5900000 Insts
+[INFO ODB-0094] 		Created 6000000 Insts
+[INFO ODB-0094] 		Created 6100000 Insts
+[INFO ODB-0094] 		Created 6200000 Insts
+[INFO ODB-0094] 		Created 6300000 Insts
+[INFO ODB-0094] 		Created 6400000 Insts
+[INFO ODB-0094] 		Created 6500000 Insts
+[INFO ODB-0094] 		Created 6600000 Insts
+[INFO ODB-0094] 		Created 6700000 Insts
+[INFO ODB-0094] 		Created 6800000 Insts
+[INFO ODB-0094] 		Created 6900000 Insts
+[INFO ODB-0094] 		Created 7000000 Insts
+[INFO ODB-0094] 		Created 7100000 Insts
+[INFO ODB-0094] 		Created 7200000 Insts
+[INFO ODB-0094] 		Created 7300000 Insts
+[INFO ODB-0094] 		Created 7400000 Insts
+[INFO ODB-0094] 		Created 7500000 Insts
+[INFO ODB-0094] 		Created 7600000 Insts
+[INFO ODB-0094] 		Created 7700000 Insts
+[INFO ODB-0094] 		Created 7800000 Insts
+[INFO ODB-0094] 		Created 7900000 Insts
+[INFO ODB-0094] 		Created 8000000 Insts
+[INFO ODB-0094] 		Created 8100000 Insts
+[INFO ODB-0094] 		Created 8200000 Insts
+[INFO ODB-0094] 		Created 8300000 Insts
+[INFO ODB-0094] 		Created 8400000 Insts
+[INFO ODB-0094] 		Created 8500000 Insts
+[INFO ODB-0094] 		Created 8600000 Insts
+[INFO ODB-0094] 		Created 8700000 Insts
+[INFO ODB-0094] 		Created 8800000 Insts
+[INFO ODB-0094] 		Created 8900000 Insts
+[INFO ODB-0094] 		Created 9000000 Insts
+[INFO ODB-0094] 		Created 9100000 Insts
+[INFO ODB-0094] 		Created 9200000 Insts
+[INFO ODB-0094] 		Created 9300000 Insts
+[INFO ODB-0094] 		Created 9400000 Insts
+[INFO ODB-0094] 		Created 9500000 Insts
+[INFO ODB-0094] 		Created 9600000 Insts
+[INFO ODB-0094] 		Created 9700000 Insts
+[INFO ODB-0094] 		Created 9800000 Insts
+[INFO ODB-0094] 		Created 9900000 Insts
+[INFO ODB-0094] 		Created 10000000 Insts
+[INFO ODB-0094] 		Created 10100000 Insts
+[INFO ODB-0094] 		Created 10200000 Insts
+[INFO ODB-0094] 		Created 10300000 Insts
+[INFO ODB-0094] 		Created 10400000 Insts
+[INFO ODB-0094] 		Created 10500000 Insts
+[INFO ODB-0094] 		Created 10600000 Insts
+[INFO ODB-0094] 		Created 10700000 Insts
+[INFO ODB-0094] 		Created 10800000 Insts
+[INFO ODB-0094] 		Created 10900000 Insts
+[INFO ODB-0094] 		Created 11000000 Insts
+[INFO ODB-0094] 		Created 11100000 Insts
+[INFO ODB-0094] 		Created 11200000 Insts
+[INFO ODB-0094] 		Created 11300000 Insts
+[INFO ODB-0094] 		Created 11400000 Insts
+[INFO ODB-0094] 		Created 11500000 Insts
+[INFO ODB-0094] 		Created 11600000 Insts
+[INFO ODB-0094] 		Created 11700000 Insts
+[INFO ODB-0094] 		Created 11800000 Insts
+[INFO ODB-0094] 		Created 11900000 Insts
+[INFO ODB-0094] 		Created 12000000 Insts
+[INFO ODB-0094] 		Created 12100000 Insts
+[INFO ODB-0094] 		Created 12200000 Insts
+[INFO ODB-0094] 		Created 12300000 Insts
+[INFO ODB-0094] 		Created 12400000 Insts
+[INFO ODB-0094] 		Created 12500000 Insts
+[INFO ODB-0094] 		Created 12600000 Insts
+[INFO ODB-0094] 		Created 12700000 Insts
+[INFO ODB-0094] 		Created 12800000 Insts
+[INFO ODB-0094] 		Created 12900000 Insts
+[INFO ODB-0094] 		Created 13000000 Insts
+[INFO ODB-0094] 		Created 13100000 Insts
+[INFO ODB-0094] 		Created 13200000 Insts
+[INFO ODB-0094] 		Created 13300000 Insts
+[INFO ODB-0094] 		Created 13400000 Insts
+[INFO ODB-0094] 		Created 13500000 Insts
+[INFO ODB-0094] 		Created 13600000 Insts
+[INFO ODB-0094] 		Created 13700000 Insts
+[INFO ODB-0130]     Created 273 pins.
+[INFO ODB-0131]     Created 13763380 components and 27530833 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 27526758 connections.
+[INFO ODB-0133]     Created 1547 nets and 4067 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/4_cts.def
+[INFO ORD-0030] Using 16 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                1000
+Number of layers:     13
+Number of macros:     438
+Number of vias:       25
+Number of viarulegen: 25
+
+[INFO DRT-0150] Reading design.
+
+Design:                   serv_rf_top
+Die area:                 ( 0 0 ) ( 10640000 10080000 )
+Number of track patterns: 12
+Number of DEF vias:       5
+Number of components:     13763380
+Number of terminals:      273
+Number of snets:          2
+Number of nets:           1547
+
+[INFO DRT-0151] Reading guide.
+
+Number of guides:     11527
+
+[INFO DRT-0167] List of default vias:
+  Layer mcon
+    default via: L1M1_PR_MR
+  Layer via
+    default via: M1M2_PR
+  Layer via2
+    default via: M2M3_PR_M
+  Layer via3
+    default via: M3M4_PR
+  Layer via4
+    default via: M4M5_PR
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+  Complete 10000 instances.
+  Complete 20000 instances.
+  Complete 30000 instances.
+  Complete 40000 instances.
+  Complete 50000 instances.
+  Complete 60000 instances.
+  Complete 70000 instances.
+  Complete 80000 instances.
+  Complete 90000 instances.
+  Complete 100000 instances.
+  Complete 200000 instances.
+  Complete 300000 instances.
+  Complete 400000 instances.
+  Complete 500000 instances.
+  Complete 600000 instances.
+  Complete 700000 instances.
+  Complete 800000 instances.
+  Complete 900000 instances.
+  Complete 1000000 instances.
+  Complete 1100000 instances.
+  Complete 1200000 instances.
+  Complete 1300000 instances.
+  Complete 1400000 instances.
+  Complete 1500000 instances.
+  Complete 1600000 instances.
+  Complete 1700000 instances.
+  Complete 1800000 instances.
+  Complete 1900000 instances.
+  Complete 2000000 instances.
+  Complete 2100000 instances.
+  Complete 2200000 instances.
+  Complete 2300000 instances.
+  Complete 2400000 instances.
+  Complete 2500000 instances.
+  Complete 2600000 instances.
+  Complete 2700000 instances.
+  Complete 2800000 instances.
+  Complete 2900000 instances.
+  Complete 3000000 instances.
+  Complete 3100000 instances.
+  Complete 3200000 instances.
+  Complete 3300000 instances.
+  Complete 3400000 instances.
+  Complete 3500000 instances.
+  Complete 3600000 instances.
+  Complete 3700000 instances.
+  Complete 3800000 instances.
+  Complete 3900000 instances.
+  Complete 4000000 instances.
+  Complete 4100000 instances.
+  Complete 4200000 instances.
+  Complete 4300000 instances.
+  Complete 4400000 instances.
+  Complete 4500000 instances.
+  Complete 4600000 instances.
+  Complete 4700000 instances.
+  Complete 4800000 instances.
+  Complete 4900000 instances.
+  Complete 5000000 instances.
+  Complete 5100000 instances.
+  Complete 5200000 instances.
+  Complete 5300000 instances.
+  Complete 5400000 instances.
+  Complete 5500000 instances.
+  Complete 5600000 instances.
+  Complete 5700000 instances.
+  Complete 5800000 instances.
+  Complete 5900000 instances.
+  Complete 6000000 instances.
+  Complete 6100000 instances.
+  Complete 6200000 instances.
+  Complete 6300000 instances.
+  Complete 6400000 instances.
+  Complete 6500000 instances.
+  Complete 6600000 instances.
+  Complete 6700000 instances.
+  Complete 6800000 instances.
+  Complete 6900000 instances.
+  Complete 7000000 instances.
+  Complete 7100000 instances.
+  Complete 7200000 instances.
+  Complete 7300000 instances.
+  Complete 7400000 instances.
+  Complete 7500000 instances.
+  Complete 7600000 instances.
+  Complete 7700000 instances.
+  Complete 7800000 instances.
+  Complete 7900000 instances.
+  Complete 8000000 instances.
+  Complete 8100000 instances.
+  Complete 8200000 instances.
+  Complete 8300000 instances.
+  Complete 8400000 instances.
+  Complete 8500000 instances.
+  Complete 8600000 instances.
+  Complete 8700000 instances.
+  Complete 8800000 instances.
+  Complete 8900000 instances.
+  Complete 9000000 instances.
+  Complete 9100000 instances.
+  Complete 9200000 instances.
+  Complete 9300000 instances.
+  Complete 9400000 instances.
+  Complete 9500000 instances.
+  Complete 9600000 instances.
+  Complete 9700000 instances.
+  Complete 9800000 instances.
+  Complete 9900000 instances.
+  Complete 10000000 instances.
+  Complete 10100000 instances.
+  Complete 10200000 instances.
+  Complete 10300000 instances.
+Command terminated by signal 9
+Elapsed time: 4:42.88[h:]min:sec. Average CPU: 31%. Peak memory: 14707536KB.

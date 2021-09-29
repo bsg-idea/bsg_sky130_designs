@@ -1,0 +1,44 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/bp_fe/base/2_1_floorplan.def
+[INFO ODB-0128] Design: bp_fe_top
+[INFO ODB-0130]     Created 2511 pins.
+[INFO ODB-0131]     Created 21302 components and 130427 component-terminals.
+[INFO ODB-0133]     Created 23350 nets and 87821 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/bp_fe/base/2_1_floorplan.def
+[WARNING PPL-0015] Macro bp_fe_pc_gen_1.genblk1_branch_prediction_1.btb_1.btb_mem.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_0__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_1__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_2__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_3__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_4__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_5__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_6__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.data_mem_banks_7__data_mem_bank.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.metadata_mem.macro_mem.mem is not placed.
+[WARNING PPL-0015] Macro icache_1.tag_mem.macro_mem.mem is not placed.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0007] Random pin placement.
+Elapsed time: 0:04.76[h:]min:sec. Average CPU: 56%. Peak memory: 129036KB.

@@ -1,0 +1,343 @@
+1. Executing Verilog-2005 frontend: ./designs/src/bp_fe_top/pickled.v
+2. Executing Verilog-2005 frontend: ./designs/sky130hd/bp_fe/macros.v
+3. Executing Liberty frontend.
+4. Executing Liberty frontend.
+5. Executing Liberty frontend.
+6. Executing Liberty frontend.
+7. Executing Liberty frontend.
+8. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_clkgate_hd.v
+9. Executing SYNTH pass.
+9.1. Executing HIERARCHY pass (managing design hierarchy).
+9.2. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_top'.
+9.2.1. Analyzing design hierarchy..
+9.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\itlb_vaddr_width_p56_paddr_width_p22_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22_asid_width_p10_ppn_start_bit_p12_tag_width_p10'.
+9.2.3. Executing AST frontend in derive mode using pre-parsed AST for module `\icache_eaddr_width_p64_data_width_p64_inst_width_p32_tag_width_p10_num_cce_p1_num_lce_p2_ways_p8_lce_sets_p64_block_size_in_bytes_p8'.
+Warning: reg '\icache_pc_gen_data_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:13381.10-13382.77.
+9.2.4. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_pc_gen_56_22_64_9_5_22_32_10_80000124_1'.
+9.2.5. Analyzing design hierarchy..
+9.2.6. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_branch_predictor_eaddr_width_p64_btb_indx_width_p9_bht_indx_width_p5_ras_addr_width_p22'.
+9.2.7. Executing AST frontend in derive mode using pre-parsed AST for module `\instr_scan_eaddr_width_p64_instr_width_p32'.
+9.2.8. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p64_els_p8'.
+9.2.9. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lru_decode_ways_p8'.
+9.2.10. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_lce_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8'.
+9.2.11. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_width_p8_lo_to_hi_p1'.
+9.2.12. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_be_dcache_lru_encode_ways_p8'.
+9.2.13. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_bit_width_p7_els_p64'.
+9.2.14. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_byte_els_p512_data_width_p64'.
+9.2.15. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_bit_width_p96_els_p64'.
+9.2.16. Analyzing design hierarchy..
+9.2.17. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_bit_mask_d64_w96_wrapper'.
+9.2.18. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_byte_mask_d512_w64_wrapper'.
+9.2.19. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p8_lo_to_hi_p1'.
+9.2.20. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_one_hot_out_width_p8_lo_to_hi_p1'.
+9.2.21. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_bit_mask_d64_w7_wrapper'.
+9.2.22. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_lce_tr_resp_in_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_num_cce_p1_num_lce_p2_block_size_in_bytes_p8'.
+9.2.23. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p539'.
+9.2.24. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_lce_data_cmd_data_width_p64_lce_addr_width_p22_lce_data_width_p512_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8'.
+9.2.25. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p540'.
+9.2.26. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_lce_cmd_data_width_p64_lce_data_width_p512_lce_addr_width_p22_lce_sets_p64_ways_p8_tag_width_p10_num_cce_p1_num_lce_p2_block_size_in_bytes_p8'.
+9.2.27. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p36'.
+9.2.28. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_lce_req_data_width_p64_lce_addr_width_p22_num_cce_p1_num_lce_p2_lce_sets_p64_ways_p8_block_size_in_bytes_p8'.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6042.10-6042.31.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6043.10-6043.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6044.10-6044.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6045.10-6045.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6046.10-6046.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6047.10-6047.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6048.10-6048.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6049.10-6049.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6050.10-6050.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6051.10-6051.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6052.10-6052.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6053.10-6053.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6054.10-6054.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6055.10-6055.40.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6056.10-6056.39.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6057.10-6057.39.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6058.10-6058.39.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6059.10-6059.39.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6060.10-6060.38.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6061.10-6061.38.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6062.10-6062.38.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6063.10-6063.38.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6064.10-6064.38.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6065.10-6065.38.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6066.10-6066.29.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6067.10-6067.30.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6068.10-6068.30.
+Warning: reg '\lce_req_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6069.10-6069.33.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6070.10-6070.34.
+Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/src/bp_fe_top/pickled.v:6131.10-6136.45.
+9.2.29. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_btb_bp_fe_pc_gen_btb_idx_width_lp9_eaddr_width_p64'.
+9.2.30. Executing AST frontend in derive mode using pre-parsed AST for module `\bp_fe_bht_bht_indx_width_p5'.
+9.2.31. Analyzing design hierarchy..
+9.2.32. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_width_p64_els_p512_addr_width_lp9'.
+9.2.33. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p36_els_p2_read_write_same_addr_p0'.
+9.2.34. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p540_els_p2_read_write_same_addr_p0'.
+9.2.35. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p539_els_p2_read_write_same_addr_p0'.
+9.2.36. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_width_p8_or_p1_lo_to_hi_p1'.
+9.2.37. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p4'.
+9.2.38. Analyzing design hierarchy..
+9.2.39. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p2'.
+9.2.40. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p539_els_p2_read_write_same_addr_p0_harden_p0'.
+9.2.41. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p540_els_p2_read_write_same_addr_p0_harden_p0'.
+9.2.42. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p36_els_p2_read_write_same_addr_p0_harden_p0'.
+9.2.43. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_d512_w64_wrapper'.
+9.2.44. Analyzing design hierarchy..
+9.2.45. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p1'.
+9.2.46. Analyzing design hierarchy..
+9.2.47. Analyzing design hierarchy..
+9.3. Executing PROC pass (convert processes to netlists).
+9.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+9.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+9.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+9.3.4. Executing PROC_INIT pass (extract init attributes).
+9.3.5. Executing PROC_ARST pass (detect async resets in processes).
+9.3.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+9.3.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+9.3.8. Executing PROC_DFF pass (convert process syncs to FFs).
+9.3.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+9.4. Executing FLATTEN pass (flatten design).
+9.5. Executing OPT_EXPR pass (perform const folding).
+9.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.7. Executing CHECK pass (checking for obvious problems).
+9.8. Executing OPT pass (performing simple optimizations).
+9.8.1. Executing OPT_EXPR pass (perform const folding).
+9.8.2. Executing OPT_MERGE pass (detect identical cells).
+9.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.8.5. Executing OPT_MERGE pass (detect identical cells).
+9.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+9.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.8.8. Executing OPT_EXPR pass (perform const folding).
+9.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+9.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.8.12. Executing OPT_MERGE pass (detect identical cells).
+9.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+9.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.8.15. Executing OPT_EXPR pass (perform const folding).
+9.8.16. Finished OPT passes. (There is nothing left to do.)
+9.9. Executing FSM pass (extract and optimize FSM).
+9.9.1. Executing FSM_DETECT pass (finding FSMs in design).
+9.9.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+9.9.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+9.9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.9.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+9.9.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+9.9.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+9.9.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+9.10. Executing OPT pass (performing simple optimizations).
+9.10.1. Executing OPT_EXPR pass (perform const folding).
+9.10.2. Executing OPT_MERGE pass (detect identical cells).
+9.10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.10.5. Executing OPT_MERGE pass (detect identical cells).
+9.10.6. Executing OPT_DFF pass (perform DFF optimizations).
+9.10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.10.8. Executing OPT_EXPR pass (perform const folding).
+9.10.9. Rerunning OPT passes. (Maybe there is more to do..)
+9.10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.10.12. Executing OPT_MERGE pass (detect identical cells).
+9.10.13. Executing OPT_DFF pass (perform DFF optimizations).
+9.10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.10.15. Executing OPT_EXPR pass (perform const folding).
+9.10.16. Rerunning OPT passes. (Maybe there is more to do..)
+9.10.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.10.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.10.19. Executing OPT_MERGE pass (detect identical cells).
+9.10.20. Executing OPT_DFF pass (perform DFF optimizations).
+9.10.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.10.22. Executing OPT_EXPR pass (perform const folding).
+9.10.23. Finished OPT passes. (There is nothing left to do.)
+9.11. Executing WREDUCE pass (reducing word size of cells).
+9.12. Executing PEEPOPT pass (run peephole optimizers).
+9.13. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.14. Executing ALUMACC pass (create $alu and $macc cells).
+9.15. Executing SHARE pass (SAT-based resource sharing).
+9.16. Executing OPT pass (performing simple optimizations).
+9.16.1. Executing OPT_EXPR pass (perform const folding).
+9.16.2. Executing OPT_MERGE pass (detect identical cells).
+9.16.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.16.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.16.5. Executing OPT_MERGE pass (detect identical cells).
+9.16.6. Executing OPT_DFF pass (perform DFF optimizations).
+9.16.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.16.8. Executing OPT_EXPR pass (perform const folding).
+9.16.9. Rerunning OPT passes. (Maybe there is more to do..)
+9.16.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.16.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.16.12. Executing OPT_MERGE pass (detect identical cells).
+9.16.13. Executing OPT_DFF pass (perform DFF optimizations).
+9.16.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.16.15. Executing OPT_EXPR pass (perform const folding).
+9.16.16. Rerunning OPT passes. (Maybe there is more to do..)
+9.16.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.16.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.16.19. Executing OPT_MERGE pass (detect identical cells).
+9.16.20. Executing OPT_DFF pass (perform DFF optimizations).
+9.16.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.16.22. Executing OPT_EXPR pass (perform const folding).
+9.16.23. Finished OPT passes. (There is nothing left to do.)
+9.17. Executing MEMORY pass.
+9.17.1. Executing OPT_MEM pass (optimize memories).
+9.17.2. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+9.17.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.17.4. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+9.17.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.17.6. Executing MEMORY_COLLECT pass (generating $mem cells).
+9.18. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.19. Executing OPT pass (performing simple optimizations).
+9.19.1. Executing OPT_EXPR pass (perform const folding).
+9.19.2. Executing OPT_MERGE pass (detect identical cells).
+9.19.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.19.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.19.5. Finished fast OPT passes.
+9.20. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+9.21. Executing OPT pass (performing simple optimizations).
+9.21.1. Executing OPT_EXPR pass (perform const folding).
+9.21.2. Executing OPT_MERGE pass (detect identical cells).
+9.21.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.21.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.21.5. Executing OPT_MERGE pass (detect identical cells).
+9.21.6. Executing OPT_SHARE pass.
+9.21.7. Executing OPT_DFF pass (perform DFF optimizations).
+9.21.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.21.9. Executing OPT_EXPR pass (perform const folding).
+9.21.10. Rerunning OPT passes. (Maybe there is more to do..)
+9.21.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.21.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.21.13. Executing OPT_MERGE pass (detect identical cells).
+9.21.14. Executing OPT_SHARE pass.
+9.21.15. Executing OPT_DFF pass (perform DFF optimizations).
+9.21.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.21.17. Executing OPT_EXPR pass (perform const folding).
+9.21.18. Rerunning OPT passes. (Maybe there is more to do..)
+9.21.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.21.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.21.21. Executing OPT_MERGE pass (detect identical cells).
+9.21.22. Executing OPT_SHARE pass.
+9.21.23. Executing OPT_DFF pass (perform DFF optimizations).
+9.21.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.21.25. Executing OPT_EXPR pass (perform const folding).
+9.21.26. Finished OPT passes. (There is nothing left to do.)
+9.22. Executing TECHMAP pass (map to technology primitives).
+9.22.1. Executing Verilog-2005 frontend: /mnt/c/Users/LENOVO/Documents/gsocbp/OpenROAD/tools/install/yosys/bin/../share/yosys/techmap.v
+9.22.2. Continuing TECHMAP pass.
+9.23. Executing OPT pass (performing simple optimizations).
+9.23.1. Executing OPT_EXPR pass (perform const folding).
+9.23.2. Executing OPT_MERGE pass (detect identical cells).
+9.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.23.5. Finished fast OPT passes.
+9.24. Executing ABC pass (technology mapping using ABC).
+9.24.1. Extracting gate netlist of module `\bp_fe_top' to `<abc-temp-dir>/input.blif'..
+9.25. Executing OPT pass (performing simple optimizations).
+9.25.1. Executing OPT_EXPR pass (perform const folding).
+9.25.2. Executing OPT_MERGE pass (detect identical cells).
+9.25.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.25.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.25.5. Finished fast OPT passes.
+9.26. Executing HIERARCHY pass (managing design hierarchy).
+9.26.1. Analyzing design hierarchy..
+9.26.2. Analyzing design hierarchy..
+9.27. Printing statistics.
+9.28. Executing CHECK pass (checking for obvious problems).
+10. Executing OPT pass (performing simple optimizations).
+10.1. Executing OPT_EXPR pass (perform const folding).
+10.2. Executing OPT_MERGE pass (detect identical cells).
+10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+10.5. Executing OPT_MERGE pass (detect identical cells).
+10.6. Executing OPT_DFF pass (perform DFF optimizations).
+10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+10.8. Executing OPT_EXPR pass (perform const folding).
+10.9. Rerunning OPT passes. (Maybe there is more to do..)
+10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+10.12. Executing OPT_MERGE pass (detect identical cells).
+10.13. Executing OPT_DFF pass (perform DFF optimizations).
+10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+10.15. Executing OPT_EXPR pass (perform const folding).
+10.16. Finished OPT passes. (There is nothing left to do.)
+11. Executing EXTRACT_FA pass (find and extract full/half adders).
+12. Executing TECHMAP pass (map to technology primitives).
+12.1. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_adders_hd.v
+12.2. Continuing TECHMAP pass.
+13. Executing TECHMAP pass (map to technology primitives).
+13.1. Executing Verilog-2005 frontend: /mnt/c/Users/LENOVO/Documents/gsocbp/OpenROAD/tools/install/yosys/bin/../share/yosys/techmap.v
+13.2. Continuing TECHMAP pass.
+14. Executing OPT pass (performing simple optimizations).
+14.1. Executing OPT_EXPR pass (perform const folding).
+14.2. Executing OPT_MERGE pass (detect identical cells).
+14.3. Executing OPT_DFF pass (perform DFF optimizations).
+14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+14.5. Finished fast OPT passes.
+15. Executing TECHMAP pass (map to technology primitives).
+15.1. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_latch_hd.v
+15.2. Continuing TECHMAP pass.
+16. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+16.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+17. Executing OPT pass (performing simple optimizations).
+17.1. Executing OPT_EXPR pass (perform const folding).
+17.2. Executing OPT_MERGE pass (detect identical cells).
+17.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.5. Executing OPT_MERGE pass (detect identical cells).
+17.6. Executing OPT_DFF pass (perform DFF optimizations).
+17.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.8. Executing OPT_EXPR pass (perform const folding).
+17.9. Rerunning OPT passes. (Maybe there is more to do..)
+17.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.12. Executing OPT_MERGE pass (detect identical cells).
+17.13. Executing OPT_DFF pass (perform DFF optimizations).
+17.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.15. Executing OPT_EXPR pass (perform const folding).
+17.16. Finished OPT passes. (There is nothing left to do.)
+Using ABC speed script.
+[WARN][FLOW] No clock period constraints detected in design
+18. Executing ABC pass (technology mapping using ABC).
+18.1. Extracting gate netlist of module `\bp_fe_top' to `<abc-temp-dir>/input.blif'..
+18.1.1. Executing ABC.
+18.1.2. Re-integrating ABC results.
+19. Executing SETUNDEF pass (replace undef values with defined constants).
+20. Executing SPLITNETS pass (splitting up multi-bit signals).
+21. Executing OPT_CLEAN pass (remove unused cells and wires).
+22. Executing HILOMAP pass (mapping to constant drivers).
+23. Executing INSBUF pass (insert buffer cells for connected wires).
+24. Executing CHECK pass (checking for obvious problems).
+25. Printing statistics.
+26. Executing Verilog backend.
+Warnings: 57 unique messages, 265 total
+End of script. Logfile hash: 3a53ce51d1, CPU: user 94.51s system 0.94s, MEM: 319.68 MB peak
+Yosys 0.9+3672 (git sha1 014c7e26, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)
+Time spent: 19% 2x abc (22 sec), 17% 32x opt_expr (20 sec), ...
+Elapsed time: 1:59.69[h:]min:sec. Average CPU: 97%. Peak memory: 327352KB.

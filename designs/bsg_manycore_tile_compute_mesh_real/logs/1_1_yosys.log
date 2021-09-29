@@ -1,0 +1,710 @@
+1. Executing Verilog-2005 frontend: ./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/bsg_manycore_tile_compute_mesh.v
+2. Executing Verilog-2005 frontend: ./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/hard_mem_1rw_byte_mask_d1024_w32_wrapper.v
+3. Executing Verilog-2005 frontend: ./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/hard_mem_1rw_d1024_w46_wrapper.v
+4. Executing Verilog-2005 frontend: ./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/sky130_sram_1kbyte_1rw1r_8x1024_8.bb.v
+5. Executing Liberty frontend.
+6. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_clkgate_hd.v
+7. Executing SYNTH pass.
+7.1. Executing HIERARCHY pass (managing design hierarchy).
+7.2. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_tile_compute_mesh'.
+7.2.1. Analyzing design hierarchy..
+7.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_hetero_socket_x_cord_width_p7_y_cord_width_p7_data_width_p32_addr_width_p28_dmem_size_p1024_icache_entries_p1024_icache_tag_width_p12_num_vcache_rows_p1_vcache_size_pinv_debug_p0_hetero_type_p0_pod_x_cord_width_p3_pod_y_cord_width_p4_num_tiles_x_p16_num_tiles_y_p8_vcache_sets_pinv_fwd_fifo_els_p3_rev_fifo_els_p2'.
+7.2.3. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_mesh_node_7_7_32_28_2_0_0_01_00_0'.
+7.2.4. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p7'.
+7.2.5. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p1'.
+7.2.6. Analyzing design hierarchy..
+7.2.7. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_buffered_53_7_7_0_0_0_2_00_0_00_00'.
+7.2.8. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_buffered_97_7_7_0_0_0_2_00_1_00_01'.
+7.2.9. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_proc_vanilla_x_cord_width_p7_y_cord_width_p7_pod_x_cord_width_p3_pod_y_cord_width_p4_data_width_p32_addr_width_p28_icache_tag_width_p12_icache_entries_p1024_dmem_size_p1024_num_vcache_rows_p1_vcache_size_pinv_vcache_sets_pinv_num_tiles_x_p16_num_tiles_y_p8_rev_fifo_els_p2_fwd_fifo_els_p3_debug_p0'.
+7.2.10. Analyzing design hierarchy..
+7.2.11. Executing AST frontend in derive mode using pre-parsed AST for module `\vanilla_core_data_width_p32_dmem_size_p1024_icache_entries_p1024_icache_tag_width_p12_x_cord_width_p7_y_cord_width_p7_pod_x_cord_width_p3_pod_y_cord_width_p4_credit_counter_width_p6_fwd_fifo_els_p3'.
+7.2.12. Executing AST frontend in derive mode using pre-parsed AST for module `\network_tx_data_width_p32_addr_width_p28_x_cord_width_p7_y_cord_width_p7_pod_x_cord_width_p3_pod_y_cord_width_p4_num_vcache_rows_p1_vcache_size_pinv_vcache_sets_pinv_num_tiles_x_p16_num_tiles_y_p8_icache_entries_p1024_icache_tag_width_p12'.
+7.2.13. Executing AST frontend in derive mode using pre-parsed AST for module `\network_rx_data_width_p32_addr_width_p28_dmem_size_p1024_icache_tag_width_p12_icache_entries_p1024_x_cord_width_p7_y_cord_width_p7_x_subcord_width_p4_y_subcord_width_p3'.
+7.2.14. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_endpoint_standard_x_cord_width_p7_y_cord_width_p7_fifo_els_p4_data_width_p32_addr_width_p28_credit_counter_width_p6_rev_fifo_els_p2_use_credits_for_local_fifo_p1'.
+7.2.15. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_width_p97_x_cord_width_p7_y_cord_width_p7_ruche_factor_X_p0_ruche_factor_Y_p0_dims_p2_XY_order_p1'.
+7.2.16. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_1r1w_small_width_p97_els_p2'.
+7.2.17. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p1_reset_val_p0'.
+7.2.18. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_1r1w_small_width_p97_els_p3'.
+7.2.19. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_width_p53_x_cord_width_p7_y_cord_width_p7_ruche_factor_X_p0_ruche_factor_Y_p0_dims_p2_XY_order_p0'.
+7.2.20. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_1r1w_small_width_p53_els_p2'.
+7.2.21. Analyzing design hierarchy..
+7.2.22. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p53_ready_THEN_valid_p0'.
+7.2.23. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_transpose_width_p5_els_p5'.
+7.2.24. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_09_0'.
+7.2.25. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_53_02'.
+7.2.26. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_arb_round_robin_02'.
+7.2.27. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_09'.
+7.2.28. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_09_53'.
+7.2.29. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_11_0'.
+7.2.30. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_11'.
+7.2.31. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_11_53'.
+7.2.32. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_1b_0'.
+7.2.33. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_53_04'.
+7.2.34. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_arb_round_robin_04'.
+7.2.35. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_1b'.
+7.2.36. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_1b_53'.
+7.2.37. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_1d_0'.
+7.2.38. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_1d'.
+7.2.39. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_1d_53'.
+7.2.40. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_1f_0'.
+7.2.41. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_53_05'.
+7.2.42. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_arb_round_robin_05'.
+7.2.43. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_1f'.
+7.2.44. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_1f_53'.
+7.2.45. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_0_s10_0'.
+7.2.46. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_0_s08_0'.
+7.2.47. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_0_s04_0'.
+7.2.48. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_0_s02_0'.
+7.2.49. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_0_s01_0'.
+7.2.50. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_1r1w_small_unhardened_width_p97_els_p3_ready_THEN_valid_p0'.
+7.2.51. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p97_ready_THEN_valid_p0'.
+7.2.52. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_0f_0'.
+7.2.53. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_97_04'.
+7.2.54. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_0f'.
+7.2.55. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_0f_97'.
+7.2.56. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_17_0'.
+7.2.57. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_17'.
+7.2.58. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_17_97'.
+7.2.59. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_03_0'.
+7.2.60. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_97_02'.
+7.2.61. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_03'.
+7.2.62. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_03_97'.
+7.2.63. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_unconcentrate_static_05_0'.
+7.2.64. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_concentrate_static_05'.
+7.2.65. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_05_97'.
+7.2.66. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_97_05'.
+7.2.67. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_array_concentrate_static_1f_97'.
+7.2.68. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_1_s10_0'.
+7.2.69. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_1_s08_0'.
+7.2.70. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_1_s04_0'.
+7.2.71. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_1_s02_0'.
+7.2.72. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mesh_router_decoder_dor_7_7_2_0_0_1_s01_0'.
+7.2.73. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_reg_id_decode'.
+7.2.74. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_endpoint_fc_x_cord_width_p7_y_cord_width_p7_fifo_els_p4_data_width_p32_addr_width_p28_credit_counter_width_p6_warn_out_of_credits_p1_rev_fifo_els_p2_use_credits_for_local_fifo_p1'.
+7.2.75. Executing AST frontend in derive mode using pre-parsed AST for module `\load_packer'.
+7.2.76. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_eva_to_npa_data_width_p32_addr_width_p28_x_cord_width_p7_y_cord_width_p7_pod_x_cord_width_p3_pod_y_cord_width_p4_num_tiles_x_p16_num_tiles_y_p8_num_vcache_rows_p1_vcache_size_pinv_vcache_sets_pinv'.
+7.2.77. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_width_p3_lo_to_hi_p1'.
+7.2.78. Executing AST frontend in derive mode using pre-parsed AST for module `\fNToRecFN_expWidth8_sigWidth24'.
+7.2.79. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p32_els_p2'.
+7.2.80. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p32'.
+7.2.81. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p6'.
+7.2.82. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p40'.
+7.2.83. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_bypass_width_p32'.
+7.2.84. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p1'.
+7.2.85. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_mask_write_byte_els_p1024_data_width_p32_latch_last_read_p1'.
+7.2.86. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p44'.
+7.2.87. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_fdiv_fsqrt'.
+7.2.88. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_int'.
+7.2.89. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_float'.
+7.2.90. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_width_p99'.
+7.2.91. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p19'.
+7.2.92. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_bypass_width_p22'.
+7.2.93. Executing AST frontend in derive mode using pre-parsed AST for module `\lsu_data_width_p32_pc_width_p22_dmem_size_p1024'.
+7.2.94. Executing AST frontend in derive mode using pre-parsed AST for module `\idiv'.
+7.2.95. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_en_bypass_width_p22'.
+7.2.96. Executing AST frontend in derive mode using pre-parsed AST for module `\alu_pc_width_p22'.
+7.2.97. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p225'.
+7.2.98. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p32_els_p3'.
+7.2.99. Executing AST frontend in derive mode using pre-parsed AST for module `\recFNToFN_expWidth8_sigWidth24'.
+7.2.100. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p33_els_p2'.
+7.2.101. Executing AST frontend in derive mode using pre-parsed AST for module `\mcsr_pc_width_p22_credit_counter_width_p6_cfg_pod_width_p7'.
+7.2.102. Executing AST frontend in derive mode using pre-parsed AST for module `\fcsr'.
+7.2.103. Executing AST frontend in derive mode using pre-parsed AST for module `\scoreboard_els_p32_num_src_port_p3_num_clear_port_p1_x0_tied_to_zero_p0'.
+7.2.104. Executing AST frontend in derive mode using pre-parsed AST for module `\regfile_width_p33_els_p32_num_rs_p3_x0_tied_to_zero_p0'.
+7.2.105. Executing AST frontend in derive mode using pre-parsed AST for module `\scoreboard_els_p32_num_src_port_p2_num_clear_port_p1_x0_tied_to_zero_p1'.
+7.2.106. Executing AST frontend in derive mode using pre-parsed AST for module `\regfile_width_p32_els_p32_num_rs_p2_x0_tied_to_zero_p1'.
+7.2.107. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_width_p140'.
+7.2.108. Executing AST frontend in derive mode using pre-parsed AST for module `\cl_decode'.
+7.2.109. Executing AST frontend in derive mode using pre-parsed AST for module `\icache_icache_tag_width_p12_icache_entries_p1024'.
+7.2.110. Analyzing design hierarchy..
+7.2.111. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1rw_sync_width_p46_els_p1024_latch_last_read_p1'.
+7.2.112. Executing AST frontend in derive mode using pre-parsed AST for module `\regfile_synth_width_p32_els_p32_num_rs_p2_x0_tied_to_zero_p1'.
+7.2.113. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_transpose_width_p2_els_p1'.
+7.2.114. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_decode_with_v_num_out_p32'.
+7.2.115. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_transpose_width_p32_els_p1'.
+7.2.116. Executing AST frontend in derive mode using pre-parsed AST for module `\regfile_synth_width_p33_els_p32_num_rs_p3_x0_tied_to_zero_p0'.
+7.2.117. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_transpose_width_p3_els_p1'.
+7.2.118. Executing AST frontend in derive mode using pre-parsed AST for module `\recFNToRawFN_expWidth8_sigWidth24'.
+7.2.119. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_reset_en_width_p22_reset_val_p0_harden_p0'.
+7.2.120. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_idiv_iterative'.
+7.2.121. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_width_p22_harden_p0_strength_p0'.
+7.2.122. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_float_aux'.
+7.2.123. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_float_fma_round'.
+7.2.124. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_float_fma'.
+7.2.125. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_int_fclass_exp_width_p8_sig_width_p24'.
+7.2.126. Executing AST frontend in derive mode using pre-parsed AST for module `\recFNToIN_expWidth8_sigWidth24_intWidth32'.
+7.2.127. Executing AST frontend in derive mode using pre-parsed AST for module `\compareRecFN_expWidth8_sigWidth24'.
+7.2.128. Executing AST frontend in derive mode using pre-parsed AST for module `\divSqrtRecFN_small_expWidth8_sigWidth24'.
+7.2.129. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_byte_mask_d1024_w32_wrapper'.
+./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/hard_mem_1rw_byte_mask_d1024_w32_wrapper.v:35: Warning: Identifier `\csb1' is implicitly declared.
+7.2.130. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_width_p32_harden_p0_strength_p0'.
+7.2.131. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p16_els_p2'.
+7.2.132. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_width_p8_els_p4'.
+7.2.133. Executing AST frontend in derive mode using pre-parsed AST for module `\countLeadingZeros_inWidth23_countWidth5'.
+7.2.134. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_encode_one_hot_width_p3_lo_to_hi_p1'.
+7.2.135. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_priority_encode_one_hot_out_width_p3_lo_to_hi_p1'.
+7.2.136. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_dram_hash_function_data_width_p32_addr_width_p28_x_cord_width_p7_y_cord_width_p7_pod_x_cord_width_p3_pod_y_cord_width_p4_x_subcord_width_p4_y_subcord_width_p3_num_vcache_rows_p1'.
+7.2.137. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_counter_up_down_max_val_p63_init_val_p0_max_step_p1'.
+7.2.138. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_manycore_endpoint_x_cord_width_p7_y_cord_width_p7_fifo_els_p4_data_width_p32_addr_width_p28'.
+7.2.139. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_0000000a_1'.
+7.2.140. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_00000004_1'.
+7.2.141. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_00000008_1'.
+7.2.142. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p97_els_p2_read_write_same_addr_p0'.
+7.2.143. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p97_els_p3_read_write_same_addr_p0'.
+7.2.144. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_tracker_els_p3'.
+7.2.145. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p53_els_p2_read_write_same_addr_p0'.
+7.2.146. Analyzing design hierarchy..
+7.2.147. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p53_els_p2_read_write_same_addr_p0_harden_p0'.
+7.2.148. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_circular_ptr_slots_p3_max_add_p1'.
+7.2.149. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p97_els_p3_read_write_same_addr_p0_harden_p0'.
+7.2.150. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p97_els_p2_read_write_same_addr_p0_harden_p0'.
+7.2.151. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_two_fifo_width_p53_allow_enq_deq_on_full_p1'.
+7.2.152. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_1r1w_small_width_p97_els_p4'.
+7.2.153. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_scan_width_p3_or_p1_lo_to_hi_p1'.
+7.2.154. Executing AST frontend in derive mode using pre-parsed AST for module `\reverse_width23'.
+7.2.155. Executing AST frontend in derive mode using pre-parsed AST for module `\sky130_sram_1kbyte_1rw1r_8x1024_8'.
+7.2.156. Executing AST frontend in derive mode using pre-parsed AST for module `\roundRawFNToRecFN_expWidth8_sigWidth24_options0'.
+7.2.157. Executing AST frontend in derive mode using pre-parsed AST for module `\divSqrtRecFNToRaw_small_expWidth8_sigWidth24_options0'.
+7.2.158. Executing AST frontend in derive mode using pre-parsed AST for module `\isSigNaNRecFN_expWidth8_sigWidth24'.
+7.2.159. Executing AST frontend in derive mode using pre-parsed AST for module `\iNFromException_width32'.
+7.2.160. Executing AST frontend in derive mode using pre-parsed AST for module `\mulAddRecFNToRaw_expWidth8_sigWidth24'.
+7.2.161. Executing AST frontend in derive mode using pre-parsed AST for module `\roundRawFNToRecFN_expWidth8_sigWidth24'.
+7.2.162. Executing AST frontend in derive mode using pre-parsed AST for module `\fpu_fmin_fmax_exp_width_p8_sig_width_p24'.
+7.2.163. Executing AST frontend in derive mode using pre-parsed AST for module `\iNToRecFN_intWidth32_expWidth8_sigWidth24'.
+7.2.164. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_idiv_iterative_controller_width_p32'.
+7.2.165. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_adder_cin_width_p33'.
+7.2.166. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_width_p33'.
+7.2.167. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mux_one_hot_width_p33_els_p3'.
+7.2.168. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_dff_en_width_p1'.
+7.2.169. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_decode_num_out_p32'.
+7.2.170. Executing AST frontend in derive mode using pre-parsed AST for module `\hard_mem_1rw_d1024_w46_wrapper'.
+7.2.171. Analyzing design hierarchy..
+7.2.172. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_counter_clear_up_max_val_p32_init_val_p0_disable_overflow_warning_p1'.
+7.2.173. Executing AST frontend in derive mode using pre-parsed AST for module `\roundAnyRawFNToRecFN_inExpWidth6_inSigWidth32_outExpWidth8_outSigWidth24_options5'.
+7.2.174. Executing AST frontend in derive mode using pre-parsed AST for module `\iNToRawFN_intWidth32'.
+7.2.175. Executing AST frontend in derive mode using pre-parsed AST for module `\roundAnyRawFNToRecFN_inExpWidth8_inSigWidth26_outExpWidth8_outSigWidth24_options0'.
+7.2.176. Executing AST frontend in derive mode using pre-parsed AST for module `\mulAddRecFNToRaw_postMul_expWidth8_sigWidth24'.
+7.2.177. Executing AST frontend in derive mode using pre-parsed AST for module `\mulAddRecFNToRaw_preMul_8_24_1'.
+7.2.178. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_1r1w_small_unhardened_width_p97_els_p4_ready_THEN_valid_p0'.
+7.2.179. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p53_els_p2_read_write_same_addr_p1'.
+7.2.180. Analyzing design hierarchy..
+7.2.181. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p53_els_p2_read_write_same_addr_p1_harden_p0'.
+7.2.182. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_width_p97_els_p4_read_write_same_addr_p0'.
+7.2.183. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_fifo_tracker_els_p4'.
+7.2.184. Executing AST frontend in derive mode using pre-parsed AST for module `\lowMaskLoHi_inWidth9_topBound105_bottomBound130'.
+7.2.185. Executing AST frontend in derive mode using pre-parsed AST for module `\lowMaskHiLo_inWidth5_topBound18_bottomBound12'.
+7.2.186. Executing AST frontend in derive mode using pre-parsed AST for module `\compressBy4_inWidth27'.
+7.2.187. Executing AST frontend in derive mode using pre-parsed AST for module `\lowMaskLoHi_inWidth4_topBound0_bottomBound6'.
+7.2.188. Executing AST frontend in derive mode using pre-parsed AST for module `\compressBy2_inWidth13'.
+7.2.189. Executing AST frontend in derive mode using pre-parsed AST for module `\countLeadingZeros_inWidth26_countWidth5'.
+7.2.190. Executing AST frontend in derive mode using pre-parsed AST for module `\compressBy2_inWidth51'.
+7.2.191. Executing AST frontend in derive mode using pre-parsed AST for module `\lowMaskLoHi_inWidth3_topBound0_bottomBound6'.
+7.2.192. Executing AST frontend in derive mode using pre-parsed AST for module `\countLeadingZeros_inWidth32_countWidth5'.
+7.2.193. Analyzing design hierarchy..
+7.2.194. Executing AST frontend in derive mode using pre-parsed AST for module `\reverse_width32'.
+7.2.195. Executing AST frontend in derive mode using pre-parsed AST for module `\reverse_width25'.
+7.2.196. Executing AST frontend in derive mode using pre-parsed AST for module `\reverse_width6'.
+7.2.197. Executing AST frontend in derive mode using pre-parsed AST for module `\reverse_width26'.
+7.2.198. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_circular_ptr_slots_p4_max_add_p1'.
+7.2.199. Executing AST frontend in derive mode using pre-parsed AST for module `\bsg_mem_1r1w_synth_width_p97_els_p4_read_write_same_addr_p0_harden_p0'.
+7.2.200. Analyzing design hierarchy..
+7.2.201. Analyzing design hierarchy..
+Warning: Resizing cell port hard_mem_1rw_d1024_w46_wrapper.sram8x1024_6.dout1 from 46 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_d1024_w46_wrapper.sram8x1024_5.dout1 from 46 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_d1024_w46_wrapper.sram8x1024_4.dout1 from 46 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_d1024_w46_wrapper.sram8x1024_3.dout1 from 46 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_d1024_w46_wrapper.sram8x1024_2.dout1 from 46 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_d1024_w46_wrapper.sram8x1024_1.dout1 from 46 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_byte_mask_d1024_w32_wrapper.sram8x1024_4.dout1 from 32 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_byte_mask_d1024_w32_wrapper.sram8x1024_3.dout1 from 32 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_byte_mask_d1024_w32_wrapper.sram8x1024_2.dout1 from 32 bits to 8 bits.
+Warning: Resizing cell port hard_mem_1rw_byte_mask_d1024_w32_wrapper.sram8x1024_1.dout1 from 32 bits to 8 bits.
+Warning: Resizing cell port bsg_mem_1rw_sync_mask_write_byte_els_p1024_data_width_p32_latch_last_read_p1.macro.mem.write_mask_i from 4 bits to 1 bits.
+7.3. Executing PROC pass (convert processes to netlists).
+7.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+7.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+7.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+7.3.4. Executing PROC_INIT pass (extract init attributes).
+7.3.5. Executing PROC_ARST pass (detect async resets in processes).
+7.3.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+7.3.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+7.3.8. Executing PROC_DFF pass (convert process syncs to FFs).
+7.3.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+7.4. Executing FLATTEN pass (flatten design).
+7.5. Executing OPT_EXPR pass (perform const folding).
+7.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.7. Executing CHECK pass (checking for obvious problems).
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [7]:
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [6]:
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [5]:
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [4]:
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [3]:
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [2]:
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [1]:
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1 [0]:
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [7]:
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [6]:
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [5]:
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [4]:
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [3]:
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [2]:
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [1]:
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1 [0]:
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: Wire bsg_manycore_tile_compute_mesh.\reset_o is used but has no driver.
+Warning: Wire bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.data [7] is used but has no driver.
+Warning: Wire bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.data [6] is used but has no driver.
+Warning: Wire bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.write_mask_i is used but has no driver.
+7.8. Executing OPT pass (performing simple optimizations).
+7.8.1. Executing OPT_EXPR pass (perform const folding).
+7.8.2. Executing OPT_MERGE pass (detect identical cells).
+7.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.5. Executing OPT_MERGE pass (detect identical cells).
+7.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.8. Executing OPT_EXPR pass (perform const folding).
+7.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.12. Executing OPT_MERGE pass (detect identical cells).
+7.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.15. Executing OPT_EXPR pass (perform const folding).
+7.8.16. Rerunning OPT passes. (Maybe there is more to do..)
+7.8.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.8.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.8.19. Executing OPT_MERGE pass (detect identical cells).
+7.8.20. Executing OPT_DFF pass (perform DFF optimizations).
+7.8.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.8.22. Executing OPT_EXPR pass (perform const folding).
+7.8.23. Finished OPT passes. (There is nothing left to do.)
+7.9. Executing FSM pass (extract and optimize FSM).
+7.9.1. Executing FSM_DETECT pass (finding FSMs in design).
+7.9.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+7.9.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+7.9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.9.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+7.9.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+7.9.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+7.9.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+7.10. Executing OPT pass (performing simple optimizations).
+7.10.1. Executing OPT_EXPR pass (perform const folding).
+7.10.2. Executing OPT_MERGE pass (detect identical cells).
+7.10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.10.5. Executing OPT_MERGE pass (detect identical cells).
+7.10.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.10.8. Executing OPT_EXPR pass (perform const folding).
+7.10.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.10.12. Executing OPT_MERGE pass (detect identical cells).
+7.10.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.10.15. Executing OPT_EXPR pass (perform const folding).
+7.10.16. Rerunning OPT passes. (Maybe there is more to do..)
+7.10.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.10.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.10.19. Executing OPT_MERGE pass (detect identical cells).
+7.10.20. Executing OPT_DFF pass (perform DFF optimizations).
+7.10.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.10.22. Executing OPT_EXPR pass (perform const folding).
+7.10.23. Rerunning OPT passes. (Maybe there is more to do..)
+7.10.24. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.10.25. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.10.26. Executing OPT_MERGE pass (detect identical cells).
+7.10.27. Executing OPT_DFF pass (perform DFF optimizations).
+7.10.28. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.10.29. Executing OPT_EXPR pass (perform const folding).
+7.10.30. Finished OPT passes. (There is nothing left to do.)
+7.11. Executing WREDUCE pass (reducing word size of cells).
+7.12. Executing PEEPOPT pass (run peephole optimizers).
+7.13. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.14. Executing ALUMACC pass (create $alu and $macc cells).
+7.15. Executing SHARE pass (SAT-based resource sharing).
+7.16. Executing OPT pass (performing simple optimizations).
+7.16.1. Executing OPT_EXPR pass (perform const folding).
+7.16.2. Executing OPT_MERGE pass (detect identical cells).
+7.16.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.16.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.16.5. Executing OPT_MERGE pass (detect identical cells).
+7.16.6. Executing OPT_DFF pass (perform DFF optimizations).
+7.16.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.16.8. Executing OPT_EXPR pass (perform const folding).
+7.16.9. Rerunning OPT passes. (Maybe there is more to do..)
+7.16.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.16.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.16.12. Executing OPT_MERGE pass (detect identical cells).
+7.16.13. Executing OPT_DFF pass (perform DFF optimizations).
+7.16.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.16.15. Executing OPT_EXPR pass (perform const folding).
+7.16.16. Rerunning OPT passes. (Maybe there is more to do..)
+7.16.17. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.16.18. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.16.19. Executing OPT_MERGE pass (detect identical cells).
+7.16.20. Executing OPT_DFF pass (perform DFF optimizations).
+7.16.21. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.16.22. Executing OPT_EXPR pass (perform const folding).
+7.16.23. Finished OPT passes. (There is nothing left to do.)
+7.17. Executing MEMORY pass.
+7.17.1. Executing OPT_MEM pass (optimize memories).
+7.17.2. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+7.17.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.17.4. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+7.17.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.17.6. Executing MEMORY_COLLECT pass (generating $mem cells).
+7.18. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.19. Executing OPT pass (performing simple optimizations).
+7.19.1. Executing OPT_EXPR pass (perform const folding).
+7.19.2. Executing OPT_MERGE pass (detect identical cells).
+7.19.3. Executing OPT_DFF pass (perform DFF optimizations).
+7.19.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.19.5. Finished fast OPT passes.
+7.20. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+7.21. Executing OPT pass (performing simple optimizations).
+7.21.1. Executing OPT_EXPR pass (perform const folding).
+7.21.2. Executing OPT_MERGE pass (detect identical cells).
+7.21.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.21.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.21.5. Executing OPT_MERGE pass (detect identical cells).
+7.21.6. Executing OPT_SHARE pass.
+7.21.7. Executing OPT_DFF pass (perform DFF optimizations).
+7.21.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.21.9. Executing OPT_EXPR pass (perform const folding).
+7.21.10. Rerunning OPT passes. (Maybe there is more to do..)
+7.21.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.21.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.21.13. Executing OPT_MERGE pass (detect identical cells).
+7.21.14. Executing OPT_SHARE pass.
+7.21.15. Executing OPT_DFF pass (perform DFF optimizations).
+7.21.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.21.17. Executing OPT_EXPR pass (perform const folding).
+7.21.18. Rerunning OPT passes. (Maybe there is more to do..)
+7.21.19. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.21.20. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.21.21. Executing OPT_MERGE pass (detect identical cells).
+7.21.22. Executing OPT_SHARE pass.
+7.21.23. Executing OPT_DFF pass (perform DFF optimizations).
+7.21.24. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.21.25. Executing OPT_EXPR pass (perform const folding).
+7.21.26. Rerunning OPT passes. (Maybe there is more to do..)
+7.21.27. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.21.28. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.21.29. Executing OPT_MERGE pass (detect identical cells).
+7.21.30. Executing OPT_SHARE pass.
+7.21.31. Executing OPT_DFF pass (perform DFF optimizations).
+7.21.32. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.21.33. Executing OPT_EXPR pass (perform const folding).
+7.21.34. Rerunning OPT passes. (Maybe there is more to do..)
+7.21.35. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.21.36. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.21.37. Executing OPT_MERGE pass (detect identical cells).
+7.21.38. Executing OPT_SHARE pass.
+7.21.39. Executing OPT_DFF pass (perform DFF optimizations).
+7.21.40. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.21.41. Executing OPT_EXPR pass (perform const folding).
+7.21.42. Rerunning OPT passes. (Maybe there is more to do..)
+7.21.43. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+7.21.44. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+7.21.45. Executing OPT_MERGE pass (detect identical cells).
+7.21.46. Executing OPT_SHARE pass.
+7.21.47. Executing OPT_DFF pass (perform DFF optimizations).
+7.21.48. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.21.49. Executing OPT_EXPR pass (perform const folding).
+7.21.50. Finished OPT passes. (There is nothing left to do.)
+7.22. Executing TECHMAP pass (map to technology primitives).
+7.22.1. Executing Verilog-2005 frontend: /home/lss/Documents/Gsoc/OpenROAD/tools/install/yosys/bin/../share/yosys/techmap.v
+7.22.2. Continuing TECHMAP pass.
+7.23. Executing OPT pass (performing simple optimizations).
+7.23.1. Executing OPT_EXPR pass (perform const folding).
+7.23.2. Executing OPT_MERGE pass (detect identical cells).
+7.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+7.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.23.5. Finished fast OPT passes.
+7.24. Executing ABC pass (technology mapping using ABC).
+7.24.1. Extracting gate netlist of module `\bsg_manycore_tile_compute_mesh' to `<abc-temp-dir>/input.blif'..
+7.25. Executing OPT pass (performing simple optimizations).
+7.25.1. Executing OPT_EXPR pass (perform const folding).
+7.25.2. Executing OPT_MERGE pass (detect identical cells).
+7.25.3. Executing OPT_DFF pass (perform DFF optimizations).
+7.25.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+7.25.5. Finished fast OPT passes.
+7.26. Executing HIERARCHY pass (managing design hierarchy).
+7.26.1. Analyzing design hierarchy..
+7.26.2. Analyzing design hierarchy..
+7.27. Printing statistics.
+7.28. Executing CHECK pass (checking for obvious problems).
+8. Executing OPT pass (performing simple optimizations).
+8.1. Executing OPT_EXPR pass (perform const folding).
+8.2. Executing OPT_MERGE pass (detect identical cells).
+8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.5. Executing OPT_MERGE pass (detect identical cells).
+8.6. Executing OPT_DFF pass (perform DFF optimizations).
+8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.8. Executing OPT_EXPR pass (perform const folding).
+8.9. Rerunning OPT passes. (Maybe there is more to do..)
+8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+8.12. Executing OPT_MERGE pass (detect identical cells).
+8.13. Executing OPT_DFF pass (perform DFF optimizations).
+8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+8.15. Executing OPT_EXPR pass (perform const folding).
+8.16. Finished OPT passes. (There is nothing left to do.)
+9. Executing EXTRACT_FA pass (find and extract full/half adders).
+10. Executing TECHMAP pass (map to technology primitives).
+10.1. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_adders_hd.v
+10.2. Continuing TECHMAP pass.
+11. Executing TECHMAP pass (map to technology primitives).
+11.1. Executing Verilog-2005 frontend: /home/lss/Documents/Gsoc/OpenROAD/tools/install/yosys/bin/../share/yosys/techmap.v
+11.2. Continuing TECHMAP pass.
+12. Executing OPT pass (performing simple optimizations).
+12.1. Executing OPT_EXPR pass (perform const folding).
+12.2. Executing OPT_MERGE pass (detect identical cells).
+12.3. Executing OPT_DFF pass (perform DFF optimizations).
+12.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+12.5. Finished fast OPT passes.
+13. Executing TECHMAP pass (map to technology primitives).
+13.1. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_latch_hd.v
+13.2. Continuing TECHMAP pass.
+14. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+14.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+15. Executing OPT pass (performing simple optimizations).
+15.1. Executing OPT_EXPR pass (perform const folding).
+15.2. Executing OPT_MERGE pass (detect identical cells).
+15.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+15.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+15.5. Executing OPT_MERGE pass (detect identical cells).
+15.6. Executing OPT_DFF pass (perform DFF optimizations).
+15.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+15.8. Executing OPT_EXPR pass (perform const folding).
+15.9. Rerunning OPT passes. (Maybe there is more to do..)
+15.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+15.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+15.12. Executing OPT_MERGE pass (detect identical cells).
+15.13. Executing OPT_DFF pass (perform DFF optimizations).
+15.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+15.15. Executing OPT_EXPR pass (perform const folding).
+15.16. Finished OPT passes. (There is nothing left to do.)
+Using ABC speed script.
+[WARN][FLOW] No clock period constraints detected in design
+16. Executing ABC pass (technology mapping using ABC).
+16.1. Extracting gate netlist of module `\bsg_manycore_tile_compute_mesh' to `<abc-temp-dir>/input.blif'..
+16.1.1. Executing ABC.
+16.1.2. Re-integrating ABC results.
+17. Executing SETUNDEF pass (replace undef values with defined constants).
+18. Executing SPLITNETS pass (splitting up multi-bit signals).
+19. Executing OPT_CLEAN pass (remove unused cells and wires).
+20. Executing HILOMAP pass (mapping to constant drivers).
+21. Executing INSBUF pass (insert buffer cells for connected wires).
+22. Executing CHECK pass (checking for obvious problems).
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[7]:
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[6]:
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[5]:
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[4]:
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[3]:
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[2]:
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[1]:
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.icache0.imem_0.macro.mem.dout1[0]:
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[7]:
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[7] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[6]:
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[6] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[5]:
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[5] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[4]:
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[4] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[3]:
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[3] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[2]:
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[2] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[1]:
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[1] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+Warning: multiple conflicting drivers for bsg_manycore_tile_compute_mesh.\proc.h.z.vcore.dmem.macro.mem.dout1[0]:
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+    port dout1[0] of cell proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 (sky130_sram_1kbyte_1rw1r_8x1024_8)
+23. Printing statistics.
+24. Executing Verilog backend.
+Warnings: 74 unique messages, 299 total
+End of script. Logfile hash: 0c87395962, CPU: user 147.15s system 0.50s, MEM: 2428.09 MB peak
+Yosys 0.9+3672 (git sha1 014c7e26, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)
+Time spent: 16% 54x opt_clean (28 sec), 15% 69x opt_expr (26 sec), ...
+Elapsed time: 2:49.96[h:]min:sec. Average CPU: 99%. Peak memory: 2486368KB.

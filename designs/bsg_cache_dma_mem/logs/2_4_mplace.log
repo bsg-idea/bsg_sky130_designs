@@ -1,0 +1,46 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2065): Either PATH, RECT or POLYGON statement is a required in MACRO/PIN/PORT. See file ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef at line 957.
+
+[WARNING ODB-0220] WARNING (LEFPARS-2076): Either PATH, RECT or POLYGON statement is a required in MACRO/OBS. See file ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef at line 960.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/bsg_cache_dma_mem/base/2_3_floorplan_tdms.def
+[INFO ODB-0128] Design: bsg_cache_dma
+[INFO ODB-0130]     Created 734 pins.
+[INFO ODB-0131]     Created 824 components and 4452 component-terminals.
+[INFO ODB-0133]     Created 1188 nets and 2803 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/bsg_cache_dma_mem/base/2_3_floorplan_tdms.def
+[INFO MPL-0005] Found 1 macros.
+[WARNING MPL-0002] Some instances do not have Liberty models. TritonMP will place macros without connection information.
+[INFO MPL-0069] Initial weighted wire length 22012.4.
+Begin one level partition.
+[INFO MPL-0076] Partition 1 macros.
+[INFO MPL-0077] Using 1 cut lines.
+[INFO MPL-0079] Cut line 1401.62.
+End one level partition.
+Begin horizontal partition.
+Begin east partition.
+[INFO MPL-0076] Partition 0 macros.
+[INFO MPL-0077] Using 0 cut lines.
+End east partition.
+Begin west partition.
+[INFO MPL-0076] Partition 1 macros.
+[INFO MPL-0077] Using 1 cut lines.
+[INFO MPL-0079] Cut line 119.68.
+End west partition.
+End horizontal partition.
+[INFO MPL-0070] Using 1 partition sets.
+[INFO MPL-0071] Solution 1 weighted wire length 23389.
+[INFO MPL-0073] Best weighted wire length 23389.
+Elapsed time: 0:09.65[h:]min:sec. Average CPU: 50%. Peak memory: 98436KB.

@@ -1,0 +1,722 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/sky130_sram_1kbyte_1rw1r_8x1024_8.lef
+[WARNING ODB-0205] The LEF UNITS DATABASE MICRON convert factor (2000) is greater than the database units per micron (1000) of the current technology.
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bsg_manycore_tile_compute_mesh_real/sky130_sram_1kbyte_1rw1r_8x1024_8.lef
+[WARNING STA-0198] ./results/sky130hd/bsg_manycore_tile_compute_mesh_real/base/1_synth.v line 258597, module sky130_sram_1kbyte_1rw1r_8x1024_8 not found. Creating black box for \proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 .
+[WARNING ORD-1013] instance proc.h.z.vcore.dmem.macro.mem.sram8x1024_1 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.dmem.macro.mem.sram8x1024_2 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.dmem.macro.mem.sram8x1024_3 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.dmem.macro.mem.sram8x1024_4 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_1 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_2 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_3 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_4 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_5 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+[WARNING ORD-1013] instance proc.h.z.vcore.icache0.imem_0.macro.mem.sram8x1024_6 LEF master sky130_sram_1kbyte_1rw1r_8x1024_8 not found.
+number instances in verilog is 38874
+[INFO IFP-0001] Added 2943 rows of 23625 sites.
+[INFO RSZ-0026] Removed 3209 buffers.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+
+==========================================================================
+floorplan final report_checks -path_delay min
+--------------------------------------------------------------------------
+Startpoint: _70696_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _70914_ (removal check against rising-edge clock core_clock)
+Path Group: **async_default**
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _70696_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  4.27    3.48    3.48 v _70696_/Q (sky130_fd_sc_hd__dfxtp_1)
+   411    0.96                           proc.h.z.freeze (net)
+                  4.27    0.00    3.48 v _35804_/A (sky130_fd_sc_hd__inv_1)
+                  1.62    2.98    6.46 ^ _35804_/Y (sky130_fd_sc_hd__inv_1)
+    81    0.19                           _06876_ (net)
+                  1.62    0.00    6.46 ^ _70914_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+                                  6.46   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _70914_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                          0.73    0.73   library removal time
+                                  0.73   data required time
+-----------------------------------------------------------------------------
+                                  0.73   data required time
+                                 -6.46   data arrival time
+-----------------------------------------------------------------------------
+                                  5.73   slack (MET)
+
+
+Startpoint: _66534_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _66534_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _66534_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.05    0.29    0.29 ^ _66534_/Q (sky130_fd_sc_hd__dfxtp_1)
+     2    0.00                           rtr.fwd.rof_0_.fi.fifo.unhardened.un.fifo.mem_1r1w.synth.nz.mem_103_sv2v_reg (net)
+                  0.05    0.00    0.30 ^ _44623_/A (sky130_fd_sc_hd__nand2_1)
+                  0.03    0.04    0.34 v _44623_/Y (sky130_fd_sc_hd__nand2_1)
+     1    0.00                           _13197_ (net)
+                  0.03    0.00    0.34 v _44624_/B1 (sky130_fd_sc_hd__o21ai_0)
+                  0.06    0.05    0.39 ^ _44624_/Y (sky130_fd_sc_hd__o21ai_0)
+     1    0.00                           _00555_ (net)
+                  0.06    0.00    0.40 ^ _66534_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  0.40   data arrival time
+
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _66534_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.04   -0.04   library hold time
+                                 -0.04   data required time
+-----------------------------------------------------------------------------
+                                 -0.04   data required time
+                                 -0.40   data arrival time
+-----------------------------------------------------------------------------
+                                  0.44   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_checks -path_delay max
+--------------------------------------------------------------------------
+Startpoint: _70696_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _70914_ (recovery check against rising-edge clock core_clock)
+Path Group: **async_default**
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _70696_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  4.27    3.48    3.48 v _70696_/Q (sky130_fd_sc_hd__dfxtp_1)
+   411    0.96                           proc.h.z.freeze (net)
+                  4.27    0.00    3.48 v _35804_/A (sky130_fd_sc_hd__inv_1)
+                  1.62    2.98    6.46 ^ _35804_/Y (sky130_fd_sc_hd__inv_1)
+    81    0.19                           _06876_ (net)
+                  1.62    0.00    6.46 ^ _70914_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+                                  6.46   data arrival time
+
+                  0.00   50.00   50.00   clock core_clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _70914_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.21   49.79   library recovery time
+                                 49.79   data required time
+-----------------------------------------------------------------------------
+                                 49.79   data required time
+                                 -6.46   data arrival time
+-----------------------------------------------------------------------------
+                                 43.33   slack (MET)
+
+
+Startpoint: _71264_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _68122_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _71264_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  4.88    3.68    3.68 ^ _71264_/Q (sky130_fd_sc_hd__dfxtp_1)
+   204    0.53                           proc.h.z.vcore.exe_pipeline.data_o_117_sv2v_reg (net)
+                  4.88    0.00    3.68 ^ _36870_/A (sky130_fd_sc_hd__nor2_1)
+                  1.87    2.22    5.90 v _36870_/Y (sky130_fd_sc_hd__nor2_1)
+    50    0.12                           _07623_ (net)
+                  1.87    0.00    5.90 v _36889_/B2 (sky130_fd_sc_hd__a22oi_1)
+                  0.80    1.19    7.09 ^ _36889_/Y (sky130_fd_sc_hd__a22oi_1)
+     9    0.03                           _28708_ (net)
+                  0.80    0.01    7.10 ^ _71478_/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.33    7.43 ^ _71478_/COUT (sky130_fd_sc_hd__fa_1)
+     2    0.01                           _28704_ (net)
+                  0.10    0.00    7.43 ^ _36891_/A (sky130_fd_sc_hd__inv_1)
+                  0.03    0.05    7.48 v _36891_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _07629_ (net)
+                  0.03    0.00    7.48 v _36892_/A1 (sky130_fd_sc_hd__a21o_1)
+                  0.03    0.14    7.63 v _36892_/X (sky130_fd_sc_hd__a21o_1)
+     1    0.00                           _07630_ (net)
+                  0.03    0.00    7.63 v _36893_/A2 (sky130_fd_sc_hd__a21oi_1)
+                  0.19    0.20    7.83 ^ _36893_/Y (sky130_fd_sc_hd__a21oi_1)
+     2    0.01                           _28699_ (net)
+                  0.19    0.01    7.83 ^ _71476_/CIN (sky130_fd_sc_hd__fa_1)
+                  0.09    0.46    8.29 v _71476_/SUM (sky130_fd_sc_hd__fa_1)
+     2    0.01                           _28701_ (net)
+                  0.10    0.00    8.30 v _72443_/A (sky130_fd_sc_hd__ha_1)
+                  0.10    0.33    8.63 ^ _72443_/SUM (sky130_fd_sc_hd__ha_1)
+     2    0.01                           _28717_ (net)
+                  0.10    0.00    8.63 ^ _65534_/A (sky130_fd_sc_hd__inv_1)
+                  0.05    0.06    8.69 v _65534_/Y (sky130_fd_sc_hd__inv_1)
+     2    0.01                           _32422_ (net)
+                  0.05    0.00    8.70 v _72444_/A (sky130_fd_sc_hd__ha_1)
+                  0.05    0.28    8.98 v _72444_/SUM (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _32425_ (net)
+                  0.05    0.00    8.98 v _36972_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05    9.03 ^ _36972_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _07678_ (net)
+                  0.04    0.00    9.04 ^ _36973_/A1 (sky130_fd_sc_hd__o21bai_1)
+                  0.05    0.06    9.10 v _36973_/Y (sky130_fd_sc_hd__o21bai_1)
+     1    0.00                           _07679_ (net)
+                  0.05    0.00    9.10 v _36974_/A2 (sky130_fd_sc_hd__a21o_1)
+                  0.05    0.18    9.29 v _36974_/X (sky130_fd_sc_hd__a21o_1)
+     2    0.01                           _32438_ (net)
+                  0.05    0.00    9.29 v _36976_/B1 (sky130_fd_sc_hd__a22o_1)
+                  0.04    0.17    9.46 v _36976_/X (sky130_fd_sc_hd__a22o_1)
+     1    0.00                           _07680_ (net)
+                  0.04    0.00    9.47 v _36977_/A2 (sky130_fd_sc_hd__a21o_1)
+                  0.06    0.20    9.67 v _36977_/X (sky130_fd_sc_hd__a21o_1)
+     2    0.01                           _28713_ (net)
+                  0.06    0.01    9.67 v _71479_/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.37   10.04 v _71479_/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _28714_ (net)
+                  0.08    0.01   10.05 v _36991_/A (sky130_fd_sc_hd__xor2_1)
+                  0.11    0.16   10.21 ^ _36991_/X (sky130_fd_sc_hd__xor2_1)
+     1    0.00                           _07694_ (net)
+                  0.11    0.00   10.21 ^ _36992_/B (sky130_fd_sc_hd__nand2_1)
+                  0.07    0.10   10.31 v _36992_/Y (sky130_fd_sc_hd__nand2_1)
+     3    0.01                           _07695_ (net)
+                  0.07    0.00   10.31 v _37118_/B (sky130_fd_sc_hd__or3_1)
+                  0.09    0.38   10.69 v _37118_/X (sky130_fd_sc_hd__or3_1)
+     3    0.01                           _07819_ (net)
+                  0.09    0.00   10.69 v _37119_/A2 (sky130_fd_sc_hd__o21ai_1)
+                  3.80    2.82   13.51 ^ _37119_/Y (sky130_fd_sc_hd__o21ai_1)
+    67    0.21                           _07820_ (net)
+                  3.80    0.00   13.51 ^ _37153_/B (sky130_fd_sc_hd__nand2_1)
+                  0.52    0.45   13.96 v _37153_/Y (sky130_fd_sc_hd__nand2_1)
+     6    0.01                           _07854_ (net)
+                  0.52    0.00   13.96 v _37667_/B1 (sky130_fd_sc_hd__o21ai_0)
+                  0.36    0.27   14.23 ^ _37667_/Y (sky130_fd_sc_hd__o21ai_0)
+     2    0.01                           _08168_ (net)
+                  0.36    0.00   14.23 ^ _65510_/A2 (sky130_fd_sc_hd__a21oi_1)
+                  0.36    0.12   14.35 v _65510_/Y (sky130_fd_sc_hd__a21oi_1)
+     1    0.00                           _28399_ (net)
+                  0.36    0.00   14.35 v _65511_/B1 (sky130_fd_sc_hd__a211oi_1)
+                  0.46    0.32   14.67 ^ _65511_/Y (sky130_fd_sc_hd__a211oi_1)
+     1    0.00                           _28400_ (net)
+                  0.46    0.00   14.68 ^ _65512_/B1 (sky130_fd_sc_hd__a21oi_1)
+                  0.68    0.12   14.79 v _65512_/Y (sky130_fd_sc_hd__a21oi_1)
+     1    0.01                           _30922_ (net)
+                  0.68    0.01   14.80 v _71995_/A (sky130_fd_sc_hd__fa_1)
+                  0.10    0.70   15.50 v _71995_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.01                           _30926_ (net)
+                  0.10    0.01   15.52 v _72013_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.54   16.06 ^ _72013_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _30999_ (net)
+                  0.06    0.00   16.06 ^ _64712_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   16.11 v _64712_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31066_ (net)
+                  0.05    0.01   16.12 v _72030_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   16.65 ^ _72030_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31067_ (net)
+                  0.06    0.00   16.65 ^ _64717_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   16.71 v _64717_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31106_ (net)
+                  0.05    0.01   16.72 v _72042_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   17.24 ^ _72042_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31107_ (net)
+                  0.06    0.00   17.25 ^ _64720_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   17.30 v _64720_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31127_ (net)
+                  0.05    0.01   17.31 v _72048_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   17.83 ^ _72048_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31128_ (net)
+                  0.06    0.00   17.84 ^ _64721_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   17.89 v _64721_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31137_ (net)
+                  0.05    0.01   17.90 v _72051_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   18.43 ^ _72051_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31140_ (net)
+                  0.06    0.00   18.43 ^ _64722_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   18.48 v _64722_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31141_ (net)
+                  0.05    0.01   18.49 v _72052_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   19.02 ^ _72052_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31144_ (net)
+                  0.06    0.00   19.02 ^ _65526_/A (sky130_fd_sc_hd__inv_1)
+                  0.03    0.04   19.06 v _65526_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _32920_ (net)
+                  0.03    0.01   19.07 v _72671_/A (sky130_fd_sc_hd__ha_1)
+                  0.08    0.32   19.39 v _72671_/SUM (sky130_fd_sc_hd__ha_1)
+     3    0.01                           _32923_ (net)
+                  0.08    0.00   19.39 v _37984_/A1 (sky130_fd_sc_hd__a21oi_1)
+                  0.15    0.17   19.56 ^ _37984_/Y (sky130_fd_sc_hd__a21oi_1)
+     2    0.01                           _08314_ (net)
+                  0.15    0.00   19.56 ^ _37986_/A2 (sky130_fd_sc_hd__a21oi_1)
+                  0.07    0.09   19.65 v _37986_/Y (sky130_fd_sc_hd__a21oi_1)
+     2    0.00                           _08316_ (net)
+                  0.07    0.00   19.65 v _37988_/A (sky130_fd_sc_hd__or2_2)
+                  0.07    0.31   19.97 v _37988_/X (sky130_fd_sc_hd__or2_2)
+     2    0.01                           _31189_ (net)
+                  0.07    0.01   19.97 v _72062_/CIN (sky130_fd_sc_hd__fa_1)
+                  0.12    0.50   20.47 v _72062_/SUM (sky130_fd_sc_hd__fa_1)
+     6    0.01                           proc.h.z.vcore.fpu_float0.fma1.mulAdd0.mulAddToRaw_postMul.mulAddResult[28] (net)
+                  0.12    0.00   20.47 v _38033_/A (sky130_fd_sc_hd__and3_1)
+                  0.04    0.18   20.65 v _38033_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32969_ (net)
+                  0.04    0.00   20.66 v _38034_/C_N (sky130_fd_sc_hd__nor3b_2)
+                  0.07    0.15   20.81 v _38034_/Y (sky130_fd_sc_hd__nor3b_2)
+     2    0.00                           _32959_ (net)
+                  0.07    0.00   20.81 v _38035_/C_N (sky130_fd_sc_hd__nor3b_2)
+                  0.08    0.17   20.97 v _38035_/Y (sky130_fd_sc_hd__nor3b_2)
+     2    0.00                           _32963_ (net)
+                  0.08    0.00   20.98 v _38037_/B (sky130_fd_sc_hd__and3_1)
+                  0.04    0.18   21.16 v _38037_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32952_ (net)
+                  0.04    0.00   21.16 v _38038_/C_N (sky130_fd_sc_hd__nor3b_2)
+                  0.07    0.15   21.31 v _38038_/Y (sky130_fd_sc_hd__nor3b_2)
+     2    0.00                           _32956_ (net)
+                  0.07    0.00   21.32 v _38041_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.18   21.50 v _38041_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32944_ (net)
+                  0.05    0.00   21.50 v _38044_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   21.67 v _38044_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32948_ (net)
+                  0.05    0.00   21.67 v _38046_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   21.84 v _38046_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32936_ (net)
+                  0.05    0.00   21.84 v _38048_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   22.01 v _38048_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32940_ (net)
+                  0.05    0.00   22.01 v _38050_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   22.18 v _38050_/X (sky130_fd_sc_hd__and3_1)
+     2    0.01                           _32929_ (net)
+                  0.05    0.00   22.18 v _72673_/B (sky130_fd_sc_hd__ha_1)
+                  0.04    0.17   22.35 v _72673_/COUT (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _32930_ (net)
+                  0.04    0.00   22.35 v _38160_/A (sky130_fd_sc_hd__or3_1)
+                  0.08    0.37   22.73 v _38160_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _08445_ (net)
+                  0.08    0.01   22.73 v _38162_/A (sky130_fd_sc_hd__xor2_1)
+                  0.12    0.22   22.95 v _38162_/X (sky130_fd_sc_hd__xor2_1)
+     4    0.02                           _08447_ (net)
+                  0.13    0.01   22.96 v _38167_/B1 (sky130_fd_sc_hd__a211oi_4)
+                  0.28    0.32   23.28 ^ _38167_/Y (sky130_fd_sc_hd__a211oi_4)
+     5    0.02                           _08452_ (net)
+                  0.28    0.01   23.29 ^ _38217_/B (sky130_fd_sc_hd__nand4_4)
+                  0.16    0.20   23.49 v _38217_/Y (sky130_fd_sc_hd__nand4_4)
+     8    0.03                           _08502_ (net)
+                  0.16    0.01   23.50 v _38291_/A (sky130_fd_sc_hd__nor4_4)
+                  0.25    0.35   23.85 ^ _38291_/Y (sky130_fd_sc_hd__nor4_4)
+     4    0.01                           _08576_ (net)
+                  0.25    0.00   23.85 ^ _38316_/B (sky130_fd_sc_hd__and3_1)
+                  0.11    0.25   24.10 ^ _38316_/X (sky130_fd_sc_hd__and3_1)
+     4    0.01                           _08601_ (net)
+                  0.11    0.00   24.10 ^ _38317_/C (sky130_fd_sc_hd__and3_1)
+                  0.70    0.63   24.73 ^ _38317_/X (sky130_fd_sc_hd__and3_1)
+    24    0.07                           _08602_ (net)
+                  0.70    0.01   24.74 ^ _38319_/B (sky130_fd_sc_hd__nor2_8)
+                  0.17    0.15   24.90 v _38319_/Y (sky130_fd_sc_hd__nor2_8)
+    19    0.08                           _08604_ (net)
+                  0.17    0.01   24.91 v _38320_/A (sky130_fd_sc_hd__inv_8)
+                  0.21    0.23   25.14 ^ _38320_/Y (sky130_fd_sc_hd__inv_8)
+    43    0.13                           _08605_ (net)
+                  0.21    0.00   25.14 ^ _72712_/A (sky130_fd_sc_hd__ha_1)
+                  0.05    0.18   25.31 ^ _72712_/COUT (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _33065_ (net)
+                  0.05    0.00   25.32 ^ _65828_/A (sky130_fd_sc_hd__inv_1)
+                  0.03    0.04   25.36 v _65828_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _33070_ (net)
+                  0.03    0.01   25.36 v _72714_/B (sky130_fd_sc_hd__ha_1)
+                  0.04    0.16   25.52 v _72714_/COUT (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _33071_ (net)
+                  0.04    0.00   25.53 v _38420_/A (sky130_fd_sc_hd__inv_1)
+                  0.05    0.06   25.58 ^ _38420_/Y (sky130_fd_sc_hd__inv_1)
+     2    0.00                           _08676_ (net)
+                  0.05    0.00   25.59 ^ _48574_/C1 (sky130_fd_sc_hd__o221ai_1)
+                  0.20    0.09   25.68 v _48574_/Y (sky130_fd_sc_hd__o221ai_1)
+     1    0.00                           _15581_ (net)
+                  0.20    0.00   25.69 v _48576_/A2 (sky130_fd_sc_hd__a31oi_1)
+                  0.22    0.29   25.97 ^ _48576_/Y (sky130_fd_sc_hd__a31oi_1)
+     2    0.01                           _31197_ (net)
+                  0.22    0.00   25.98 ^ _48578_/A2 (sky130_fd_sc_hd__o21a_1)
+                  0.07    0.16   26.13 ^ _48578_/X (sky130_fd_sc_hd__o21a_1)
+     2    0.01                           _33107_ (net)
+                  0.07    0.00   26.14 ^ _72724_/B (sky130_fd_sc_hd__ha_1)
+                  0.05    0.22   26.36 v _72724_/SUM (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _33109_ (net)
+                  0.05    0.00   26.36 v _48564_/A (sky130_fd_sc_hd__nor2_1)
+                  0.16    0.10   26.46 ^ _48564_/Y (sky130_fd_sc_hd__nor2_1)
+     1    0.00                           _15573_ (net)
+                  0.16    0.00   26.47 ^ _48565_/B1 (sky130_fd_sc_hd__a21oi_1)
+                  0.13    0.05   26.52 v _48565_/Y (sky130_fd_sc_hd__a21oi_1)
+     1    0.00                           _15574_ (net)
+                  0.13    0.00   26.52 v _48567_/A2 (sky130_fd_sc_hd__o21ai_0)
+                  0.17    0.16   26.68 ^ _48567_/Y (sky130_fd_sc_hd__o21ai_0)
+     1    0.00                           _02110_ (net)
+                  0.17    0.00   26.68 ^ _68122_/D (sky130_fd_sc_hd__dfxtp_1)
+                                 26.68   data arrival time
+
+                  0.00   50.00   50.00   clock core_clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _68122_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.09   49.91   library setup time
+                                 49.91   data required time
+-----------------------------------------------------------------------------
+                                 49.91   data required time
+                                -26.68   data arrival time
+-----------------------------------------------------------------------------
+                                 23.23   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _70696_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _70914_ (recovery check against rising-edge clock core_clock)
+Path Group: **async_default**
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _70696_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  4.27    3.48    3.48 v _70696_/Q (sky130_fd_sc_hd__dfxtp_1)
+   411    0.96                           proc.h.z.freeze (net)
+                  4.27    0.00    3.48 v _35804_/A (sky130_fd_sc_hd__inv_1)
+                  1.62    2.98    6.46 ^ _35804_/Y (sky130_fd_sc_hd__inv_1)
+    81    0.19                           _06876_ (net)
+                  1.62    0.00    6.46 ^ _70914_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
+                                  6.46   data arrival time
+
+                  0.00   50.00   50.00   clock core_clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _70914_/CLK (sky130_fd_sc_hd__dfrtp_1)
+                         -0.21   49.79   library recovery time
+                                 49.79   data required time
+-----------------------------------------------------------------------------
+                                 49.79   data required time
+                                 -6.46   data arrival time
+-----------------------------------------------------------------------------
+                                 43.33   slack (MET)
+
+
+Startpoint: _71264_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _68122_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _71264_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  4.88    3.68    3.68 ^ _71264_/Q (sky130_fd_sc_hd__dfxtp_1)
+   204    0.53                           proc.h.z.vcore.exe_pipeline.data_o_117_sv2v_reg (net)
+                  4.88    0.00    3.68 ^ _36870_/A (sky130_fd_sc_hd__nor2_1)
+                  1.87    2.22    5.90 v _36870_/Y (sky130_fd_sc_hd__nor2_1)
+    50    0.12                           _07623_ (net)
+                  1.87    0.00    5.90 v _36889_/B2 (sky130_fd_sc_hd__a22oi_1)
+                  0.80    1.19    7.09 ^ _36889_/Y (sky130_fd_sc_hd__a22oi_1)
+     9    0.03                           _28708_ (net)
+                  0.80    0.01    7.10 ^ _71478_/B (sky130_fd_sc_hd__fa_1)
+                  0.10    0.33    7.43 ^ _71478_/COUT (sky130_fd_sc_hd__fa_1)
+     2    0.01                           _28704_ (net)
+                  0.10    0.00    7.43 ^ _36891_/A (sky130_fd_sc_hd__inv_1)
+                  0.03    0.05    7.48 v _36891_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _07629_ (net)
+                  0.03    0.00    7.48 v _36892_/A1 (sky130_fd_sc_hd__a21o_1)
+                  0.03    0.14    7.63 v _36892_/X (sky130_fd_sc_hd__a21o_1)
+     1    0.00                           _07630_ (net)
+                  0.03    0.00    7.63 v _36893_/A2 (sky130_fd_sc_hd__a21oi_1)
+                  0.19    0.20    7.83 ^ _36893_/Y (sky130_fd_sc_hd__a21oi_1)
+     2    0.01                           _28699_ (net)
+                  0.19    0.01    7.83 ^ _71476_/CIN (sky130_fd_sc_hd__fa_1)
+                  0.09    0.46    8.29 v _71476_/SUM (sky130_fd_sc_hd__fa_1)
+     2    0.01                           _28701_ (net)
+                  0.10    0.00    8.30 v _72443_/A (sky130_fd_sc_hd__ha_1)
+                  0.10    0.33    8.63 ^ _72443_/SUM (sky130_fd_sc_hd__ha_1)
+     2    0.01                           _28717_ (net)
+                  0.10    0.00    8.63 ^ _65534_/A (sky130_fd_sc_hd__inv_1)
+                  0.05    0.06    8.69 v _65534_/Y (sky130_fd_sc_hd__inv_1)
+     2    0.01                           _32422_ (net)
+                  0.05    0.00    8.70 v _72444_/A (sky130_fd_sc_hd__ha_1)
+                  0.05    0.28    8.98 v _72444_/SUM (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _32425_ (net)
+                  0.05    0.00    8.98 v _36972_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05    9.03 ^ _36972_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _07678_ (net)
+                  0.04    0.00    9.04 ^ _36973_/A1 (sky130_fd_sc_hd__o21bai_1)
+                  0.05    0.06    9.10 v _36973_/Y (sky130_fd_sc_hd__o21bai_1)
+     1    0.00                           _07679_ (net)
+                  0.05    0.00    9.10 v _36974_/A2 (sky130_fd_sc_hd__a21o_1)
+                  0.05    0.18    9.29 v _36974_/X (sky130_fd_sc_hd__a21o_1)
+     2    0.01                           _32438_ (net)
+                  0.05    0.00    9.29 v _36976_/B1 (sky130_fd_sc_hd__a22o_1)
+                  0.04    0.17    9.46 v _36976_/X (sky130_fd_sc_hd__a22o_1)
+     1    0.00                           _07680_ (net)
+                  0.04    0.00    9.47 v _36977_/A2 (sky130_fd_sc_hd__a21o_1)
+                  0.06    0.20    9.67 v _36977_/X (sky130_fd_sc_hd__a21o_1)
+     2    0.01                           _28713_ (net)
+                  0.06    0.01    9.67 v _71479_/CIN (sky130_fd_sc_hd__fa_1)
+                  0.08    0.37   10.04 v _71479_/COUT (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _28714_ (net)
+                  0.08    0.01   10.05 v _36991_/A (sky130_fd_sc_hd__xor2_1)
+                  0.11    0.16   10.21 ^ _36991_/X (sky130_fd_sc_hd__xor2_1)
+     1    0.00                           _07694_ (net)
+                  0.11    0.00   10.21 ^ _36992_/B (sky130_fd_sc_hd__nand2_1)
+                  0.07    0.10   10.31 v _36992_/Y (sky130_fd_sc_hd__nand2_1)
+     3    0.01                           _07695_ (net)
+                  0.07    0.00   10.31 v _37118_/B (sky130_fd_sc_hd__or3_1)
+                  0.09    0.38   10.69 v _37118_/X (sky130_fd_sc_hd__or3_1)
+     3    0.01                           _07819_ (net)
+                  0.09    0.00   10.69 v _37119_/A2 (sky130_fd_sc_hd__o21ai_1)
+                  3.80    2.82   13.51 ^ _37119_/Y (sky130_fd_sc_hd__o21ai_1)
+    67    0.21                           _07820_ (net)
+                  3.80    0.00   13.51 ^ _37153_/B (sky130_fd_sc_hd__nand2_1)
+                  0.52    0.45   13.96 v _37153_/Y (sky130_fd_sc_hd__nand2_1)
+     6    0.01                           _07854_ (net)
+                  0.52    0.00   13.96 v _37667_/B1 (sky130_fd_sc_hd__o21ai_0)
+                  0.36    0.27   14.23 ^ _37667_/Y (sky130_fd_sc_hd__o21ai_0)
+     2    0.01                           _08168_ (net)
+                  0.36    0.00   14.23 ^ _65510_/A2 (sky130_fd_sc_hd__a21oi_1)
+                  0.36    0.12   14.35 v _65510_/Y (sky130_fd_sc_hd__a21oi_1)
+     1    0.00                           _28399_ (net)
+                  0.36    0.00   14.35 v _65511_/B1 (sky130_fd_sc_hd__a211oi_1)
+                  0.46    0.32   14.67 ^ _65511_/Y (sky130_fd_sc_hd__a211oi_1)
+     1    0.00                           _28400_ (net)
+                  0.46    0.00   14.68 ^ _65512_/B1 (sky130_fd_sc_hd__a21oi_1)
+                  0.68    0.12   14.79 v _65512_/Y (sky130_fd_sc_hd__a21oi_1)
+     1    0.01                           _30922_ (net)
+                  0.68    0.01   14.80 v _71995_/A (sky130_fd_sc_hd__fa_1)
+                  0.10    0.70   15.50 v _71995_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.01                           _30926_ (net)
+                  0.10    0.01   15.52 v _72013_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.54   16.06 ^ _72013_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _30999_ (net)
+                  0.06    0.00   16.06 ^ _64712_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   16.11 v _64712_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31066_ (net)
+                  0.05    0.01   16.12 v _72030_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   16.65 ^ _72030_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31067_ (net)
+                  0.06    0.00   16.65 ^ _64717_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   16.71 v _64717_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31106_ (net)
+                  0.05    0.01   16.72 v _72042_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   17.24 ^ _72042_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31107_ (net)
+                  0.06    0.00   17.25 ^ _64720_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   17.30 v _64720_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31127_ (net)
+                  0.05    0.01   17.31 v _72048_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   17.83 ^ _72048_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31128_ (net)
+                  0.06    0.00   17.84 ^ _64721_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   17.89 v _64721_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31137_ (net)
+                  0.05    0.01   17.90 v _72051_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   18.43 ^ _72051_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31140_ (net)
+                  0.06    0.00   18.43 ^ _64722_/A (sky130_fd_sc_hd__inv_1)
+                  0.04    0.05   18.48 v _64722_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.01                           _31141_ (net)
+                  0.05    0.01   18.49 v _72052_/A (sky130_fd_sc_hd__fa_1)
+                  0.05    0.53   19.02 ^ _72052_/SUM (sky130_fd_sc_hd__fa_1)
+     1    0.00                           _31144_ (net)
+                  0.06    0.00   19.02 ^ _65526_/A (sky130_fd_sc_hd__inv_1)
+                  0.03    0.04   19.06 v _65526_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _32920_ (net)
+                  0.03    0.01   19.07 v _72671_/A (sky130_fd_sc_hd__ha_1)
+                  0.08    0.32   19.39 v _72671_/SUM (sky130_fd_sc_hd__ha_1)
+     3    0.01                           _32923_ (net)
+                  0.08    0.00   19.39 v _37984_/A1 (sky130_fd_sc_hd__a21oi_1)
+                  0.15    0.17   19.56 ^ _37984_/Y (sky130_fd_sc_hd__a21oi_1)
+     2    0.01                           _08314_ (net)
+                  0.15    0.00   19.56 ^ _37986_/A2 (sky130_fd_sc_hd__a21oi_1)
+                  0.07    0.09   19.65 v _37986_/Y (sky130_fd_sc_hd__a21oi_1)
+     2    0.00                           _08316_ (net)
+                  0.07    0.00   19.65 v _37988_/A (sky130_fd_sc_hd__or2_2)
+                  0.07    0.31   19.97 v _37988_/X (sky130_fd_sc_hd__or2_2)
+     2    0.01                           _31189_ (net)
+                  0.07    0.01   19.97 v _72062_/CIN (sky130_fd_sc_hd__fa_1)
+                  0.12    0.50   20.47 v _72062_/SUM (sky130_fd_sc_hd__fa_1)
+     6    0.01                           proc.h.z.vcore.fpu_float0.fma1.mulAdd0.mulAddToRaw_postMul.mulAddResult[28] (net)
+                  0.12    0.00   20.47 v _38033_/A (sky130_fd_sc_hd__and3_1)
+                  0.04    0.18   20.65 v _38033_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32969_ (net)
+                  0.04    0.00   20.66 v _38034_/C_N (sky130_fd_sc_hd__nor3b_2)
+                  0.07    0.15   20.81 v _38034_/Y (sky130_fd_sc_hd__nor3b_2)
+     2    0.00                           _32959_ (net)
+                  0.07    0.00   20.81 v _38035_/C_N (sky130_fd_sc_hd__nor3b_2)
+                  0.08    0.17   20.97 v _38035_/Y (sky130_fd_sc_hd__nor3b_2)
+     2    0.00                           _32963_ (net)
+                  0.08    0.00   20.98 v _38037_/B (sky130_fd_sc_hd__and3_1)
+                  0.04    0.18   21.16 v _38037_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32952_ (net)
+                  0.04    0.00   21.16 v _38038_/C_N (sky130_fd_sc_hd__nor3b_2)
+                  0.07    0.15   21.31 v _38038_/Y (sky130_fd_sc_hd__nor3b_2)
+     2    0.00                           _32956_ (net)
+                  0.07    0.00   21.32 v _38041_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.18   21.50 v _38041_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32944_ (net)
+                  0.05    0.00   21.50 v _38044_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   21.67 v _38044_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32948_ (net)
+                  0.05    0.00   21.67 v _38046_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   21.84 v _38046_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32936_ (net)
+                  0.05    0.00   21.84 v _38048_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   22.01 v _38048_/X (sky130_fd_sc_hd__and3_1)
+     2    0.00                           _32940_ (net)
+                  0.05    0.00   22.01 v _38050_/B (sky130_fd_sc_hd__and3_1)
+                  0.05    0.17   22.18 v _38050_/X (sky130_fd_sc_hd__and3_1)
+     2    0.01                           _32929_ (net)
+                  0.05    0.00   22.18 v _72673_/B (sky130_fd_sc_hd__ha_1)
+                  0.04    0.17   22.35 v _72673_/COUT (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _32930_ (net)
+                  0.04    0.00   22.35 v _38160_/A (sky130_fd_sc_hd__or3_1)
+                  0.08    0.37   22.73 v _38160_/X (sky130_fd_sc_hd__or3_1)
+     1    0.00                           _08445_ (net)
+                  0.08    0.01   22.73 v _38162_/A (sky130_fd_sc_hd__xor2_1)
+                  0.12    0.22   22.95 v _38162_/X (sky130_fd_sc_hd__xor2_1)
+     4    0.02                           _08447_ (net)
+                  0.13    0.01   22.96 v _38167_/B1 (sky130_fd_sc_hd__a211oi_4)
+                  0.28    0.32   23.28 ^ _38167_/Y (sky130_fd_sc_hd__a211oi_4)
+     5    0.02                           _08452_ (net)
+                  0.28    0.01   23.29 ^ _38217_/B (sky130_fd_sc_hd__nand4_4)
+                  0.16    0.20   23.49 v _38217_/Y (sky130_fd_sc_hd__nand4_4)
+     8    0.03                           _08502_ (net)
+                  0.16    0.01   23.50 v _38291_/A (sky130_fd_sc_hd__nor4_4)
+                  0.25    0.35   23.85 ^ _38291_/Y (sky130_fd_sc_hd__nor4_4)
+     4    0.01                           _08576_ (net)
+                  0.25    0.00   23.85 ^ _38316_/B (sky130_fd_sc_hd__and3_1)
+                  0.11    0.25   24.10 ^ _38316_/X (sky130_fd_sc_hd__and3_1)
+     4    0.01                           _08601_ (net)
+                  0.11    0.00   24.10 ^ _38317_/C (sky130_fd_sc_hd__and3_1)
+                  0.70    0.63   24.73 ^ _38317_/X (sky130_fd_sc_hd__and3_1)
+    24    0.07                           _08602_ (net)
+                  0.70    0.01   24.74 ^ _38319_/B (sky130_fd_sc_hd__nor2_8)
+                  0.17    0.15   24.90 v _38319_/Y (sky130_fd_sc_hd__nor2_8)
+    19    0.08                           _08604_ (net)
+                  0.17    0.01   24.91 v _38320_/A (sky130_fd_sc_hd__inv_8)
+                  0.21    0.23   25.14 ^ _38320_/Y (sky130_fd_sc_hd__inv_8)
+    43    0.13                           _08605_ (net)
+                  0.21    0.00   25.14 ^ _72712_/A (sky130_fd_sc_hd__ha_1)
+                  0.05    0.18   25.31 ^ _72712_/COUT (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _33065_ (net)
+                  0.05    0.00   25.32 ^ _65828_/A (sky130_fd_sc_hd__inv_1)
+                  0.03    0.04   25.36 v _65828_/Y (sky130_fd_sc_hd__inv_1)
+     1    0.00                           _33070_ (net)
+                  0.03    0.01   25.36 v _72714_/B (sky130_fd_sc_hd__ha_1)
+                  0.04    0.16   25.52 v _72714_/COUT (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _33071_ (net)
+                  0.04    0.00   25.53 v _38420_/A (sky130_fd_sc_hd__inv_1)
+                  0.05    0.06   25.58 ^ _38420_/Y (sky130_fd_sc_hd__inv_1)
+     2    0.00                           _08676_ (net)
+                  0.05    0.00   25.59 ^ _48574_/C1 (sky130_fd_sc_hd__o221ai_1)
+                  0.20    0.09   25.68 v _48574_/Y (sky130_fd_sc_hd__o221ai_1)
+     1    0.00                           _15581_ (net)
+                  0.20    0.00   25.69 v _48576_/A2 (sky130_fd_sc_hd__a31oi_1)
+                  0.22    0.29   25.97 ^ _48576_/Y (sky130_fd_sc_hd__a31oi_1)
+     2    0.01                           _31197_ (net)
+                  0.22    0.00   25.98 ^ _48578_/A2 (sky130_fd_sc_hd__o21a_1)
+                  0.07    0.16   26.13 ^ _48578_/X (sky130_fd_sc_hd__o21a_1)
+     2    0.01                           _33107_ (net)
+                  0.07    0.00   26.14 ^ _72724_/B (sky130_fd_sc_hd__ha_1)
+                  0.05    0.22   26.36 v _72724_/SUM (sky130_fd_sc_hd__ha_1)
+     1    0.00                           _33109_ (net)
+                  0.05    0.00   26.36 v _48564_/A (sky130_fd_sc_hd__nor2_1)
+                  0.16    0.10   26.46 ^ _48564_/Y (sky130_fd_sc_hd__nor2_1)
+     1    0.00                           _15573_ (net)
+                  0.16    0.00   26.47 ^ _48565_/B1 (sky130_fd_sc_hd__a21oi_1)
+                  0.13    0.05   26.52 v _48565_/Y (sky130_fd_sc_hd__a21oi_1)
+     1    0.00                           _15574_ (net)
+                  0.13    0.00   26.52 v _48567_/A2 (sky130_fd_sc_hd__o21ai_0)
+                  0.17    0.16   26.68 ^ _48567_/Y (sky130_fd_sc_hd__o21ai_0)
+     1    0.00                           _02110_ (net)
+                  0.17    0.00   26.68 ^ _68122_/D (sky130_fd_sc_hd__dfxtp_1)
+                                 26.68   data arrival time
+
+                  0.00   50.00   50.00   clock core_clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _68122_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.09   49.91   library setup time
+                                 49.91   data required time
+-----------------------------------------------------------------------------
+                                 49.91   data required time
+                                -26.68   data arrival time
+-----------------------------------------------------------------------------
+                                 23.23   slack (MET)
+
+
+
+==========================================================================
+floorplan final report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+floorplan final report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+floorplan final report_worst_slack
+--------------------------------------------------------------------------
+worst slack 23.23
+
+==========================================================================
+floorplan final report_clock_skew
+--------------------------------------------------------------------------
+Clock core_clock
+Latency      CRPR       Skew
+_70696_/CLK ^
+   0.00
+_70914_/CLK ^
+   0.00      0.00       0.00
+
+
+==========================================================================
+floorplan final report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power
+----------------------------------------------------------------
+Sequential             4.93e-03   3.12e-04   4.62e-08   5.24e-03  45.1%
+Combinational          3.03e-03   3.36e-03   7.99e-08   6.39e-03  54.9%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  7.96e-03   3.67e-03   1.26e-07   1.16e-02 100.0%
+                          68.4%      31.6%       0.0%
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 310344 u^2 0% utilization.
+
+Elapsed time: 0:05.99[h:]min:sec. Average CPU: 99%. Peak memory: 202516KB.

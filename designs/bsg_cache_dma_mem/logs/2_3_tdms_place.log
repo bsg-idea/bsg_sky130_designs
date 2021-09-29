@@ -1,0 +1,69 @@
+OpenROAD 1 v2.0-880-gd1c7001ad
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 11 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 437 library cells
+[INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2065): Either PATH, RECT or POLYGON statement is a required in MACRO/PIN/PORT. See file ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef at line 957.
+
+[WARNING ODB-0220] WARNING (LEFPARS-2076): Either PATH, RECT or POLYGON statement is a required in MACRO/OBS. See file ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef at line 960.
+
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bsg_cache_dma_mem/sram_32x8.lef
+[INFO ODB-0127] Reading DEF file: ./results/sky130hd/bsg_cache_dma_mem/base/2_2_floorplan_io.def
+[INFO ODB-0128] Design: bsg_cache_dma
+[INFO ODB-0130]     Created 734 pins.
+[INFO ODB-0131]     Created 824 components and 4452 component-terminals.
+[INFO ODB-0133]     Created 1188 nets and 2803 connections.
+[INFO ODB-0134] Finished DEF file: ./results/sky130hd/bsg_cache_dma_mem/base/2_2_floorplan_io.def
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 20240 21760
+[INFO GPL-0005] CoreAreaUxUy: 2899840 3497920
+[INFO GPL-0006] NumInstances: 824
+[INFO GPL-0007] NumPlaceInstances: 824
+[INFO GPL-0008] NumFixedInstances: 0
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 1188
+[INFO GPL-0011] NumPins: 3537
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 2920000 3520000
+[INFO GPL-0014] CoreAreaLxLy: 20240 21760
+[INFO GPL-0015] CoreAreaUxUy: 2899840 3497920
+[INFO GPL-0016] CoreArea: 10009950336000
+[INFO GPL-0017] NonPlaceInstsArea: 0
+[INFO GPL-0018] PlaceInstsArea: 343010009600
+[INFO GPL-0019] Util(%): 3.43
+[INFO GPL-0020] StdInstsArea: 15650009600
+[INFO GPL-0021] MacroInstsArea: 327360000000
+[InitialPlace]  Iter: 1 CG Error: 0.00102641 HPWL: 2441732825
+[InitialPlace]  Iter: 2 CG Error: 0.00023665 HPWL: 1716856700
+[InitialPlace]  Iter: 3 CG Error: 0.00008424 HPWL: 1549605114
+[InitialPlace]  Iter: 4 CG Error: 0.00005105 HPWL: 1367189156
+[InitialPlace]  Iter: 5 CG Error: 0.00002185 HPWL: 1249286208
+[InitialPlace]  Iter: 6 CG Error: 0.00001413 HPWL: 1194244390
+[InitialPlace]  Iter: 7 CG Error: 0.00000781 HPWL: 1162269277
+[INFO GPL-0031] FillerInit: NumGCells: 310748
+[INFO GPL-0032] FillerInit: NumGNets: 1188
+[INFO GPL-0033] FillerInit: NumGPins: 3537
+[INFO GPL-0023] TargetDensity: 0.60
+[INFO GPL-0024] AveragePlaceInstArea: 416274283
+[INFO GPL-0025] IdealBinArea: 693790400
+[INFO GPL-0026] IdealBinCnt: 14427
+[INFO GPL-0027] TotalBinArea: 10009950336000
+[INFO GPL-0028] BinCnt: 64 64
+[INFO GPL-0029] BinSize: 44994 54315
+[INFO GPL-0030] NumBins: 4096
+[NesterovSolve] Iter: 1 overflow: 0.007051 HPWL: 1097787078
+[NesterovSolve] Iter: 10 overflow: 0.00700077 HPWL: 1091784057
+[NesterovSolve] Iter: 20 overflow: 0.00680096 HPWL: 1084697885
+[NesterovSolve] Iter: 30 overflow: 0.00682351 HPWL: 1077604847
+[NesterovSolve] Iter: 40 overflow: 0.00688106 HPWL: 1072123025
+[NesterovSolve] Iter: 50 overflow: 0.00703765 HPWL: 1067584106
+[NesterovSolve] Finished with Overflow: 0.007083
+Elapsed time: 0:15.93[h:]min:sec. Average CPU: 82%. Peak memory: 177144KB.
