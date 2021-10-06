@@ -59,8 +59,8 @@ Begin west partition.
 End west partition.
 End horizontal partition.
 [INFO MPL-0070] Using 3 partition sets.
-[INFO MPL-0071] Solution 1 weighted wire length 4.66357e+06.
-[INFO MPL-0071] Solution 2 weighted wire length 4.66357e+06.
-[INFO MPL-0071] Solution 3 weighted wire length 5.64796e+06.
-[INFO MPL-0073] Best weighted wire length 5.64796e+06.
-Elapsed time: 0:01.73[h:]min:sec. Average CPU: 96%. Peak memory: 171496KB.
+[INFO MPL-0071] Solution 1 weighted wire length 4.65583e+06.
+[INFO MPL-0071] Solution 2 weighted wire length 4.65583e+06.
+[INFO MPL-0071] Solution 3 weighted wire length 5.64079e+06.
+[INFO MPL-0073] Best weighted wire length 5.64079e+06.
+Elapsed time: 0:01.55[h:]min:sec. Average CPU: 99%. Peak memory: 171240KB.

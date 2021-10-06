@@ -118,4 +118,4 @@ Components of this program may be licensed under more restrictive licenses which
 [NesterovSolve] Iter: 420 overflow: 0.146258 HPWL: 3304194287
 [NesterovSolve] Iter: 430 overflow: 0.119865 HPWL: 3346898030
 [NesterovSolve] Finished with Overflow: 0.098670
-Elapsed time: 23:13.17[h:]min:sec. Average CPU: 99%. Peak memory: 1438216KB.
+Elapsed time: 23:14.82[h:]min:sec. Average CPU: 99%. Peak memory: 1438576KB.

@@ -39,9 +39,9 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 1900000 Insts
 [INFO ODB-0094] 		Created 2000000 Insts
 [INFO ODB-0130]     Created 269 pins.
-[INFO ODB-0131]     Created 2017123 components and 4131125 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 4034242 connections.
-[INFO ODB-0133]     Created 30049 nets and 96838 connections.
+[INFO ODB-0131]     Created 2018004 components and 4134649 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 4036004 connections.
+[INFO ODB-0133]     Created 30930 nets and 98600 connections.
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/tinyRocket/base/4_1_cts.def
-[INFO DPL-0001] Placed 17881862 filler instances.
-Elapsed time: 2:10.78[h:]min:sec. Average CPU: 99%. Peak memory: 16426444KB.
+[INFO DPL-0001] Placed 17881284 filler instances.
+Elapsed time: 2:12.43[h:]min:sec. Average CPU: 99%. Peak memory: 16426504KB.

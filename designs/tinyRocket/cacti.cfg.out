@@ -1,2 +1,0 @@
-Tech node (nm), Capacity (bytes), Associativity, Output width (bits), Access time (ns), Random cycle time (ns), Dynamic search energy (nJ), Dynamic read energy (nJ), Dynamic write energy (nJ), Standby leakage per bank(mW), Area (mm2), FO4 delay (ps), Width (um), Height (um), 
-130, 256, 1, 32, 0.568476, 0.378944, N/A, 0.0163447, 0.0128804, 0.0617844, 0.0258467, 44.4165, 110.303, 234.325, 
