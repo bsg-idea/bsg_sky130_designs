@@ -247,7 +247,7 @@ Using ABC speed script.
 34. Printing statistics.
 35. Executing Verilog backend.
 Warnings: 26 unique messages, 234 total
-End of script. Logfile hash: 60800a2336, CPU: user 1.71s system 0.02s, MEM: 44.48 MB peak
+End of script. Logfile hash: 34a0619ad7, CPU: user 1.68s system 0.06s, MEM: 44.30 MB peak
 Yosys 0.9+3672 (git sha1 014c7e26, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)
-Time spent: 22% 2x abc (0 sec), 12% 26x opt_expr (0 sec), ...
-Elapsed time: 0:03.32[h:]min:sec. Average CPU: 65%. Peak memory: 45816KB.
+Time spent: 23% 2x abc (0 sec), 12% 26x opt_expr (0 sec), ...
+Elapsed time: 0:03.55[h:]min:sec. Average CPU: 62%. Peak memory: 45560KB.

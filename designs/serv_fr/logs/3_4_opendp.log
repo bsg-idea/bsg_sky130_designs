@@ -26,24 +26,23 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 1000000 Insts
 [INFO ODB-0094] 		Created 1100000 Insts
 [INFO ODB-0094] 		Created 1200000 Insts
-[INFO ODB-0094] 		Created 1300000 Insts
 [INFO ODB-0130]     Created 273 pins.
-[INFO ODB-0131]     Created 1377876 components and 2759825 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 2755750 connections.
-[INFO ODB-0133]     Created 1547 nets and 4067 connections.
+[INFO ODB-0131]     Created 1293632 components and 2591291 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2587262 connections.
+[INFO ODB-0133]     Created 1524 nets and 4021 connections.
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/3_3_place_resized.def
 Placement Analysis
 ---------------------------------
-total displacement       3874.9 u
+total displacement       3769.3 u
 average displacement        0.0 u
-max displacement           19.3 u
-original HPWL         1109453.2 u
-legalized HPWL        1110447.8 u
+max displacement           19.8 u
+original HPWL         1045411.1 u
+legalized HPWL        1046432.2 u
 delta HPWL                    0 %
 
-[INFO DPL-0020] Mirrored 638 instances
-[INFO DPL-0021] HPWL before          1110447.8 u
-[INFO DPL-0022] HPWL after           1107939.3 u
+[INFO DPL-0020] Mirrored 606 instances
+[INFO DPL-0021] HPWL before          1046432.2 u
+[INFO DPL-0022] HPWL after           1044093.7 u
 [INFO DPL-0023] HPWL delta               -0.2 %
 [INFO FLW-0012] Placement violations 0.
 
@@ -69,93 +68,96 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                           0.00    0.00 v input external delay
                   0.00    0.00    0.00 v i_dbus_ack (in)
-     1    0.01                           i_dbus_ack (net)
+     1    0.02                           i_dbus_ack (net)
                   0.00    0.00    0.00 v input2/A (sky130_fd_sc_hd__buf_12)
-                  0.10    0.15    0.15 v input2/X (sky130_fd_sc_hd__buf_12)
-     4    0.21                           net2 (net)
-                  0.10    0.01    0.16 v repeater569/A (sky130_fd_sc_hd__buf_16)
-                  0.10    0.20    0.36 v repeater569/X (sky130_fd_sc_hd__buf_16)
-     3    0.28                           net569 (net)
-                  0.41    0.20    0.56 v repeater567/A (sky130_fd_sc_hd__buf_16)
-                  0.09    0.32    0.88 v repeater567/X (sky130_fd_sc_hd__buf_16)
-     4    0.35                           net567 (net)
-                  0.55    0.27    1.14 v repeater566/A (sky130_fd_sc_hd__buf_16)
-                  0.12    0.40    1.54 v repeater566/X (sky130_fd_sc_hd__buf_16)
-     1    0.31                           net566 (net)
-                  0.50    0.24    1.78 v repeater565/A (sky130_fd_sc_hd__buf_16)
-                  0.10    0.35    2.14 v repeater565/X (sky130_fd_sc_hd__buf_16)
-     3    0.34                           net565 (net)
-                  0.58    0.29    2.42 v repeater561/A (sky130_fd_sc_hd__buf_16)
-                  0.10    0.39    2.81 v repeater561/X (sky130_fd_sc_hd__buf_16)
-     2    0.33                           net561 (net)
-                  0.57    0.28    3.09 v repeater560/A (sky130_fd_sc_hd__buf_16)
-                  0.11    0.40    3.49 v repeater560/X (sky130_fd_sc_hd__buf_16)
-     2    0.33                           net560 (net)
-                  0.58    0.28    3.77 v repeater559/A (sky130_fd_sc_hd__buf_16)
-                  0.10    0.38    4.16 v repeater559/X (sky130_fd_sc_hd__buf_16)
-     3    0.34                           net559 (net)
-                  0.49    0.23    4.39 v repeater554/A (sky130_fd_sc_hd__buf_16)
-                  0.09    0.35    4.74 v repeater554/X (sky130_fd_sc_hd__buf_16)
-    14    0.38                           net554 (net)
-                  0.54    0.26    5.00 v _0930_/C1 (sky130_fd_sc_hd__a211oi_4)
-                  1.22    1.12    6.11 ^ _0930_/Y (sky130_fd_sc_hd__a211oi_4)
+                  0.09    0.15    0.15 v input2/X (sky130_fd_sc_hd__buf_12)
+     5    0.22                           net2 (net)
+                  0.09    0.00    0.15 v repeater549/A (sky130_fd_sc_hd__buf_16)
+                  0.10    0.20    0.35 v repeater549/X (sky130_fd_sc_hd__buf_16)
+     3    0.31                           net549 (net)
+                  0.49    0.24    0.59 v repeater543/A (sky130_fd_sc_hd__buf_16)
+                  0.10    0.36    0.95 v repeater543/X (sky130_fd_sc_hd__buf_16)
+     3    0.34                           net543 (net)
+                  0.48    0.23    1.18 v repeater542/A (sky130_fd_sc_hd__buf_16)
+                  0.12    0.38    1.55 v repeater542/X (sky130_fd_sc_hd__buf_16)
+     1    0.33                           net542 (net)
+                  0.58    0.28    1.84 v repeater541/A (sky130_fd_sc_hd__buf_16)
+                  0.11    0.39    2.23 v repeater541/X (sky130_fd_sc_hd__buf_16)
+     2    0.32                           net541 (net)
+                  0.55    0.27    2.50 v repeater540/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.42    2.92 v repeater540/X (sky130_fd_sc_hd__buf_16)
+     3    0.30                           net540 (net)
+                  0.20    0.07    2.99 v repeater539/A (sky130_fd_sc_hd__buf_12)
+                  0.09    0.25    3.23 v repeater539/X (sky130_fd_sc_hd__buf_12)
+     1    0.22                           net539 (net)
+                  0.29    0.14    3.37 v repeater536/A (sky130_fd_sc_hd__buf_16)
+                  0.10    0.29    3.66 v repeater536/X (sky130_fd_sc_hd__buf_16)
+     2    0.33                           net536 (net)
+                  0.56    0.28    3.93 v repeater535/A (sky130_fd_sc_hd__buf_16)
+                  0.10    0.38    4.31 v repeater535/X (sky130_fd_sc_hd__buf_16)
+     3    0.34                           net535 (net)
+                  0.59    0.29    4.60 v repeater533/A (sky130_fd_sc_hd__buf_16)
+                  0.11    0.39    4.99 v repeater533/X (sky130_fd_sc_hd__buf_16)
+    16    0.37                           net533 (net)
+                  0.42    0.20    5.19 v _0930_/C1 (sky130_fd_sc_hd__a211oi_4)
+                  1.22    1.07    6.26 ^ _0930_/Y (sky130_fd_sc_hd__a211oi_4)
     10    0.12                           _0446_ (net)
-                  1.22    0.01    6.12 ^ repeater311/A (sky130_fd_sc_hd__buf_16)
-                  0.16    0.26    6.39 ^ repeater311/X (sky130_fd_sc_hd__buf_16)
-     3    0.13                           net311 (net)
-                  0.18    0.04    6.43 ^ repeater310/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20    6.62 ^ repeater310/X (sky130_fd_sc_hd__buf_16)
-     4    0.14                           net310 (net)
-                  0.18    0.05    6.68 ^ repeater309/A (sky130_fd_sc_hd__buf_8)
-                  0.18    0.22    6.90 ^ repeater309/X (sky130_fd_sc_hd__buf_8)
-     1    0.11                           net309 (net)
-                  0.20    0.04    6.94 ^ repeater308/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20    7.13 ^ repeater308/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net308 (net)
-                  0.18    0.05    7.19 ^ repeater307/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.19    7.38 ^ repeater307/X (sky130_fd_sc_hd__buf_16)
-     3    0.13                           net307 (net)
-                  0.18    0.05    7.44 ^ repeater306/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20    7.63 ^ repeater306/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net306 (net)
-                  0.17    0.05    7.68 ^ repeater305/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.20    7.88 ^ repeater305/X (sky130_fd_sc_hd__buf_16)
-     2    0.13                           net305 (net)
-                  0.16    0.04    7.92 ^ repeater303/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.19    8.11 ^ repeater303/X (sky130_fd_sc_hd__buf_16)
-     1    0.13                           net303 (net)
-                  0.18    0.05    8.17 ^ repeater302/A (sky130_fd_sc_hd__buf_16)
-                  0.24    0.24    8.41 ^ repeater302/X (sky130_fd_sc_hd__buf_16)
-     4    0.34                           net302 (net)
-                  0.65    0.29    8.70 ^ repeater301/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.25    8.95 ^ repeater301/X (sky130_fd_sc_hd__buf_16)
-     1    0.13                           net301 (net)
-                  0.18    0.05    9.00 ^ repeater300/A (sky130_fd_sc_hd__buf_16)
-                  0.24    0.25    9.26 ^ repeater300/X (sky130_fd_sc_hd__buf_16)
-     3    0.33                           net300 (net)
-                  0.64    0.29    9.55 ^ repeater299/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.25    9.80 ^ repeater299/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net299 (net)
-                  0.18    0.05    9.85 ^ repeater298/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20   10.05 ^ repeater298/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net298 (net)
-                  0.18    0.05   10.10 ^ repeater297/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.20   10.30 ^ repeater297/X (sky130_fd_sc_hd__buf_16)
-     1    0.14                           net297 (net)
-                  0.18    0.06   10.36 ^ repeater296/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20   10.55 ^ repeater296/X (sky130_fd_sc_hd__buf_16)
-     7    0.14                           net296 (net)
-                  0.18    0.05   10.60 ^ repeater295/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.20   10.80 ^ repeater295/X (sky130_fd_sc_hd__buf_16)
-     2    0.14                           net295 (net)
-                  0.18    0.06   10.86 ^ _1002_/B (sky130_fd_sc_hd__nand2_1)
-                  0.18    0.12   10.97 v _1002_/Y (sky130_fd_sc_hd__nand2_1)
+                  1.22    0.02    6.28 ^ repeater305/A (sky130_fd_sc_hd__buf_16)
+                  0.16    0.27    6.54 ^ repeater305/X (sky130_fd_sc_hd__buf_16)
+     4    0.14                           net305 (net)
+                  0.17    0.02    6.56 ^ repeater298/A (sky130_fd_sc_hd__buf_6)
+                  0.18    0.22    6.79 ^ repeater298/X (sky130_fd_sc_hd__buf_6)
+     1    0.09                           net298 (net)
+                  0.19    0.03    6.81 ^ repeater297/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.20    7.01 ^ repeater297/X (sky130_fd_sc_hd__buf_16)
+     1    0.13                           net297 (net)
+                  0.18    0.05    7.07 ^ repeater296/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.21    7.28 ^ repeater296/X (sky130_fd_sc_hd__buf_16)
+     5    0.14                           net296 (net)
+                  0.15    0.01    7.29 ^ repeater295/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.19    7.48 ^ repeater295/X (sky130_fd_sc_hd__buf_16)
+     1    0.14                           net295 (net)
+                  0.18    0.06    7.54 ^ repeater294/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.20    7.73 ^ repeater294/X (sky130_fd_sc_hd__buf_16)
+     3    0.14                           net294 (net)
+                  0.18    0.05    7.79 ^ repeater293/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.20    7.99 ^ repeater293/X (sky130_fd_sc_hd__buf_16)
+     1    0.14                           net293 (net)
+                  0.18    0.06    8.04 ^ repeater292/A (sky130_fd_sc_hd__buf_16)
+                  0.23    0.24    8.28 ^ repeater292/X (sky130_fd_sc_hd__buf_16)
+     3    0.32                           net292 (net)
+                  0.65    0.30    8.57 ^ repeater291/A (sky130_fd_sc_hd__buf_16)
+                  0.24    0.30    8.88 ^ repeater291/X (sky130_fd_sc_hd__buf_16)
+     4    0.34                           net291 (net)
+                  0.66    0.30    9.18 ^ repeater290/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.25    9.43 ^ repeater290/X (sky130_fd_sc_hd__buf_16)
+     1    0.13                           net290 (net)
+                  0.18    0.06    9.48 ^ repeater289/A (sky130_fd_sc_hd__buf_16)
+                  0.23    0.25    9.73 ^ repeater289/X (sky130_fd_sc_hd__buf_16)
+     3    0.33                           net289 (net)
+                  0.65    0.30   10.03 ^ repeater288/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.25   10.28 ^ repeater288/X (sky130_fd_sc_hd__buf_16)
+     3    0.14                           net288 (net)
+                  0.18    0.05   10.33 ^ repeater287/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.20   10.53 ^ repeater287/X (sky130_fd_sc_hd__buf_16)
+     3    0.13                           net287 (net)
+                  0.18    0.05   10.58 ^ repeater286/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.20   10.78 ^ repeater286/X (sky130_fd_sc_hd__buf_16)
+     1    0.14                           net286 (net)
+                  0.18    0.06   10.83 ^ repeater285/A (sky130_fd_sc_hd__buf_16)
+                  0.15    0.20   11.03 ^ repeater285/X (sky130_fd_sc_hd__buf_16)
+     7    0.14                           net285 (net)
+                  0.18    0.05   11.08 ^ repeater284/A (sky130_fd_sc_hd__buf_16)
+                  0.14    0.20   11.28 ^ repeater284/X (sky130_fd_sc_hd__buf_16)
+     2    0.13                           net284 (net)
+                  0.18    0.05   11.33 ^ _1002_/B (sky130_fd_sc_hd__nand2_1)
+                  0.13    0.10   11.43 v _1002_/Y (sky130_fd_sc_hd__nand2_1)
      1    0.01                           _0501_ (net)
-                  0.18    0.00   10.97 v _1003_/B1 (sky130_fd_sc_hd__o21ai_1)
-                  0.19    0.18   11.15 ^ _1003_/Y (sky130_fd_sc_hd__o21ai_1)
+                  0.13    0.00   11.43 v _1003_/B1 (sky130_fd_sc_hd__o21ai_0)
+                  0.19    0.13   11.56 ^ _1003_/Y (sky130_fd_sc_hd__o21ai_0)
      1    0.01                           _0070_ (net)
-                  0.19    0.00   11.15 ^ _1371_/D (sky130_fd_sc_hd__dfxtp_4)
-                                 11.15   data arrival time
+                  0.19    0.00   11.56 ^ _1371_/D (sky130_fd_sc_hd__dfxtp_4)
+                                 11.56   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 
@@ -164,17 +166,11 @@ Fanout     Cap    Slew   Delay    Time   Description
 ==========================================================================
 detailed place report_check_types -max_slew -max_cap -max_fanout -violators
 --------------------------------------------------------------------------
-max slew
-
-Pin                                    Limit    Slew   Slack
-------------------------------------------------------------
-output125/A                             1.50    1.50   -0.00 (VIOLATED)
-
 
 ==========================================================================
 detailed place max_slew_violation_count
 --------------------------------------------------------------------------
-max slew violation count 1
+max slew violation count 0
 
 ==========================================================================
 detailed place max_fanout_violation_count
@@ -214,17 +210,17 @@ detailed place report_power
 Group                  Internal  Switching    Leakage      Total
                           Power      Power      Power      Power
 ----------------------------------------------------------------
-Sequential             1.29e-12   6.23e-12   1.57e-09   1.57e-09   0.0%
-Combinational          1.12e-11   3.69e-11   2.44e-04   2.44e-04 100.0%
+Sequential             1.29e-12   5.36e-12   1.56e-09   1.57e-09   0.0%
+Combinational          1.04e-11   3.50e-11   2.44e-04   2.44e-04 100.0%
 Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 ----------------------------------------------------------------
-Total                  1.25e-11   4.31e-11   2.44e-04   2.44e-04 100.0%
+Total                  1.17e-11   4.03e-11   2.44e-04   2.44e-04 100.0%
                            0.0%       0.0%     100.0%
 
 ==========================================================================
 detailed place report_design_area
 --------------------------------------------------------------------------
-Design area 1844543 u^2 2% utilization.
+Design area 1737550 u^2 2% utilization.
 
-Elapsed time: 0:32.83[h:]min:sec. Average CPU: 99%. Peak memory: 7214572KB.
+Elapsed time: 0:31.54[h:]min:sec. Average CPU: 99%. Peak memory: 6771176KB.

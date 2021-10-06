@@ -14,7 +14,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/serv_fr/fakeram130_2x576.lef
 [WARNING STA-0337] port 'clk_i' not found.
 number instances in verilog is 876
-[INFO IFP-0001] Added 3646 rows of 22673 sites.
+[INFO IFP-0001] Added 3432 rows of 22593 sites.
 [INFO RSZ-0026] Removed 50 buffers.
 Default units for flow
  time 1ns
@@ -129,4 +129,4 @@ floorplan final report_design_area
 --------------------------------------------------------------------------
 Design area 107734 u^2 0% utilization.
 
-Elapsed time: 0:03.31[h:]min:sec. Average CPU: 32%. Peak memory: 101180KB.
+Elapsed time: 0:03.73[h:]min:sec. Average CPU: 27%. Peak memory: 101176KB.

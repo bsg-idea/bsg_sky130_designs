@@ -26,22 +26,21 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 1000000 Insts
 [INFO ODB-0094] 		Created 1100000 Insts
 [INFO ODB-0094] 		Created 1200000 Insts
-[INFO ODB-0094] 		Created 1300000 Insts
 [INFO ODB-0130]     Created 273 pins.
-[INFO ODB-0131]     Created 1377272 components and 2757409 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 2754542 connections.
+[INFO ODB-0131]     Created 1293051 components and 2588967 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2586100 connections.
 [INFO ODB-0133]     Created 943 nets and 2863 connections.
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/3_1_place_gp.def
 Found 1 macro blocks.
 Using 1u default distance from corners.
 Using 2 tracks default min distance between IO pins.
 [INFO PPL-0010] Tentative 0 to set up sections.
-[INFO PPL-0001] Number of slots          37954
+[INFO PPL-0001] Number of slots          38368
 [INFO PPL-0002] Number of I/O            273
 [INFO PPL-0003] Number of I/O w/sink     273
 [INFO PPL-0004] Number of I/O w/o sink   35
 [INFO PPL-0005] Slots per section        200
 [INFO PPL-0006] Slots increase factor    0.01
 [INFO PPL-0008] Successfully assigned pins to sections.
-[INFO PPL-0012] I/O nets HPWL: 793451.00 um.
-Elapsed time: 0:24.33[h:]min:sec. Average CPU: 98%. Peak memory: 5305604KB.
+[INFO PPL-0012] I/O nets HPWL: 762814.19 um.
+Elapsed time: 0:22.75[h:]min:sec. Average CPU: 99%. Peak memory: 4981572KB.

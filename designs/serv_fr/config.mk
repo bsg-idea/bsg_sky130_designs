@@ -12,6 +12,10 @@ export ADDITIONAL_LIBS = $(sort $(wildcard ./designs/$(PLATFORM)/$(DESIGN_NICKNA
 
 # These values must be multiples of placement site
 # x=0.19 y=1.4
-export DIE_AREA    = 0 0 10640 10080
-export CORE_AREA   = 20.14 19.6 10450 9940
 
+#This value of area works
+#export DIE_AREA    = 0 0 11400 11200
+#export CORE_AREA   = 57 42 11020 10920
+
+export DIE_AREA = 0 0 11020 9800
+export CORE_AREA = 57 42 10450 9380 

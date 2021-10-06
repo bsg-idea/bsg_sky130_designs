@@ -143,18 +143,10 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 12700000 Insts
 [INFO ODB-0094] 		Created 12800000 Insts
 [INFO ODB-0094] 		Created 12900000 Insts
-[INFO ODB-0094] 		Created 13000000 Insts
-[INFO ODB-0094] 		Created 13100000 Insts
-[INFO ODB-0094] 		Created 13200000 Insts
-[INFO ODB-0094] 		Created 13300000 Insts
-[INFO ODB-0094] 		Created 13400000 Insts
-[INFO ODB-0094] 		Created 13500000 Insts
-[INFO ODB-0094] 		Created 13600000 Insts
-[INFO ODB-0094] 		Created 13700000 Insts
 [INFO ODB-0130]     Created 273 pins.
-[INFO ODB-0131]     Created 13763380 components and 27530833 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 27526758 connections.
-[INFO ODB-0133]     Created 1547 nets and 4067 connections.
+[INFO ODB-0131]     Created 12910482 components and 25824991 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 25820962 connections.
+[INFO ODB-0133]     Created 1524 nets and 4021 connections.
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/4_cts.def
 [INFO GRT-0020] Min routing layer: met1
 [INFO GRT-0021] Max routing layer: met5
@@ -173,440 +165,1243 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
 [INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
 [INFO GRT-0003] Macros: 1
-[INFO GRT-0004] Blockages: 2795
+[INFO GRT-0004] Blockages: 2775
 [INFO GRT-0019] Found 0 clock nets.
 [INFO GRT-0001] Minimum degree: 2
-[INFO GRT-0002] Maximum degree: 59
-[INFO GRT-0017] Processing 27533331 blockages on layer met1.
+[INFO GRT-0002] Maximum degree: 60
+[INFO GRT-0017] Processing 25827291 blockages on layer met1.
 [INFO GRT-0017] Processing 1 blockages on layer met2.
 [INFO GRT-0017] Processing 40 blockages on layer met3.
-[INFO GRT-0017] Processing 872 blockages on layer met4.
-[INFO GRT-0017] Processing 729 blockages on layer met5.
+[INFO GRT-0017] Processing 870 blockages on layer met4.
+[INFO GRT-0017] Processing 686 blockages on layer met5.
 
 [INFO GRT-0053] Routing resources analysis:
           Routing      Original      Derated      Resource
 Layer     Direction    Resources     Resources    Reduction (%)
 ---------------------------------------------------------------
 li1        Vertical            0             0          0.00%
-met1       Horizontal   45026400      16277613          63.85%
-met2       Vertical     33769800      20233350          40.08%
-met3       Horizontal   22513200      13502187          40.03%
-met4       Vertical     13507920       6748306          50.04%
-met5       Horizontal    4502640       2251401          50.00%
+met1       Horizontal   45354800      17129246          62.23%
+met2       Vertical     34016100      20383313          40.08%
+met3       Horizontal   22677400      13591816          40.06%
+met4       Vertical     13606440       6798626          50.03%
+met5       Horizontal    4535480       2264724          50.07%
 ---------------------------------------------------------------
 
-[INFO GRT-0191] Wirelength: 163212, Wirelength1: 0
-[INFO GRT-0192] Number of segments: 2707
+[INFO GRT-0191] Wirelength: 153458, Wirelength1: 0
+[INFO GRT-0192] Number of segments: 2653
 [INFO GRT-0193] Number of shifts: 0
 [INFO GRT-0097] First L Route.
-[INFO GRT-0191] Wirelength: 163212, Wirelength1: 163212
-[INFO GRT-0192] Number of segments: 2707
+[INFO GRT-0191] Wirelength: 153458, Wirelength1: 153458
+[INFO GRT-0192] Number of segments: 2653
 [INFO GRT-0193] Number of shifts: 0
 [INFO GRT-0135] Overflow report.
-[INFO GRT-0136] Total hCap               : 32031201
-[INFO GRT-0137] Total vCap               : 26981656
-[INFO GRT-0138] Total usage              : 163212
-[INFO GRT-0139] Max H overflow           : 0
-[INFO GRT-0140] Max V overflow           : 0
-[INFO GRT-0141] Max overflow             : 0
-[INFO GRT-0142] Number of overflow edges : 0
-[INFO GRT-0143] H   overflow             : 0
-[INFO GRT-0144] V   overflow             : 0
-[INFO GRT-0145] Final overflow           : 0
+[INFO GRT-0136] Total hCap               : 32985786
+[INFO GRT-0137] Total vCap               : 27181939
+[INFO GRT-0138] Total usage              : 153458
+[INFO GRT-0139] Max H overflow           : 1
+[INFO GRT-0140] Max V overflow           : 2
+[INFO GRT-0141] Max overflow             : 2
+[INFO GRT-0142] Number of overflow edges : 8
+[INFO GRT-0143] H   overflow             : 3
+[INFO GRT-0144] V   overflow             : 6
+[INFO GRT-0145] Final overflow           : 9
 
 [INFO GRT-0098] Second L Route.
 [INFO GRT-0135] Overflow report.
-[INFO GRT-0136] Total hCap               : 32031201
-[INFO GRT-0137] Total vCap               : 26981656
-[INFO GRT-0138] Total usage              : 163212
-[INFO GRT-0139] Max H overflow           : 0
-[INFO GRT-0140] Max V overflow           : 0
-[INFO GRT-0141] Max overflow             : 0
-[INFO GRT-0142] Number of overflow edges : 0
-[INFO GRT-0143] H   overflow             : 0
-[INFO GRT-0144] V   overflow             : 0
-[INFO GRT-0145] Final overflow           : 0
+[INFO GRT-0136] Total hCap               : 32985786
+[INFO GRT-0137] Total vCap               : 27181939
+[INFO GRT-0138] Total usage              : 153458
+[INFO GRT-0139] Max H overflow           : 1
+[INFO GRT-0140] Max V overflow           : 1
+[INFO GRT-0141] Max overflow             : 1
+[INFO GRT-0142] Number of overflow edges : 7
+[INFO GRT-0143] H   overflow             : 3
+[INFO GRT-0144] V   overflow             : 4
+[INFO GRT-0145] Final overflow           : 7
 
 [INFO GRT-0099] First Z Route.
 [INFO GRT-0135] Overflow report.
-[INFO GRT-0136] Total hCap               : 32031201
-[INFO GRT-0137] Total vCap               : 26981656
-[INFO GRT-0138] Total usage              : 163212
-[INFO GRT-0139] Max H overflow           : 0
-[INFO GRT-0140] Max V overflow           : 0
-[INFO GRT-0141] Max overflow             : 0
-[INFO GRT-0142] Number of overflow edges : 0
-[INFO GRT-0143] H   overflow             : 0
-[INFO GRT-0144] V   overflow             : 0
-[INFO GRT-0145] Final overflow           : 0
+[INFO GRT-0136] Total hCap               : 32985786
+[INFO GRT-0137] Total vCap               : 27181939
+[INFO GRT-0138] Total usage              : 153458
+[INFO GRT-0139] Max H overflow           : 1
+[INFO GRT-0140] Max V overflow           : 1
+[INFO GRT-0141] Max overflow             : 1
+[INFO GRT-0142] Number of overflow edges : 7
+[INFO GRT-0143] H   overflow             : 3
+[INFO GRT-0144] V   overflow             : 4
+[INFO GRT-0145] Final overflow           : 7
 
 [INFO GRT-0100] LV routing round 0, enlarge 10.
 [INFO GRT-0182] 10 threshold, 10 expand.
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163212
-[INFO GRT-0128] Max H overflow       : 0
-[INFO GRT-0129] Max V overflow       : 2
-[INFO GRT-0130] Max overflow         : 2
-[INFO GRT-0131] Number overflow edges: 8
-[INFO GRT-0132] H   overflow         : 0
-[INFO GRT-0133] V   overflow         : 9
-[INFO GRT-0134] Final overflow       : 9
+[INFO GRT-0127] Total usage          : 153458
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 4
+[INFO GRT-0130] Max overflow         : 4
+[INFO GRT-0131] Number overflow edges: 17
+[INFO GRT-0132] H   overflow         : 3
+[INFO GRT-0133] V   overflow         : 30
+[INFO GRT-0134] Final overflow       : 33
 
 [INFO GRT-0100] LV routing round 1, enlarge 15.
 [INFO GRT-0182] 5 threshold, 15 expand.
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163212
-[INFO GRT-0128] Max H overflow       : 0
-[INFO GRT-0129] Max V overflow       : 3
-[INFO GRT-0130] Max overflow         : 3
-[INFO GRT-0131] Number overflow edges: 20
-[INFO GRT-0132] H   overflow         : 0
-[INFO GRT-0133] V   overflow         : 32
-[INFO GRT-0134] Final overflow       : 32
+[INFO GRT-0127] Total usage          : 153458
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 5
+[INFO GRT-0130] Max overflow         : 5
+[INFO GRT-0131] Number overflow edges: 29
+[INFO GRT-0132] H   overflow         : 2
+[INFO GRT-0133] V   overflow         : 56
+[INFO GRT-0134] Final overflow       : 58
 
 [INFO GRT-0100] LV routing round 2, enlarge 20.
 [INFO GRT-0182] 1 threshold, 20 expand.
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163212
+[INFO GRT-0127] Total usage          : 153458
 [INFO GRT-0128] Max H overflow       : 0
-[INFO GRT-0129] Max V overflow       : 4
-[INFO GRT-0130] Max overflow         : 4
-[INFO GRT-0131] Number overflow edges: 19
+[INFO GRT-0129] Max V overflow       : 6
+[INFO GRT-0130] Max overflow         : 6
+[INFO GRT-0131] Number overflow edges: 25
 [INFO GRT-0132] H   overflow         : 0
-[INFO GRT-0133] V   overflow         : 31
-[INFO GRT-0134] Final overflow       : 31
+[INFO GRT-0133] V   overflow         : 61
+[INFO GRT-0134] Final overflow       : 61
 
 [INFO GRT-0101] Running extra iterations to remove overflow.
 [INFO GRT-0102] Iteration 1
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163220
+[INFO GRT-0127] Total usage          : 153486
 [INFO GRT-0128] Max H overflow       : 0
-[INFO GRT-0129] Max V overflow       : 4
-[INFO GRT-0130] Max overflow         : 4
-[INFO GRT-0131] Number overflow edges: 8
+[INFO GRT-0129] Max V overflow       : 3
+[INFO GRT-0130] Max overflow         : 3
+[INFO GRT-0131] Number overflow edges: 15
 [INFO GRT-0132] H   overflow         : 0
-[INFO GRT-0133] V   overflow         : 17
-[INFO GRT-0134] Final overflow       : 17
+[INFO GRT-0133] V   overflow         : 24
+[INFO GRT-0134] Final overflow       : 24
 
 [INFO GRT-0102] Iteration 2
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163263
-[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0127] Total usage          : 153521
+[INFO GRT-0128] Max H overflow       : 1
 [INFO GRT-0129] Max V overflow       : 1
 [INFO GRT-0130] Max overflow         : 1
-[INFO GRT-0131] Number overflow edges: 1
-[INFO GRT-0132] H   overflow         : 0
-[INFO GRT-0133] V   overflow         : 1
-[INFO GRT-0134] Final overflow       : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 3
 
 [INFO GRT-0102] Iteration 3
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163265
-[INFO GRT-0128] Max H overflow       : 0
-[INFO GRT-0129] Max V overflow       : 0
-[INFO GRT-0130] Max overflow         : 0
-[INFO GRT-0131] Number overflow edges: 0
-[INFO GRT-0132] H   overflow         : 0
-[INFO GRT-0133] V   overflow         : 0
-[INFO GRT-0134] Final overflow       : 0
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
 
+[INFO GRT-0102] Iteration 4
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 2
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 5
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 6
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 7
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 8
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 0
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 2
+[INFO GRT-0133] V   overflow         : 0
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 9
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 10
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 11
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 12
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 13
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 14
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 15
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153525
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 16
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153525
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 17
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 18
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 19
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 20
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 21
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 22
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 23
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 24
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153521
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 25
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 26
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 27
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 28
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 29
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153535
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 30
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 31
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 32
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 33
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 34
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 0
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 2
+[INFO GRT-0133] V   overflow         : 0
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 35
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153541
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 36
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153543
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 37
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 38
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 39
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 40
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 41
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153525
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 42
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 43
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 44
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153539
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 45
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 46
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 47
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 48
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 49
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153525
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 50
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 51
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 52
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153535
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 53
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 54
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153535
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 55
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153525
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 56
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153541
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 57
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 58
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 59
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153537
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 60
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153541
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 61
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 62
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 63
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 64
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 65
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153521
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 66
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 67
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153543
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 68
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 69
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153535
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 70
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153543
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 71
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 72
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 73
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153537
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 74
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 75
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153521
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 76
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153545
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 77
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153549
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 78
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153523
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 79
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153525
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 80
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 0
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 2
+[INFO GRT-0133] V   overflow         : 0
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 0
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 2
+[INFO GRT-0133] V   overflow         : 0
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 81
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 82
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153535
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 83
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153545
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 84
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 85
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153551
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 86
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153541
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 87
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 88
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153539
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 89
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153545
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 90
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153533
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 91
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 92
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153535
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 93
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153521
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 94
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153527
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 95
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153543
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 96
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153551
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 97
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153541
+[INFO GRT-0128] Max H overflow       : 1
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 1
+[INFO GRT-0133] V   overflow         : 1
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 98
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153531
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 2
+[INFO GRT-0134] Final overflow       : 2
+
+[INFO GRT-0102] Iteration 99
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153547
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0102] Iteration 100
+[INFO GRT-0126] Overflow report:
+[INFO GRT-0127] Total usage          : 153529
+[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0129] Max V overflow       : 1
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 3
+[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0133] V   overflow         : 3
+[INFO GRT-0134] Final overflow       : 3
+
+[INFO GRT-0104] Minimal overflow 2 occurring at round 3.
 Usage checked
 [INFO GRT-0105] Maze routing finished.
 Final 2D results:
 [INFO GRT-0126] Overflow report:
-[INFO GRT-0127] Total usage          : 163265
-[INFO GRT-0128] Max H overflow       : 0
+[INFO GRT-0127] Total usage          : 153519
+[INFO GRT-0128] Max H overflow       : 1
 [INFO GRT-0129] Max V overflow       : 0
-[INFO GRT-0130] Max overflow         : 0
-[INFO GRT-0131] Number overflow edges: 0
-[INFO GRT-0132] H   overflow         : 0
+[INFO GRT-0130] Max overflow         : 1
+[INFO GRT-0131] Number overflow edges: 2
+[INFO GRT-0132] H   overflow         : 2
 [INFO GRT-0133] V   overflow         : 0
-[INFO GRT-0134] Final overflow       : 0
+[INFO GRT-0134] Final overflow       : 2
 
 [INFO GRT-0106] Layer assignment begins.
 [INFO GRT-0107] Layer assignment finished.
-[INFO GRT-0108] Post-processing begins.
-[INFO GRT-0109] Post-processing finished.
- Starting via filling.
-[INFO GRT-0197] Via related to pin nodes: 6749
-[INFO GRT-0198] Via related Steiner nodes: 200
+[INFO GRT-0197] Via related to pin nodes: 7025
+[INFO GRT-0198] Via related Steiner nodes: 13
 [INFO GRT-0199] Via filling finished.
-[INFO GRT-0111] Final number of vias: 8699
-[INFO GRT-0112] Final usage 3D: 189142
+[INFO GRT-0111] Final number of vias: 8772
+[INFO GRT-0112] Final usage 3D: 179835
 [WARNING GRT-0211] dbGcellGrid already exists in db. Clearing existing dbGCellGrid.
-
-[INFO GRT-0096] Final congestion report:
-Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
----------------------------------------------------------------------------------------
-li1                  0             0            0.00%             0 /  0 /  0
-met1          16277613         72187            0.44%             0 /  0 /  0
-met2          20233350         87458            0.43%             0 /  0 /  0
-met3          13502187          1099            0.01%             0 /  0 /  0
-met4           6748306          2258            0.03%             0 /  0 /  0
-met5           2251401            43            0.00%             0 /  0 /  0
----------------------------------------------------------------------------------------
-Total         59012857        163045            0.28%             0 /  0 /  0
-
-[INFO GRT-0018] Total wirelength: 1166921 um
-[INFO GRT-0014] Routed nets: 1510
-[WARNING STA-0357] virtual clock CLK can not be propagated.
-
-==========================================================================
-global route report_checks -path_delay min
---------------------------------------------------------------------------
-No paths found.
-
-==========================================================================
-global route report_checks -path_delay max
---------------------------------------------------------------------------
-No paths found.
-
-==========================================================================
-global route report_checks -unconstrained
---------------------------------------------------------------------------
-Startpoint: i_dbus_ack (input port)
-Endpoint: _1371_ (rising edge-triggered flip-flop)
-Path Group: (none)
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                          0.00    0.00 v input external delay
-                  0.00    0.00    0.00 v i_dbus_ack (in)
-     1    0.01                           i_dbus_ack (net)
-                  0.00    0.00    0.00 v input2/A (sky130_fd_sc_hd__buf_12)
-                  0.09    0.13    0.14 v input2/X (sky130_fd_sc_hd__buf_12)
-     4    0.22                           net2 (net)
-                  0.14    0.04    0.18 v repeater569/A (sky130_fd_sc_hd__buf_16)
-                  0.08    0.20    0.38 v repeater569/X (sky130_fd_sc_hd__buf_16)
-     3    0.30                           net569 (net)
-                  0.56    0.28    0.66 v repeater567/A (sky130_fd_sc_hd__buf_16)
-                  0.09    0.37    1.03 v repeater567/X (sky130_fd_sc_hd__buf_16)
-     4    0.38                           net567 (net)
-                  0.67    0.33    1.35 v repeater566/A (sky130_fd_sc_hd__buf_16)
-                  0.08    0.40    1.75 v repeater566/X (sky130_fd_sc_hd__buf_16)
-     1    0.31                           net566 (net)
-                  0.73    0.36    2.11 v repeater565/A (sky130_fd_sc_hd__buf_16)
-                  0.08    0.40    2.52 v repeater565/X (sky130_fd_sc_hd__buf_16)
-     3    0.34                           net565 (net)
-                  0.78    0.39    2.90 v repeater561/A (sky130_fd_sc_hd__buf_16)
-                  0.09    0.43    3.33 v repeater561/X (sky130_fd_sc_hd__buf_16)
-     2    0.34                           net561 (net)
-                  0.73    0.36    3.69 v repeater560/A (sky130_fd_sc_hd__buf_16)
-                  0.09    0.42    4.10 v repeater560/X (sky130_fd_sc_hd__buf_16)
-     2    0.34                           net560 (net)
-                  0.68    0.34    4.44 v repeater559/A (sky130_fd_sc_hd__buf_16)
-                  0.08    0.39    4.83 v repeater559/X (sky130_fd_sc_hd__buf_16)
-     3    0.36                           net559 (net)
-                  0.71    0.35    5.18 v repeater554/A (sky130_fd_sc_hd__buf_16)
-                  0.09    0.41    5.59 v repeater554/X (sky130_fd_sc_hd__buf_16)
-    14    0.40                           net554 (net)
-                  0.67    0.33    5.92 v _0930_/C1 (sky130_fd_sc_hd__a211oi_4)
-                  1.25    1.18    7.10 ^ _0930_/Y (sky130_fd_sc_hd__a211oi_4)
-    10    0.12                           _0446_ (net)
-                  1.26    0.04    7.14 ^ repeater311/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.23    7.37 ^ repeater311/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net311 (net)
-                  0.27    0.11    7.48 ^ repeater310/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.18    7.66 ^ repeater310/X (sky130_fd_sc_hd__buf_16)
-     4    0.15                           net310 (net)
-                  0.27    0.11    7.77 ^ repeater309/A (sky130_fd_sc_hd__buf_8)
-                  0.18    0.21    7.98 ^ repeater309/X (sky130_fd_sc_hd__buf_8)
-     1    0.11                           net309 (net)
-                  0.24    0.08    8.06 ^ repeater308/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.18    8.24 ^ repeater308/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net308 (net)
-                  0.24    0.10    8.34 ^ repeater307/A (sky130_fd_sc_hd__buf_16)
-                  0.13    0.17    8.51 ^ repeater307/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net307 (net)
-                  0.29    0.13    8.64 ^ repeater306/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20    8.84 ^ repeater306/X (sky130_fd_sc_hd__buf_16)
-     3    0.14                           net306 (net)
-                  0.21    0.07    8.91 ^ repeater305/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.19    9.10 ^ repeater305/X (sky130_fd_sc_hd__buf_16)
-     2    0.13                           net305 (net)
-                  0.20    0.07    9.16 ^ repeater303/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.18    9.34 ^ repeater303/X (sky130_fd_sc_hd__buf_16)
-     1    0.14                           net303 (net)
-                  0.24    0.10    9.44 ^ repeater302/A (sky130_fd_sc_hd__buf_16)
-                  0.20    0.22    9.66 ^ repeater302/X (sky130_fd_sc_hd__buf_16)
-     4    0.35                           net302 (net)
-                  0.82    0.39   10.05 ^ repeater301/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.23   10.28 ^ repeater301/X (sky130_fd_sc_hd__buf_16)
-     1    0.14                           net301 (net)
-                  0.23    0.09   10.37 ^ repeater300/A (sky130_fd_sc_hd__buf_16)
-                  0.20    0.23   10.59 ^ repeater300/X (sky130_fd_sc_hd__buf_16)
-     3    0.33                           net300 (net)
-                  0.77    0.37   10.96 ^ repeater299/A (sky130_fd_sc_hd__buf_16)
-                  0.16    0.24   11.20 ^ repeater299/X (sky130_fd_sc_hd__buf_16)
-     3    0.15                           net299 (net)
-                  0.23    0.08   11.28 ^ repeater298/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.17   11.46 ^ repeater298/X (sky130_fd_sc_hd__buf_16)
-     3    0.15                           net298 (net)
-                  0.30    0.13   11.59 ^ repeater297/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20   11.79 ^ repeater297/X (sky130_fd_sc_hd__buf_16)
-     1    0.15                           net297 (net)
-                  0.25    0.10   11.89 ^ repeater296/A (sky130_fd_sc_hd__buf_16)
-                  0.15    0.20   12.09 ^ repeater296/X (sky130_fd_sc_hd__buf_16)
-     7    0.14                           net296 (net)
-                  0.21    0.07   12.16 ^ repeater295/A (sky130_fd_sc_hd__buf_16)
-                  0.14    0.19   12.35 ^ repeater295/X (sky130_fd_sc_hd__buf_16)
-     2    0.14                           net295 (net)
-                  0.21    0.08   12.43 ^ _1002_/B (sky130_fd_sc_hd__nand2_1)
-                  0.19    0.13   12.56 v _1002_/Y (sky130_fd_sc_hd__nand2_1)
-     1    0.01                           _0501_ (net)
-                  0.19    0.00   12.56 v _1003_/B1 (sky130_fd_sc_hd__o21ai_1)
-                  0.22    0.20   12.76 ^ _1003_/Y (sky130_fd_sc_hd__o21ai_1)
-     1    0.01                           _0070_ (net)
-                  0.22    0.00   12.77 ^ _1371_/D (sky130_fd_sc_hd__dfxtp_4)
-                                 12.77   data arrival time
------------------------------------------------------------------------------
-(Path is unconstrained)
-
-
-
-==========================================================================
-global route report_check_types -max_slew -max_cap -max_fanout -violators
---------------------------------------------------------------------------
-max slew
-
-Pin                                    Limit    Slew   Slack
-------------------------------------------------------------
-_0780_/A                                1.50    2.13   -0.63 (VIOLATED)
-_0912_/S                                1.50    2.09   -0.59 (VIOLATED)
-_0913_/A                                1.50    2.07   -0.57 (VIOLATED)
-_0885_/A_N                              1.50    2.06   -0.56 (VIOLATED)
-_0868_/S                                1.50    2.05   -0.55 (VIOLATED)
-_1056_/A                                1.50    2.05   -0.55 (VIOLATED)
-_0862_/S                                1.50    2.04   -0.54 (VIOLATED)
-_0874_/S                                1.50    2.04   -0.54 (VIOLATED)
-_0865_/S                                1.50    2.04   -0.54 (VIOLATED)
-_0926_/S                                1.50    2.04   -0.54 (VIOLATED)
-_0871_/S                                1.50    2.03   -0.53 (VIOLATED)
-_0883_/A1                               1.50    2.03   -0.53 (VIOLATED)
-_0852_/A                                1.50    2.02   -0.52 (VIOLATED)
-_0816_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0821_/B1                               1.50    2.02   -0.52 (VIOLATED)
-_0856_/A1                               1.50    2.02   -0.52 (VIOLATED)
-_0853_/A1                               1.50    2.02   -0.52 (VIOLATED)
-_0886_/B2                               1.50    2.02   -0.52 (VIOLATED)
-_0860_/A1                               1.50    2.02   -0.52 (VIOLATED)
-_0786_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0857_/A_N                              1.50    2.02   -0.52 (VIOLATED)
-_0789_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0783_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0907_/A                                1.50    2.02   -0.52 (VIOLATED)
-_0882_/C1                               1.50    2.02   -0.52 (VIOLATED)
-_0823_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0838_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0841_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0835_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0776_/A                                1.50    2.02   -0.52 (VIOLATED)
-_0826_/S                                1.50    2.02   -0.52 (VIOLATED)
-_0899_/A1                               1.50    2.02   -0.52 (VIOLATED)
-_0779_/A_N                              1.50    2.02   -0.52 (VIOLATED)
-_0794_/A1                               1.50    2.01   -0.51 (VIOLATED)
-_0845_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0922_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0919_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0829_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0793_/A                                1.50    2.01   -0.51 (VIOLATED)
-_0896_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0832_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0893_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0890_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0917_/A                                1.50    2.01   -0.51 (VIOLATED)
-_0920_/A                                1.50    2.01   -0.51 (VIOLATED)
-_0850_/A1                               1.50    2.01   -0.51 (VIOLATED)
-_0887_/S                                1.50    2.01   -0.51 (VIOLATED)
-_0849_/A                                1.50    2.01   -0.51 (VIOLATED)
-_0911_/A1                               1.50    2.01   -0.51 (VIOLATED)
-_0916_/A1                               1.50    2.01   -0.51 (VIOLATED)
-_0924_/A1                               1.50    2.01   -0.51 (VIOLATED)
-_0923_/A                                1.50    2.01   -0.51 (VIOLATED)
-_1189_/B1                               1.50    2.01   -0.51 (VIOLATED)
-_0918_/A1                               1.50    2.01   -0.51 (VIOLATED)
-_0925_/S                                1.50    1.98   -0.48 (VIOLATED)
-_0921_/A1                               1.50    1.98   -0.48 (VIOLATED)
-_0910_/A                                1.50    1.85   -0.35 (VIOLATED)
-output125/A                             1.50    1.59   -0.09 (VIOLATED)
-_0954_/A                                1.50    1.58   -0.08 (VIOLATED)
-_0958_/A                                1.50    1.57   -0.07 (VIOLATED)
-_1360_/Q                                1.51    1.53   -0.02 (VIOLATED)
-
-max capacitance
-
-Pin                                    Limit     Cap   Slack
-------------------------------------------------------------
-_1360_/Q                                0.55    0.55   -0.01 (VIOLATED)
-
-
-==========================================================================
-global route max_slew_violation_count
---------------------------------------------------------------------------
-max slew violation count 61
-
-==========================================================================
-global route max_fanout_violation_count
---------------------------------------------------------------------------
-max fanout violation count 0
-
-==========================================================================
-global route max_cap_violation_count
---------------------------------------------------------------------------
-max cap violation count 1
-
-==========================================================================
-global route report_tns
---------------------------------------------------------------------------
-tns 0.00
-
-==========================================================================
-global route report_wns
---------------------------------------------------------------------------
-wns 0.00
-
-==========================================================================
-global route report_worst_slack
---------------------------------------------------------------------------
-worst slack INF
-
-==========================================================================
-global route report_clock_skew
---------------------------------------------------------------------------
-Clock CLK
-No launch/capture paths found.
-
-
-==========================================================================
-global route report_power
---------------------------------------------------------------------------
-Group                  Internal  Switching    Leakage      Total
-                          Power      Power      Power      Power
-----------------------------------------------------------------
-Sequential             1.30e-12   6.55e-12   1.57e-09   1.57e-09   0.0%
-Combinational          1.12e-11   3.87e-11   2.44e-04   2.44e-04 100.0%
-Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-----------------------------------------------------------------
-Total                  1.25e-11   4.53e-11   2.44e-04   2.44e-04 100.0%
-                           0.0%       0.0%     100.0%
-
-==========================================================================
-global route report_design_area
---------------------------------------------------------------------------
-Design area 1844543 u^2 2% utilization.
-
-
-==========================================================================
-check_antennas
---------------------------------------------------------------------------
-[INFO ANT-0001] Found 0 pin violations.
-[INFO ANT-0002] Found 0 net violations in 1547 nets.
-[INFO FLW-0007] clock CLK period 300.000000
-[INFO FLW-0008] Clock CLK period -950000041162928859976620080891667939328.000
-[INFO FLW-0009] Clock CLK slack 1000000043329398871556523614962693701632.000
-[ERROR STA-0414] period '-9.500000411629289e+38' is not a positive float.
-Error: write_ref_sdc.tcl, 31 STA-0414
+[ERROR GRT-0118] Routing congestion too high.
+Error: global_route.tcl, 42 GRT-0118
 Command exited with non-zero status 1
-Elapsed time: 2:04.57[h:]min:sec. Average CPU: 99%. Peak memory: 11637748KB.
+Elapsed time: 1:48.03[h:]min:sec. Average CPU: 99%. Peak memory: 10924596KB.

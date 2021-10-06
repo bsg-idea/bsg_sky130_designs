@@ -23,4 +23,4 @@ Found 0 macro blocks.
 Using 1u default distance from corners.
 Using 2 tracks default min distance between IO pins.
 [INFO PPL-0007] Random pin placement.
-Elapsed time: 0:01.07[h:]min:sec. Average CPU: 79%. Peak memory: 102660KB.
+Elapsed time: 0:01.08[h:]min:sec. Average CPU: 91%. Peak memory: 102232KB.

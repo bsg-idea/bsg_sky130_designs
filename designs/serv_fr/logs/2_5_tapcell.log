@@ -20,7 +20,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/2_4_floorplan_macro.def
 [WARNING TAP-0014] endcap_cpp option is deprecated.
 [INFO TAP-0001] Found 1 macro blocks.
-[INFO TAP-0002] Original rows: 3646
-[INFO TAP-0003] Created 65 rows for a total of 3711 rows.
-[INFO TAP-0005] Inserted 1376446 tapcells.
-Elapsed time: 0:04.84[h:]min:sec. Average CPU: 98%. Peak memory: 530600KB.
+[INFO TAP-0002] Original rows: 3432
+[INFO TAP-0003] Created 65 rows for a total of 3497 rows.
+[INFO TAP-0005] Inserted 1292225 tapcells.
+Elapsed time: 0:04.60[h:]min:sec. Average CPU: 97%. Peak memory: 504292KB.

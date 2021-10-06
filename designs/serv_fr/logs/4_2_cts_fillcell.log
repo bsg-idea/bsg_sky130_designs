@@ -26,11 +26,10 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 1000000 Insts
 [INFO ODB-0094] 		Created 1100000 Insts
 [INFO ODB-0094] 		Created 1200000 Insts
-[INFO ODB-0094] 		Created 1300000 Insts
 [INFO ODB-0130]     Created 273 pins.
-[INFO ODB-0131]     Created 1377876 components and 2759825 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 2755750 connections.
-[INFO ODB-0133]     Created 1547 nets and 4067 connections.
+[INFO ODB-0131]     Created 1293632 components and 2591291 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2587262 connections.
+[INFO ODB-0133]     Created 1524 nets and 4021 connections.
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/serv_fr/base/4_1_cts.def
-[INFO DPL-0001] Placed 12385504 filler instances.
-Elapsed time: 1:28.78[h:]min:sec. Average CPU: 99%. Peak memory: 11357076KB.
+[INFO DPL-0001] Placed 11616850 filler instances.
+Elapsed time: 1:27.87[h:]min:sec. Average CPU: 99%. Peak memory: 10668956KB.
