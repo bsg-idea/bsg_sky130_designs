@@ -13,7 +13,7 @@ module hard_mem_1rw_byte_mask_d1024_w32_wrapper(
     data_o
 );
 
- parameter NUM_WMASKS = 1 ;
+ parameter NUM_WMASKS = 4 ;
   parameter DATA_WIDTH = 32 ;
   parameter ADDR_WIDTH = 10 ;
   parameter RAM_DEPTH = 1 << ADDR_WIDTH;
@@ -43,7 +43,7 @@ sky130_sram_1kbyte_1rw1r_8x1024_8 sram8x1024_1 (
     .clk0(clk_i),
     .csb0(v_i),
     .web0(w_i),
-    .wmask0(write_mask_i),
+    .wmask0(write_mask_i[0]),
     .addr0(addr_i),
     .din0(data_i[7:0]),
     .dout0(data_o[7:0]),
@@ -63,7 +63,7 @@ sky130_sram_1kbyte_1rw1r_8x1024_8 sram8x1024_2 (
     .clk0(clk_i),
     .csb0(v_i),
     .web0(w_i),
-    .wmask0(write_mask_i),
+    .wmask0(write_mask_i[1]),
     .addr0(addr_i),
     .din0(data_i[15:8]),
     .dout0(data_o[15:8]),
@@ -83,7 +83,7 @@ sky130_sram_1kbyte_1rw1r_8x1024_8 sram8x1024_3 (
     .clk0(clk_i),
     .csb0(v_i),
     .web0(w_i),
-    .wmask0(write_mask_i),
+    .wmask0(write_mask_i[2]),
     .addr0(addr_i),
     .din0(data_i[23:16]),
     .dout0(data_o[23:16]),
@@ -103,7 +103,7 @@ sky130_sram_1kbyte_1rw1r_8x1024_8 sram8x1024_4 (
     .clk0(clk_i),
     .csb0(v_i),
     .web0(w_i),
-    .wmask0(write_mask_i),
+    .wmask0(write_mask_i[3]),
     .addr0(addr_i),
     .din0(data_i[31:24]),
     .dout0(data_o[31:24]),

@@ -15288,8 +15288,10 @@ module bsg_mem_1rw_sync_width_p46_els_p1024_latch_last_read_p1
   input w_i;
   wire [45:0] data_o;
 
+  wire w_mask_i;
+  assign w_mask_i = 1'b1;
   hard_mem_1rw_d1024_w46_wrapper
-  \macro.mem 
+  mem 
   (
     .clk_i(clk_i),
     .reset_i(reset_i),
@@ -15297,6 +15299,7 @@ module bsg_mem_1rw_sync_width_p46_els_p1024_latch_last_read_p1
     .addr_i(addr_i),
     .v_i(v_i),
     .w_i(w_i),
+    .write_mask_i(w_mask_i),
     .data_o(data_o)
   );
 
@@ -40784,9 +40787,9 @@ module bsg_mem_1rw_sync_mask_write_byte_els_p1024_data_width_p32_latch_last_read
   input v_i;
   input w_i;
   wire [31:0] data_o;
-
+  
   hard_mem_1rw_byte_mask_d1024_w32_wrapper
-  \macro.mem 
+  mem 
   (
     .clk_i(clk_i),
     .reset_i(reset_i),
