@@ -9,15 +9,19 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0225]     Created 437 library cells
 [INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
 [INFO ODB-0127] Reading DEF file: ./results/sky130hd/bp_fe/base/2_1_floorplan.def
@@ -41,4 +45,4 @@ Found 0 macro blocks.
 Using 1u default distance from corners.
 Using 2 tracks default min distance between IO pins.
 [INFO PPL-0007] Random pin placement.
-Elapsed time: 0:04.76[h:]min:sec. Average CPU: 56%. Peak memory: 129036KB.
+Elapsed time: 0:06.43[h:]min:sec. Average CPU: 50%. Peak memory: 118168KB.

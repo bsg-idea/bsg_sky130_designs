@@ -223,7 +223,7 @@ Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/s
 9.21.25. Executing OPT_EXPR pass (perform const folding).
 9.21.26. Finished OPT passes. (There is nothing left to do.)
 9.22. Executing TECHMAP pass (map to technology primitives).
-9.22.1. Executing Verilog-2005 frontend: /mnt/c/Users/LENOVO/Documents/gsocbp/OpenROAD/tools/install/yosys/bin/../share/yosys/techmap.v
+9.22.1. Executing Verilog-2005 frontend: /mnt/c/Users/LakshmiSS/Documents/BP/OpenROAD-flow-scripts/tools/install/yosys/bin/../share/yosys/techmap.v
 9.22.2. Continuing TECHMAP pass.
 9.23. Executing OPT pass (performing simple optimizations).
 9.23.1. Executing OPT_EXPR pass (perform const folding).
@@ -266,7 +266,7 @@ Warning: reg '\lce_resp_o' is assigned in a continuous assignment at ./designs/s
 12.1. Executing Verilog-2005 frontend: ./platforms/sky130hd/cells_adders_hd.v
 12.2. Continuing TECHMAP pass.
 13. Executing TECHMAP pass (map to technology primitives).
-13.1. Executing Verilog-2005 frontend: /mnt/c/Users/LENOVO/Documents/gsocbp/OpenROAD/tools/install/yosys/bin/../share/yosys/techmap.v
+13.1. Executing Verilog-2005 frontend: /mnt/c/Users/LakshmiSS/Documents/BP/OpenROAD-flow-scripts/tools/install/yosys/bin/../share/yosys/techmap.v
 13.2. Continuing TECHMAP pass.
 14. Executing OPT pass (performing simple optimizations).
 14.1. Executing OPT_EXPR pass (perform const folding).
@@ -337,7 +337,7 @@ Using ABC speed script.
 25. Printing statistics.
 26. Executing Verilog backend.
 Warnings: 57 unique messages, 265 total
-End of script. Logfile hash: 3a53ce51d1, CPU: user 94.51s system 0.94s, MEM: 319.68 MB peak
+End of script. Logfile hash: 5749843149, CPU: user 124.09s system 0.31s, MEM: 320.22 MB peak
 Yosys 0.9+3672 (git sha1 014c7e26, gcc 9.3.0-17ubuntu1~20.04 -fPIC -Os)
-Time spent: 19% 2x abc (22 sec), 17% 32x opt_expr (20 sec), ...
-Elapsed time: 1:59.69[h:]min:sec. Average CPU: 97%. Peak memory: 327352KB.
+Time spent: 17% 32x opt_expr (26 sec), 16% 2x abc (24 sec), ...
+Elapsed time: 2:30.65[h:]min:sec. Average CPU: 97%. Peak memory: 327908KB.

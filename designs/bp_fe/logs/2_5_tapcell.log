@@ -9,15 +9,19 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0225]     Created 437 library cells
 [INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
 [INFO ODB-0127] Reading DEF file: ./results/sky130hd/bp_fe/base/2_4_floorplan_macro.def
@@ -28,7 +32,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/bp_fe/base/2_4_floorplan_macro.def
 [WARNING TAP-0014] endcap_cpp option is deprecated.
 [INFO TAP-0001] Found 11 macro blocks.
-[INFO TAP-0002] Original rows: 2943
-[INFO TAP-0003] Created 3672 rows for a total of 6615 rows.
-[INFO TAP-0005] Inserted 1121156 tapcells.
-Elapsed time: 0:17.35[h:]min:sec. Average CPU: 54%. Peak memory: 469400KB.
+[INFO TAP-0002] Original rows: 1481
+[INFO TAP-0003] Created 3665 rows for a total of 5146 rows.
+[INFO TAP-0005] Inserted 203559 tapcells.
+Elapsed time: 0:09.19[h:]min:sec. Average CPU: 49%. Peak memory: 165800KB.

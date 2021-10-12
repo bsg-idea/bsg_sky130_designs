@@ -9,21 +9,23 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0225]     Created 437 library cells
 [INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
-[WARNING STA-0337] port 'icache_id_i[0]' not found.
-[WARNING STA-0337] port 'icache_id_i[0]' not found.
 number instances in verilog is 24241
-[INFO IFP-0001] Added 2943 rows of 23625 sites.
+[INFO IFP-0001] Added 1481 rows of 9789 sites.
 [INFO RSZ-0026] Removed 2939 buffers.
 Default units for flow
  time 1ns
@@ -37,9 +39,8 @@ Default units for flow
 ==========================================================================
 floorplan final report_checks -path_delay min
 --------------------------------------------------------------------------
-Startpoint: bp_fe_cmd_v_i (input port clocked by CLK)
-Endpoint: bp_fe_pc_gen_1.genblk1_branch_prediction_1.btb_1.btb_mem.macro_mem.mem
-          (rising edge-triggered flip-flop clocked by CLK)
+Startpoint: _41348_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: _37955_ (rising edge-triggered flip-flop clocked by CLK)
 Path Group: CLK
 Path Type: min
 
@@ -47,23 +48,23 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.00    0.00    0.00   clock CLK (rise edge)
                           0.00    0.00   clock network delay (ideal)
-                          0.00    0.00 ^ input external delay
-                  0.00    0.00    0.00 ^ bp_fe_cmd_v_i (in)
-   118    0.47                           bp_fe_cmd_v_i (net)
-                  0.00    0.00    0.00 ^ bp_fe_pc_gen_1.genblk1_branch_prediction_1.btb_1.btb_mem.macro_mem.mem/w_mask_in[0] (fakeram130_512x64)
-                                  0.00   data arrival time
+                  0.00    0.00    0.00 ^ _41348_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.08    0.32    0.32 v _41348_/Q (sky130_fd_sc_hd__dfxtp_1)
+     6    0.01                           bp_fe_pc_gen_1.pc_gen_icache_o[12] (net)
+                  0.08    0.00    0.32 v _37955_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  0.32   data arrival time
 
                   0.00    0.00    0.00   clock CLK (rise edge)
                           0.00    0.00   clock network delay (ideal)
                           0.00    0.00   clock reconvergence pessimism
-                                  0.00 ^ bp_fe_pc_gen_1.genblk1_branch_prediction_1.btb_1.btb_mem.macro_mem.mem/clk (fakeram130_512x64)
-                          0.05    0.05   library hold time
-                                  0.05   data required time
+                                  0.00 ^ _37955_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.08   -0.08   library hold time
+                                 -0.08   data required time
 -----------------------------------------------------------------------------
-                                  0.05   data required time
-                                 -0.00   data arrival time
+                                 -0.08   data required time
+                                 -0.32   data arrival time
 -----------------------------------------------------------------------------
-                                 -0.05   slack (VIOLATED)
+                                  0.40   slack (MET)
 
 
 
@@ -94,17 +95,17 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.36    0.00   66.55 v _41452_/D (sky130_fd_sc_hd__dfxtp_1)
                                  66.55   data arrival time
 
-                  0.00    5.40    5.40   clock CLK (rise edge)
-                          0.00    5.40   clock network delay (ideal)
-                          0.00    5.40   clock reconvergence pessimism
-                                  5.40 ^ _41452_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.26    5.14   library setup time
-                                  5.14   data required time
+                  0.00   50.00   50.00   clock CLK (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _41452_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.26   49.74   library setup time
+                                 49.74   data required time
 -----------------------------------------------------------------------------
-                                  5.14   data required time
+                                 49.74   data required time
                                 -66.55   data arrival time
 -----------------------------------------------------------------------------
-                                -61.41   slack (VIOLATED)
+                                -16.81   slack (VIOLATED)
 
 
 
@@ -135,34 +136,34 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.36    0.00   66.55 v _41452_/D (sky130_fd_sc_hd__dfxtp_1)
                                  66.55   data arrival time
 
-                  0.00    5.40    5.40   clock CLK (rise edge)
-                          0.00    5.40   clock network delay (ideal)
-                          0.00    5.40   clock reconvergence pessimism
-                                  5.40 ^ _41452_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.26    5.14   library setup time
-                                  5.14   data required time
+                  0.00   50.00   50.00   clock CLK (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _41452_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.26   49.74   library setup time
+                                 49.74   data required time
 -----------------------------------------------------------------------------
-                                  5.14   data required time
+                                 49.74   data required time
                                 -66.55   data arrival time
 -----------------------------------------------------------------------------
-                                -61.41   slack (VIOLATED)
+                                -16.81   slack (VIOLATED)
 
 
 
 ==========================================================================
 floorplan final report_tns
 --------------------------------------------------------------------------
-tns -117423.13
+tns -8607.01
 
 ==========================================================================
 floorplan final report_wns
 --------------------------------------------------------------------------
-wns -61.41
+wns -16.81
 
 ==========================================================================
 floorplan final report_worst_slack
 --------------------------------------------------------------------------
-worst slack -61.41
+worst slack -16.81
 
 ==========================================================================
 floorplan final report_clock_skew
@@ -181,17 +182,17 @@ floorplan final report_power
 Group                  Internal  Switching    Leakage      Total
                           Power      Power      Power      Power
 ----------------------------------------------------------------
-Sequential             3.52e-02   1.46e-03   3.64e-08   3.66e-02  16.8%
-Combinational          1.72e-01   5.15e-03   3.92e-03   1.81e-01  83.2%
+Sequential             3.80e-03   1.57e-04   3.64e-08   3.96e-03  14.7%
+Combinational          1.86e-02   5.48e-04   3.92e-03   2.30e-02  85.3%
 Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 ----------------------------------------------------------------
-Total                  2.07e-01   6.61e-03   3.92e-03   2.18e-01 100.0%
-                          95.2%       3.0%       1.8%
+Total                  2.24e-02   7.05e-04   3.92e-03   2.70e-02 100.0%
+                          82.9%       2.6%      14.5%
 
 ==========================================================================
 floorplan final report_design_area
 --------------------------------------------------------------------------
-Design area 3064526 u^2 4% utilization.
+Design area 3064526 u^2 17% utilization.
 
-Elapsed time: 0:11.05[h:]min:sec. Average CPU: 77%. Peak memory: 172988KB.
+Elapsed time: 0:12.74[h:]min:sec. Average CPU: 73%. Peak memory: 159144KB.

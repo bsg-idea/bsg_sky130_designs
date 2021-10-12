@@ -9,15 +9,19 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0225]     Created 437 library cells
 [INFO ODB-0226] Finished LEF file:  ./platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_512x64.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x15.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x7.lef
 [INFO ODB-0222] Reading LEF file: ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
+[WARNING ODB-0176] error: undefined layer (OVERLAP) referenced
 [INFO ODB-0225]     Created 1 library cells
 [INFO ODB-0226] Finished LEF file:  ./designs/sky130hd/bp_fe/fakeram130_64x96.lef
 [INFO ODB-0127] Reading DEF file: ./results/sky130hd/bp_fe/base/2_3_floorplan_tdms.def
@@ -26,20 +30,18 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0131]     Created 21302 components and 130427 component-terminals.
 [INFO ODB-0133]     Created 23350 nets and 87821 connections.
 [INFO ODB-0134] Finished DEF file: ./results/sky130hd/bp_fe/base/2_3_floorplan_tdms.def
-[WARNING STA-0337] port 'icache_id_i[0]' not found.
-[WARNING STA-0337] port 'icache_id_i[0]' not found.
 [INFO MPL-0005] Found 11 macros.
-[INFO MPL-0009] West pins 438.
-[INFO MPL-0009] East pins 419.
-[INFO MPL-0009] North pins 812.
-[INFO MPL-0009] South pins 842.
-[INFO MPL-0069] Initial weighted wire length 4.30658e+07.
+[INFO MPL-0009] West pins 509.
+[INFO MPL-0009] East pins 451.
+[INFO MPL-0009] North pins 728.
+[INFO MPL-0009] South pins 823.
+[INFO MPL-0069] Initial weighted wire length 2.50669e+07.
 Begin one level partition.
 [INFO MPL-0076] Partition 11 macros.
 [INFO MPL-0077] Using 3 cut lines.
-[INFO MPL-0079] Cut line 152.26.
-[INFO MPL-0079] Cut line 5586.24.
-[INFO MPL-0079] Cut line 11019.76.
+[INFO MPL-0079] Cut line 57.04.
+[INFO MPL-0079] Cut line 2308.28.
+[INFO MPL-0079] Cut line 4559.98.
 End one level partition.
 Begin horizontal partition.
 Begin east partition.
@@ -49,47 +51,48 @@ End east partition.
 Begin west partition.
 [INFO MPL-0076] Partition 11 macros.
 [INFO MPL-0077] Using 3 cut lines.
-[INFO MPL-0079] Cut line 114.24.
-[INFO MPL-0079] Cut line 4118.08.
-[INFO MPL-0079] Cut line 8119.20.
+[INFO MPL-0079] Cut line 29.92.
+[INFO MPL-0079] Cut line 2042.72.
+[INFO MPL-0079] Cut line 4058.24.
 End west partition.
 End horizontal partition.
 Begin horizontal partition.
 Begin east partition.
-[INFO MPL-0076] Partition 4 macros.
-[INFO MPL-0077] Using 1 cut lines.
-[INFO MPL-0079] Cut line 3693.76.
+[INFO MPL-0076] Partition 5 macros.
+[INFO MPL-0077] Using 2 cut lines.
+[INFO MPL-0079] Cut line 29.92.
+[INFO MPL-0079] Cut line 4058.24.
 End east partition.
 Begin west partition.
-[INFO MPL-0076] Partition 7 macros.
-[INFO MPL-0077] Using 3 cut lines.
-[INFO MPL-0079] Cut line 114.24.
-[INFO MPL-0079] Cut line 4118.08.
-[INFO MPL-0079] Cut line 8119.20.
+[INFO MPL-0076] Partition 6 macros.
+[INFO MPL-0077] Using 2 cut lines.
+[INFO MPL-0079] Cut line 29.92.
+[INFO MPL-0079] Cut line 4058.24.
 End west partition.
 End horizontal partition.
 Begin horizontal partition.
 Begin east partition.
 [INFO MPL-0076] Partition 11 macros.
 [INFO MPL-0077] Using 3 cut lines.
-[INFO MPL-0079] Cut line 114.24.
-[INFO MPL-0079] Cut line 4118.08.
-[INFO MPL-0079] Cut line 8119.20.
+[INFO MPL-0079] Cut line 29.92.
+[INFO MPL-0079] Cut line 2042.72.
+[INFO MPL-0079] Cut line 4058.24.
 End east partition.
 Begin west partition.
 [INFO MPL-0076] Partition 0 macros.
 [INFO MPL-0077] Using 0 cut lines.
 End west partition.
 End horizontal partition.
-[INFO MPL-0070] Using 9 partition sets.
-[INFO MPL-0071] Solution 1 weighted wire length 5.79263e+07.
-[INFO MPL-0071] Solution 2 weighted wire length 5.83927e+07.
-[INFO MPL-0071] Solution 3 weighted wire length 5.79512e+07.
-[INFO MPL-0071] Solution 4 weighted wire length 6.52851e+07.
-[INFO MPL-0071] Solution 5 weighted wire length 6.65991e+07.
-[INFO MPL-0071] Solution 6 weighted wire length 6.64576e+07.
-[INFO MPL-0071] Solution 7 weighted wire length 5.72569e+07.
-[INFO MPL-0071] Solution 8 weighted wire length 5.78199e+07.
-[INFO MPL-0071] Solution 9 weighted wire length 5.7201e+07.
-[INFO MPL-0073] Best weighted wire length 6.65991e+07.
-Elapsed time: 0:07.27[h:]min:sec. Average CPU: 70%. Peak memory: 176472KB.
+[INFO MPL-0070] Using 10 partition sets.
+[INFO MPL-0071] Solution 1 weighted wire length 2.40882e+07.
+[INFO MPL-0071] Solution 2 weighted wire length 2.44101e+07.
+[INFO MPL-0071] Solution 3 weighted wire length 2.32128e+07.
+[INFO MPL-0071] Solution 4 weighted wire length 2.59111e+07.
+[INFO MPL-0071] Solution 5 weighted wire length 2.61765e+07.
+[INFO MPL-0071] Solution 6 weighted wire length 2.57486e+07.
+[INFO MPL-0071] Solution 7 weighted wire length 2.62621e+07.
+[INFO MPL-0071] Solution 8 weighted wire length 2.39144e+07.
+[INFO MPL-0071] Solution 9 weighted wire length 2.42842e+07.
+[INFO MPL-0071] Solution 10 weighted wire length 2.36223e+07.
+[INFO MPL-0073] Best weighted wire length 2.62621e+07.
+Elapsed time: 0:08.94[h:]min:sec. Average CPU: 63%. Peak memory: 164004KB.
